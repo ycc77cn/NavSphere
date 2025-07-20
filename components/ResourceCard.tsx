@@ -1,30 +1,53 @@
+import { cn } from "@/lib/utils"
+import Image from "next/image"
+import Link from "next/link"
+import { resolveIconPath } from "@/types/navigation"
+
 interface ResourceCardProps {
   title: string
-  description: string
-  icon: string
+  description?: string
+  icon?: string
   url: string
+  className?: string
 }
 
 export default function ResourceCard({
   title,
   description,
   icon,
-  url
+  url,
+  className
 }: ResourceCardProps) {
+  // 使用 resolveIconPath 解析图标路径
+  const resolvedIcon = resolveIconPath(icon)
+
   return (
-    <a 
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition-shadow"
-    >
-      <div className="flex items-center gap-3">
-        <i className={`${icon} text-xl text-blue-500`}></i>
-        <h3 className="font-medium">{title}</h3>
+    <Link href={url} target="_blank" className={cn("block", className)}>
+      <div className="group relative rounded-lg border p-6 hover:border-foreground">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-4">
+            {resolvedIcon && (
+              <div className="relative h-8 w-8">
+                <Image
+                  src={resolvedIcon}
+                  alt={title}
+                  className="object-contain"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  onError={(e) => {
+                    console.warn(`Failed to load icon for ${title}:`, resolvedIcon)
+                    e.currentTarget.style.display = 'none'
+                  }}
+                />
+              </div>
+            )}
+            <h3 className="font-semibold">{title}</h3>
+          </div>
+        </div>
+        {description && (
+          <p className="text-sm text-muted-foreground line-clamp-3">{description}</p>
+        )}
       </div>
-      <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-        {description}
-      </p>
-    </a>
+    </Link>
   )
-} 
+}

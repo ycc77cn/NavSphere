@@ -1,87 +1,41 @@
+import { auth } from '@/lib/auth'
+
 export async function getFileContent(path: string) {
   const owner = process.env.GITHUB_OWNER!
   const repo = process.env.GITHUB_REPO!
   const branch = process.env.GITHUB_BRANCH || 'main'
 
-  console.log('GitHub API: Starting getFileContent', {
-    path,
-    owner,
-    repo,
-    branch
-  })
-
   try {
-    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`
-    console.log('GitHub API: Fetching from:', apiUrl)
+    const session = await auth()
+    const token = session?.user?.accessToken
 
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`
     const response = await fetch(apiUrl, {
       headers: {
         Accept: 'application/vnd.github.v3.raw',
+        Authorization: token ? `token ${token}` : '',
         'User-Agent': 'NavSphere',
       },
     })
 
-    console.log('GitHub API: Response status:', response.status)
-    console.log('GitHub API: Response headers:', Object.fromEntries(response.headers.entries()))
-
     if (response.status === 404) {
-      console.log('GitHub API: File not found, returning default data')
+      console.log(`File not found: ${path}, returning default data`)
       if (path.includes('navigation.json')) {
-        return {
-          navigationItems: []
-        }
-      }
-      if (path.includes('resources.json')) {
-        return {
-          resourceSections: []
-        }
+        return { navigationItems: [] }
       }
       return {}
     }
 
     if (!response.ok) {
-      const errorText = await response.text()
-      console.error('GitHub API error:', {
-        status: response.status,
-        statusText: response.statusText,
-        error: errorText,
-        headers: Object.fromEntries(response.headers.entries())
-      })
-      throw new Error(`Failed to fetch file: ${response.statusText} (${errorText})`)
+      throw new Error(`GitHub API error: ${response.statusText}`)
     }
 
     const data = await response.json()
-    console.log('GitHub API: Successfully fetched data:', data)
-
-    // 确保返回的数据格式一致
-    if (path.includes('navigation.json')) {
-      const result = {
-        navigationItems: Array.isArray(data) ? data : data.navigationItems || []
-      }
-      console.log('GitHub API: Returning navigation data:', result)
-      return result
-    }
-    if (path.includes('resources.json')) {
-      const result = {
-        resourceSections: Array.isArray(data) ? data : data.resourceSections || []
-      }
-      console.log('GitHub API: Returning resources data:', result)
-      return result
-    }
-
     return data
   } catch (error) {
-    console.error('GitHub API: Error in getFileContent:', error)
-    // 返回默认数据而不是抛出错误
+    console.error('Error fetching file:', error)
     if (path.includes('navigation.json')) {
-      return {
-        navigationItems: []
-      }
-    }
-    if (path.includes('resources.json')) {
-      return {
-        resourceSections: []
-      }
+      return { navigationItems: [] }
     }
     return {}
   }
@@ -91,74 +45,70 @@ export async function commitFile(
   path: string,
   content: string,
   message: string,
-  token: string
+  token: string,
+  retryCount = 3
 ) {
   const owner = process.env.GITHUB_OWNER!
   const repo = process.env.GITHUB_REPO!
   const branch = process.env.GITHUB_BRANCH || 'main'
 
-  try {
-    console.log('Committing file:', path)
-    // 获取当前文件信息
-    const currentFileUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`
+  const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
-    const currentFileResponse = await fetch(currentFileUrl, {
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: 'application/vnd.github.v3+json',
-        'User-Agent': 'NavSphere',
-      },
-    })
+  for (let attempt = 1; attempt <= retryCount; attempt++) {
+    try {
+      // 1. 获取当前文件信息（如果存在）
+      const currentFileUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`
+      const currentFileResponse = await fetch(currentFileUrl, {
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+          'User-Agent': 'NavSphere',
+        },
+        cache: 'no-store', // 禁用缓存，确保获取最新的文件信息
+      })
 
-    let sha = undefined
-    if (currentFileResponse.ok) {
-      const currentFile = await currentFileResponse.json()
-      sha = currentFile.sha
-      console.log('Found existing file with sha:', sha)
-    } else {
-      console.log('File does not exist, creating new file')
+      let sha = undefined
+      if (currentFileResponse.ok) {
+        const currentFile = await currentFileResponse.json()
+        sha = currentFile.sha
+      }
+
+      // 2. 创建或更新文件
+      const updateUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
+      const response = await fetch(updateUrl, {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+          'User-Agent': 'NavSphere',
+        },
+        body: JSON.stringify({
+          message,
+          content: Buffer.from(content).toString('base64'),
+          sha,
+          branch,
+        }),
+      })
+
+      if (!response.ok) {
+        const error = await response.json()
+        if (attempt < retryCount && error.message?.includes('sha')) {
+          console.log(`Attempt ${attempt} failed, retrying after delay...`)
+          await delay(1000 * attempt) // 指数退避
+          continue
+        }
+        throw new Error(`Failed to commit file: ${error.message}`)
+      }
+
+      return await response.json()
+    } catch (error) {
+      if (attempt === retryCount) {
+        console.error('Error in commitFile:', error)
+        throw error
+      }
+      console.log(`Attempt ${attempt} failed, retrying...`)
+      await delay(1000 * attempt)
     }
-
-    // 提交更新
-    const updateUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
-    console.log('Updating file at:', updateUrl)
-
-    // 确保内容是有效的 JSON
-    let jsonContent = content
-    if (typeof content === 'object') {
-      jsonContent = JSON.stringify(content, null, 2)
-    }
-
-    // 处理中文编码
-    const encodedContent = btoa(unescape(encodeURIComponent(jsonContent)))
-
-    const response = await fetch(updateUrl, {
-      method: 'PUT',
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: 'application/vnd.github.v3+json',
-        'Content-Type': 'application/json',
-        'User-Agent': 'NavSphere',
-      },
-      body: JSON.stringify({
-        message,
-        content: encodedContent,
-        sha,
-        branch,
-      }),
-    })
-
-    if (!response.ok) {
-      const error = await response.json()
-      console.error('GitHub API error:', error)
-      throw new Error(`Failed to commit file: ${error.message}`)
-    }
-
-    const result = await response.json()
-    console.log('File committed successfully:', result)
-    return result
-  } catch (error) {
-    console.error('Error in commitFile:', error)
-    throw error
   }
 } 

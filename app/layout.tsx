@@ -1,14 +1,21 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import './styles/navigation.css'
-import { ThemeProvider } from '@/components/theme-provider'
-import { ThemeToggle } from '@/components/ThemeToggle'
-import { ScrollToTop } from '@/components/ScrollToTop'
+import "@/styles/globals.css"
+import { cn } from "@/lib/utils"
+import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
+import { ThemeToggle } from '@/components/theme-toggle'
+import { Providers } from '@/components/providers'
+import type { Metadata } from 'next'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: '编程爱好者网址导航',
-  description: '收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。',
+  title: {
+    default: 'NavSphere',
+    template: '%s - NavSphere'
+  },
+  description: 'A modern navigation platform',
+  icons: {
+    icon: '/favicon.ico'
+  }
 }
 
 export default function RootLayout({
@@ -17,32 +24,39 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh" suppressHydrationWarning>
+    <html lang="zh-CN" suppressHydrationWarning>
       <head>
-        <link 
-          rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        {/* Google Analytics */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-QG9PGG4K13"
         />
-        <link 
-          rel="stylesheet" 
-          href="/assets/css/fonts/linecons/css/linecons.css"
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QG9PGG4K13');
+            `,
+          }}
         />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <ThemeProvider
-          attribute="data-theme"
+          attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
-          <ThemeToggle />
-          <ScrollToTop />
+          <Providers>
+            {children}
+          </Providers>
           <Toaster />
         </ThemeProvider>
       </body>
     </html>
   )
 }
-
-

@@ -1,8 +1,18 @@
-export const runtime = 'edge'
-
 import { redirect } from 'next/navigation'
 import { auth } from '@/lib/auth'
 import { AdminLayoutClient } from './AdminLayoutClient'
+import { Toaster } from "@/registry/new-york/ui/toaster"
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'NavSphere Admin',
+  description: 'NavSphere Admin Dashboard',
+  icons: {
+    icon: '/assets/images/favicon.png',
+    shortcut: '/assets/images/favicon.png',
+    apple: '/assets/images/favicon.png',
+  }
+}
 
 export default async function AdminLayout({
   children,
@@ -15,5 +25,18 @@ export default async function AdminLayout({
     redirect('/auth/signin')
   }
 
-  return <AdminLayoutClient>{children}</AdminLayoutClient>
+  return (
+    <>
+      <AdminLayoutClient 
+        user={{
+          name: session.user.name,
+          email: session.user.email,
+          image: session.user.image
+        }}
+      >
+        {children}
+      </AdminLayoutClient>
+      <Toaster />
+    </>
+  )
 } 

@@ -1,312 +1,349 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-建了一个新的 Next.js 项目，使用 npx create-next-app 命令时，默认生成的目录结构大致如下：
-
-my-next-app/
-├── app/                     # 新的应用目录
-│   ├── layout.js            # 根布局文件，定义页面的布局结构
-│   ├── page.js              # 根页面文件，通常对应网站的首页
-│   ├── about/               # 子目录，支持嵌套路由
-│   │   └── page.js          # 关于页面
-│   ├── blog/                # 另一个子目录，示例博客页面
-│   │   ├── layout.js        # 特定于该路由的布局文件
-│   │   └── page.js          # 博客列表页
-│   └── not-found.js         # 错误边界页面，指定当某个页面没有找到时渲染的内容
-├── public/                  # 静态资源文件夹
-├── styles/                  # 样式文件夹
-├── next.config.js           # Next.js 配置文件
-├── package.json             # 项目依赖与配置文件
-└── tsconfig.json            # TypeScript 配置（如果使用）
+# NavSphere
 
 
-重要目录和文件解析
-从 Next.js 13 开始，Next.js 引入了一个新的 app/ 目录，逐渐替代了传统的 pages/ 目录，以支持更灵活和现代的路由与布局机制。
-这个变动是 Next.js 在 React Server Components 和 渐进式渲染（Incremental Static Regeneration, ISR）功能上的一部分，旨在提供更强的开发体验和更好的性能优化。
+<p align="center">
+  <strong>现代化导航管理平台 | Modern Navigation Management Platform</strong>
+</p>
 
-新的 app/ 目录（Next.js 13+）
-在 Next.js 13 中，你可以使用 app/ 目录来替代传统的 pages/ 目录。虽然 pages/ 仍然可以使用（作为一种回退选项），但是新功能的最佳实践是使用 app/ 目录来组织路由、布局、页面和组件。
+<p align="center">
+  <a href="https://github.com/tianyaxiang/NavSphere/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/tianyaxiang/NavSphere/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/tianyaxiang/NavSphere/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/tianyaxiang/NavSphere/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/tianyaxiang/NavSphere?style=flat-square"></a>
+</p>
 
-app/ 目录的特点
-文件系统路由：和 pages/ 目录一样，app/ 目录仍然基于文件系统生成路由，但它引入了更多的灵活性和控制力。你可以更容易地定义嵌套路由、布局、错误边界等。
+## 📖 项目简介
 
-支持布局（Layouts）：app/ 目录的最大亮点之一是它允许你使用 布局组件（layout.js 或 layout.tsx）来共享 UI 状态和布局结构。这意味着你可以在应用的不同部分共享布局和 UI，而不必重新渲染整个页面。
+NavSphere 是一个基于 Next.js 14 构建的现代化导航管理平台，专为个人和团队打造的书签管理和导航门户解决方案。通过 GitHub 作为数据存储后端，提供安全、可靠的导航数据管理体验。
 
-服务端渲染（SSR）和客户端渲染的结合：你可以选择在页面级别启用服务端渲染（SSR）或静态生成（SSG），并在不同的路由上根据需要进行配置。
-React Server Components 和流式渲染的支持将使得你的应用能够更加高效地进行数据加载和渲染。
+<p align="center">
+  <img src="doc/n.png" alt="NavSphere Logo" />
+</p>
+<p align="center">
+  <img src="doc/b.png" alt="NavSphere Logo" />
+</p>
 
-页面加载与嵌套路由的支持：app/ 目录支持嵌套路由和页面的渐进式加载，这意味着你可以按需加载页面，而不需要在一开始就加载整个应用。
+## ✨ 核心特性
 
-public/ 目录
-这个目录用于存放静态文件，Next.js 会自动将其中的文件暴露出来，你可以在前端直接访问这些文件。
+- 🚀 **现代技术栈**: Next.js 14 + React 18 + TypeScript + Tailwind CSS
+- 🔐 **GitHub 认证**: 基于 NextAuth.js 的 GitHub OAuth 安全登录
+- � **Git 数h据存储**: 使用 GitHub 仓库作为数据后端，版本可控
+- � **响应式设 计**: 移动优先的设计理念，完美适配各种设备
+- 🌓 **主题切换**: 内置深色/浅色主题支持
+- 🎯 **拖拽排序**: 直观的拖拽界面，轻松管理导航项目
+- 🔍 **智能搜索**: 快速定位和访问导航项目
+- 📱 **PWA 支持**: 渐进式 Web 应用体验
+- 🌐 **多语言支持**: 中英文界面切换
+- ⚡ **边缘计算**: Cloudflare Pages 部署，全球加速
 
-示例：public/images/logo.png 可以通过 http://localhost:3000/images/logo.png 访问。
-一些常见的文件（例如 favicon.ico）通常也放在这个目录中。
-components/ 目录
-这个目录用来存放你的可复用 React 组件。它是前端界面构建的基本单位，Next.js 并没有强制要求你创建这个目录，但它是一个推荐的组织方式。
+## 🛠️ 技术架构
 
-例如，components/Header.js 存放导航栏组件，components/Footer.js 存放页脚组件。
-styles/ 目录
-Next.js 默认支持 CSS 模块、全局 CSS、SASS/SCSS 等样式方案。通常，样式文件放在 styles/ 目录中。
+| 技术栈 | 版本 | 用途 |
+|--------|------|------|
+| **Next.js** | 14.0.4 | React 全栈框架 |
+| **React** | 18.2.0 | 用户界面库 |
+| **TypeScript** | 5.1.6 | 类型安全的 JavaScript |
+| **Tailwind CSS** | 3.3.3 | 原子化 CSS 框架 |
+| **NextAuth.js** | 5.0.0-beta.25 | 身份认证解决方案 |
+| **Radix UI** | Latest | 无障碍 UI 组件库 |
+| **Lucide React** | 0.462.0 | 现代图标库 |
+| **React Query** | 5.61.5 | 数据获取和状态管理 |
+| **React Hook Form** | 7.53.2 | 表单处理 |
+| **Zod** | 3.22.4 | 数据验证 |
 
-styles/globals.css 是应用的全局样式，通常会在 pages/_app.js 中引入。
-styles/Home.module.css 是 CSS 模块化的示例样式文件。
-lib/ 目录
-lib/ 目录可以用来存放工具函数、API 客户端代码等。如果你有多个模块需要共享的工具函数、常量、配置等，可以将它们集中放在 lib/ 目录下。
+## 🚀 快速开始
 
-例如，lib/api.js 可能包含一些调用后端 API 的通用方法。
-_app.js 和 _document.js
+### 环境要求
 
-### next.config.js 是 Next.js 项目的配置文件，它允许你进行一些自定义设置，例如：
+- Node.js 18.0+ 
+- pnpm 8.0+ (推荐) 或 npm/yarn
+- GitHub 账户
 
-配置静态文件的路径
-启用或禁用某些功能（例如，服务端渲染、CSS 预处理等）
-配置 Webpack 等
+### 安装步骤
 
-### tsconfig.json
-如果你使用 TypeScript 开发，tsconfig.json 是 TypeScript 配置文件，用来指定编译选项。
-First, run the development server:
-
+1. **克隆项目**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/tianyaxiang/NavSphere.git
+cd NavSphere
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 本地开发配置
-
-### 1. GitHub OAuth App 配置
-
-1. 访问 [GitHub Developer Settings](https://github.com/settings/developers)
-   - 点击右上角头像
-   - Settings
-   - 左侧边栏底部 Developer settings
-   - OAuth Apps
-   - New OAuth App
-
-2. 填写应用信息：
-   ```
-   Application name: 你的应用名称
-   Homepage URL: http://localhost:3000
-   Authorization callback URL: http://localhost:3000/api/auth/callback/github
-   ```
-
-3. 创建后获取：
-   - Client ID: 显示在应用详情页
-   - Client Secret: 点击 "Generate a new client secret" 生成
-
-### 2. GitHub 仓库配置
-
-1. 创建用于存储数据的仓库：
-   - 访问 [GitHub New Repository](https://github.com/new)
-   - 填写仓库名
-   - 选择 Public 或 Private
-   - 创建仓库
-
-2. 获取仓库信息：
-   ```
-   GITHUB_OWNER: 你的 GitHub 用户名
-   GITHUB_REPO: 仓库名
-   ```
-
-3. 创建 GitHub 组织（可选）：
-   - 访问 [GitHub New Organization](https://github.com/organizations/new)
-   - 选择免费计划
-   - 填写组织名称
-   - 将需要访问的用户添加到组织
-
-### 3. 环境变量配置
-
-```env
-# GitHub OAuth App 配置
-GITHUB_ID=从 OAuth App 获取的 Client ID
-GITHUB_SECRET=从 OAuth App 获取的 Client Secret
-
-# GitHub 组织和仓库配置
-GITHUB_ORG=你的组织名称（如果使用组织）
-GITHUB_OWNER=你的 GitHub 用户名
-GITHUB_REPO=用于存储数据的仓库名
-GITHUB_BRANCH=main
-
-# NextAuth 配置
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=使用以下命令生成:
-# openssl rand -base64 32
-```
-
-### 4. 权限配置
-
-1. OAuth App 权限：
-   - 在 OAuth App 设置页面
-   - 确保 `read:org` 和 `repo` 权限被勾选
-
-2. 仓库权限：
-   - 如果是私有仓库，确保 OAuth App 有访问权限
-   - 如果使用组织，确保 OAuth App 已在组织中安装
-
-### 5. 注意事项
-
-1. 本地开发和生产环境使用不同的 OAuth App
-2. 生产环境需要更新回调 URL 为实际域名
-3. 确保 `.env.local` 不被提交到 Git
-4. 生产环境使用 Cloudflare Pages 的环��
-5. 定期轮换 Client Secret 以提高安全性
-
-## Cloudflare Pages 部署
-
-1. 在 Cloudflare Pages 中创建新项目
-2. 连接 GitHub 仓库
-3. 设置构建命令：
-   ```bash
-   pnpm install && pnpm build
-   ```
-4. 设置环境变量：
-   - GITHUB_ID
-   - GITHUB_SECRET
-   - GITHUB_OWNER
-   - GITHUB_REPO
-   - GITHUB_BRANCH
-   - NEXTAUTH_URL (设置为你的域名)
-   - NEXTAUTH_SECRET
-5. 部署项目
-
-## 环境变量
-
-需要配置以下环境变量：
-
-```env
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-secret-here
-GITHUB_ID=your-github-id
-GITHUB_SECRET=your-github-secret
-GITHUB_OWNER=your-github-username
-GITHUB_REPO=your-repo-name
-GITHUB_BRANCH=main
-```
-
-## 开发
-
-1. 安装依赖
-
+2. **安装依赖**
 ```bash
 pnpm install
 ```
 
-2. 配置环境变量
-
+3. **配置环境变量**
 ```bash
 cp .env.example .env.local
 ```
 
-3. 启动开发服务器
-
+4. **启动开发服务器**
 ```bash
 pnpm dev
 ```
 
-## 数据文件
+5. **访问应用**
+   
+   打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
-项目使用 GitHub 仓库存储数据，需要以下数据文件：
+## ⚙️ 配置指南
 
-1. `app/data/db/navigation.json` - 导航数据
-2. `app/data/db/resources.json` - 资源数据
+### 环境变量设置
 
-这些文件会在首次提交到仓库时自动创建。
+创建 `.env.local` 文件并配置以下变量：
 
-## 数据格式
+```env
+# GitHub OAuth App 配置
+GITHUB_ID=your-github-client-id
+GITHUB_SECRET=your-github-client-secret
 
-### navigation.json
+# GitHub 仓库配置  
+GITHUB_OWNER=your-github-username
+GITHUB_REPO=your-repo-name
+GITHUB_BRANCH=main
+
+# NextAuth 配置
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-nextauth-secret
+```
+
+### GitHub OAuth App 设置
+
+1. **创建 OAuth App**
+   - 访问 [GitHub Developer Settings](https://github.com/settings/developers)
+   - 点击 "New OAuth App"
+   - 填写应用信息：
+     ```
+     Application name: NavSphere
+     Homepage URL: http://localhost:3000
+     Authorization callback URL: http://localhost:3000/api/auth/callback/github
+     ```
+
+2. **获取凭据**
+   - Client ID: 应用详情页显示
+   - Client Secret: 点击 "Generate a new client secret" 生成
+
+### GitHub 数据仓库设置
+
+1. **创建数据仓库**
+   - 访问 [GitHub New Repository](https://github.com/new)
+   - 仓库名建议: `navsphere-data`
+   - 可选择 Public 或 Private
+
+2. **初始化数据文件**
+   
+   项目会自动创建以下数据文件：
+   - `navigation.json` - 导航数据
+   - `site.json` - 站点配置
+   - `resources.json` - 资源数据
+
+## 🚀 部署指南
+
+### Cloudflare Pages 部署
+
+1. **创建项目**
+   - 登录 [Cloudflare Pages](https://pages.cloudflare.com/)
+   - 连接 GitHub 仓库
+
+2. **构建设置**
+   ```bash
+   # 构建命令
+   pnpm install && pnpm build
+   
+   # 输出目录
+   .next
+   ```
+
+3. **环境变量配置**
+   ```env
+   GITHUB_ID=your-github-client-id
+   GITHUB_SECRET=your-github-client-secret
+   GITHUB_OWNER=your-github-username
+   GITHUB_REPO=your-repo-name
+   GITHUB_BRANCH=main
+   NEXTAUTH_URL=https://your-domain.pages.dev
+   NEXTAUTH_SECRET=your-production-secret
+   ```
+
+### 其他部署平台
+
+- **Vercel**: 支持零配置部署
+- **Netlify**: 需要配置构建命令  
+- **Railway**: 支持 Docker 部署
+
+## 📊 数据结构
+
+### 数据文件说明
+
+项目使用 GitHub 仓库存储数据，自动创建以下文件：
+
+| 文件 | 用途 | 位置 |
+|------|------|------|
+| `navigation.json` | 导航数据 | 数据仓库根目录 |
+| `site.json` | 站点配置 | 数据仓库根目录 |
+| `resources.json` | 资源数据 | 数据仓库根目录 |
+
+### 数据格式示例
+
+<details>
+<summary><strong>navigation.json</strong> - 导航数据结构</summary>
+
 ```json
 [
   {
-    "id": "string",
-    "title": "string",
-    "icon": "string",
+    "id": "dev-tools",
+    "title": "开发工具",
+    "icon": "🛠️",
     "items": [
       {
-        "title": "string",
-        "titleEn": "string",
-        "description": "string",
-        "descriptionEn": "string",
-        "icon": "string",
-        "href": "string"
+        "title": "GitHub",
+        "titleEn": "GitHub", 
+        "description": "代码托管平台",
+        "descriptionEn": "Code hosting platform",
+        "icon": "https://github.com/favicon.ico",
+        "href": "https://github.com"
       }
     ],
     "subCategories": [
       {
-        "id": "string",
-        "title": "string",
+        "id": "frontend",
+        "title": "前端工具",
         "items": []
       }
     ]
   }
 ]
 ```
+</details>
 
-### resources.json
+<details>
+<summary><strong>site.json</strong> - 站点配置结构</summary>
+
 ```json
-[
-  {
-    "id": "string",
-    "title": "string",
-    "items": [
-      {
-        "title": "string",
-        "description": "string",
-        "icon": "string",
-        "url": "string"
-      }
-    ]
+{
+  "basic": {
+    "title": "NavSphere",
+    "description": "现代化导航管理平台",
+    "keywords": "导航,书签,管理"
+  },
+  "appearance": {
+    "logo": "/logo.png",
+    "favicon": "/favicon.ico", 
+    "theme": "system"
   }
-]
+}
+```
+</details>
+
+## 🔧 开发指南
+
+### 可用脚本
+
+```bash
+# 开发模式
+pnpm dev
+
+# 构建项目
+pnpm build
+
+# 启动生产服务器
+pnpm start
+
+# 代码检查
+pnpm lint
+
+# 清理构建文件
+pnpm clean
 ```
 
-## 故障排除
+### 项目结构
 
-### 导航数据加载失败
+```
+NavSphere/
+├── app/                    # Next.js App Router
+│   ├── api/               # API 路由
+│   ├── components/        # 页面组件
+│   ├── globals.css        # 全局样式
+│   └── layout.tsx         # 根布局
+├── components/            # 共享组件
+├── lib/                   # 工具函数
+├── public/               # 静态资源
+├── styles/               # 样式文件
+└── types/                # TypeScript 类型定义
+```
 
-1. 检查环境变量配置
-   - GITHUB_OWNER 是否正确
-   - GITHUB_REPO 是否正确
-   - GITHUB_BRANCH 是否正确
+## 🐛 故障排除
 
-2. 检查仓库权限
-   - 仓库是否公开
-   - OAuth App 是否有正确的权限
-   - Token 是否有效
+### 常见问题
 
-3. 检查数据文件
-   - navigation.json 是否存在
-   - 文件格式是否正确
-   - 文件路径是否正确
+<details>
+<summary><strong>认证失败</strong></summary>
 
-4. 查看控制台日志
-   - 检查 API 请求是否成功
-   - 检查错误信息
-   - 检查返回的数据格式
+**问题**: GitHub OAuth 登录失败
+
+**解决方案**:
+1. 检查 `GITHUB_ID` 和 `GITHUB_SECRET` 是否正确
+2. 确认回调 URL 配置正确
+3. 检查 OAuth App 权限设置
+</details>
+
+<details>
+<summary><strong>数据加载失败</strong></summary>
+
+**问题**: 导航数据无法加载
+
+**解决方案**:
+1. 验证 GitHub 仓库配置
+2. 检查仓库访问权限
+3. 确认数据文件格式正确
+4. 查看浏览器控制台错误信息
+</details>
+
+<details>
+<summary><strong>构建失败</strong></summary>
+
+**问题**: 项目构建或部署失败
+
+**解决方案**:
+1. 检查 Node.js 版本 (需要 18.0+)
+2. 清理依赖: `rm -rf node_modules pnpm-lock.yaml && pnpm install`
+3. 检查环境变量配置
+4. 查看构建日志详细错误信息
+</details>
+
+## 🤝 贡献指南
+
+我们欢迎所有形式的贡献！
+
+### 贡献方式
+
+1. **报告问题**: 在 [Issues](https://github.com/tianyaxiang/NavSphere/issues) 中报告 bug
+2. **功能建议**: 提出新功能想法
+3. **代码贡献**: 提交 Pull Request
+4. **文档改进**: 完善项目文档
+
+### 开发流程
+
+1. Fork 项目
+2. 创建功能分支: `git checkout -b feature/amazing-feature`
+3. 提交更改: `git commit -m 'Add amazing feature'`
+4. 推送分支: `git push origin feature/amazing-feature`
+5. 创建 Pull Request
+
+## 📄 许可证
+
+本项目基于 [MIT License](LICENSE) 开源协议。
+
+## 🙏 致谢
+
+- [Next.js](https://nextjs.org/) - 强大的 React 框架
+- [Tailwind CSS](https://tailwindcss.com/) - 优秀的 CSS 框架
+- [Radix UI](https://www.radix-ui.com/) - 无障碍组件库
+- [Cloudflare Pages](https://pages.cloudflare.com/) - 可靠的部署平台
+- 所有为项目做出贡献的开发者
+
+---
+
+<p align="center">
+  <strong>⭐ 如果这个项目对你有帮助，请给我们一个 Star！</strong>
+</p>

@@ -1,7 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverActions: true
+  images: {
+    domains: [
+      'dash.cloudflare.com',
+      'www.google.com',
+      'ph-static.imgix.net',
+      'app.leonardo.ai'
+    ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   async rewrites() {
     return [
@@ -14,8 +25,13 @@ const nextConfig = {
         destination: '/auth/:path*'
       }
     ]
+  },
+  // Cloudflare Pages configuration
+  experimental: {
+    serverActions: {
+      allowedOrigins: ['localhost', 'navsphere.com']
+    }
   }
 }
 
 module.exports = nextConfig
-
