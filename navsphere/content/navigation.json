@@ -841,16 +841,7 @@
           "icon": "Book",
           "description": "",
           "enabled": true,
-          "items": [
-            {
-              "id": "1753457780354",
-              "title": "test",
-              "href": "https://dh.leti.ltd/",
-              "description": "",
-              "icon": "/werwer",
-              "enabled": true
-            }
-          ]
+          "items": []
         }
       ]
     }
