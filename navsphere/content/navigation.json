@@ -817,6 +817,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1753457740180",
+      "title": "测试分类 ",
+      "icon": "Folder",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
