@@ -825,7 +825,16 @@
       "description": "",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "fb42ecd0-313d-4c1d-857e-68f58da8761d",
+          "title": "测试子分类",
+          "icon": "Book",
+          "description": "",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
