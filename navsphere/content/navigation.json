@@ -739,6 +739,14 @@
               "description": "Simple line Icons pack",
               "icon": "/assets/images/logos/simplelineicons.png",
               "enabled": true
+            },
+            {
+              "id": "site_1753456924400_2amlyyb7m",
+              "title": "test",
+              "href": "localhost:3000",
+              "description": "",
+              "icon": "",
+              "enabled": true
             }
           ]
         },
