@@ -824,16 +824,7 @@
       "icon": "Folder",
       "description": "",
       "enabled": true,
-      "items": [
-        {
-          "id": "site_1753457829834_yqa5natk6",
-          "title": "test23",
-          "href": "https://mp.weixin.qq.com/s/JhnEfoSmxPvvueHyfhisAA",
-          "description": "",
-          "icon": "/werwer",
-          "enabled": true
-        }
-      ],
+      "items": [],
       "subCategories": [
         {
           "id": "fb42ecd0-313d-4c1d-857e-68f58da8761d",
