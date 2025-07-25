@@ -511,6 +511,14 @@
               "description": "App Screenshot Generator for App Store&Google Play,Create panoramic screenshots for iOS and Android apps. No account needed.",
               "icon": "/assets/img_1735258064656.png",
               "enabled": true
+            },
+            {
+              "id": "site_1753459833105_z3aqftt9k",
+              "title": "test2",
+              "href": "https://mp.weixin.qq.com/s/JhnEfoSmxPvvueHyfhisAA",
+              "description": "",
+              "icon": "/assets/img_1753459813533.png",
+              "enabled": true
             }
           ],
           "enabled": true
