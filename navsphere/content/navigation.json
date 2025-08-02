@@ -433,19 +433,19 @@
               "enabled": true
             },
             {
-              "id": "3_3",
-              "title": "Beautifier",
-              "href": "https://beautifier.io/",
-              "description": "Beautify JavaScript, JSON, React.js, HTML, CSS, SCSS, and SASS",
-              "icon": "/assets/images/logos/beautifier.png",
-              "enabled": true
-            },
-            {
               "id": "3_4",
               "title": "SQL格式化",
               "href": "https://www.dpriver.com/pp/sqlformat.htm",
               "description": "在线美化SQL语句的工具，格式化方便阅读",
               "icon": "/assets/images/logos/sqlformat.ico",
+              "enabled": true
+            },
+            {
+              "id": "3_3",
+              "title": "Beautifier",
+              "href": "https://beautifier.io/",
+              "description": "Beautify JavaScript, JSON, React.js, HTML, CSS, SCSS, and SASS",
+              "icon": "/assets/images/logos/beautifier.png",
               "enabled": true
             },
             {
