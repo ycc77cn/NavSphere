@@ -191,6 +191,14 @@
               "description": "Design Your Perfect \nshadcn/ui\n Theme\nCustomize colors, typography, and layouts with a real-time preview. No signup required.",
               "icon": "/assets/img_1751433579053.png",
               "enabled": true
+            },
+            {
+              "id": "1754233662911",
+              "title": "微信 Markdown 编辑器 | Doocs 开源社区",
+              "href": "https://md.doocs.org/",
+              "description": "Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器",
+              "icon": "/assets/favicon_1754233676334.png",
+              "enabled": true
             }
           ]
         },
