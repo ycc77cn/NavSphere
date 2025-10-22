@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=0.1">
+  <meta name="referrer" content="no-referrer">
+  <title>68f1b8ccc5157e1a887a8c09.png</title>
+  <script>
+    function imgclick(e) {
+      if (e.target.naturalHeight > window.innerHeight) {
+        if (e.target.style.cursor == "zoom-in") {
+          e.target.style.cursor = "zoom-out";
+          e.target.style['max-height'] = 'none';
+        } else {
+          e.target.style.cursor = "zoom-in";
+          e.target.style['max-height'] = '100%';
+        }
+      }
+    }
+    function imgload(e) {
+      if (e.target.naturalHeight > window.innerHeight) {
+        if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+          e.target.style['max-height'] = 'none';
+        } else {
+          e.target.style.cursor = "zoom-in";
+        }
+      }
+    }
+  </script>
+</head>
+
+<body style="margin: 0px; height: 100%; background-color: rgb(14, 14, 14); display: flex;">
+  <img
+    style="display: block; user-select: none; -webkit-user-select: none; margin: auto; background-color: hsl(0, 0%, 90%); transition: background-color 300ms; max-width: 100%; max-height: 100%;"
+    src="/item/68f1b8ccc5157e1a887a8c09.png" onload="imgload(event)" onclick="imgclick(event)"></img>
+</body>
+
+</html>
