@@ -1128,6 +1128,14 @@
               "description": ":: Prism X · Automated Enterprise Network Security Risk Detection and Vulnerability Scanning Tool  / 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具 - yqcs/prismx",
               "icon": "/assets/favicon_1761114537577.png",
               "enabled": true
+            },
+            {
+              "id": "1761114549913",
+              "title": "GitHub - polite-007/Milkyway: 一款全方位扫描工具，具备高效的机器探活，端口探活，协议识别，指纹识别，漏洞扫描等功能",
+              "href": "https://github.com/polite-007/Milkyway",
+              "description": "一款全方位扫描工具，具备高效的机器探活，端口探活，协议识别，指纹识别，漏洞扫描等功能. Contribute to polite-007/Milkyway development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761114556372.png",
+              "enabled": true
             }
           ]
         },
