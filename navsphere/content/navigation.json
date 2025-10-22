@@ -4248,6 +4248,14 @@
           "description": "美艳相机啦-照片修复工具啦-录屏工具啦~...都在这里",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "0712c564-e75e-410a-abdd-e451f402ef46",
+          "title": "实用小工具~",
+          "icon": "Folder",
+          "description": "一些可能会经常用到的实用小工具哦~",
+          "enabled": true,
+          "items": []
         }
       ]
     }
