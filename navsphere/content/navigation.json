@@ -1241,6 +1241,14 @@
               "description": "通过 JAVA AGENT 查杀内存马，提供简易方便的 GUI 界面，一键反编译目标环境内存马进行分析，支持远程查杀和本地查杀（注意：仅供本地复现分析学习，请勿用于正式和生产环境） - 4ra1n/shell-analyzer",
               "icon": "/assets/favicon_1761114958687.png",
               "enabled": true
+            },
+            {
+              "id": "1761114966715",
+              "title": "GitHub - intbjw/webshell-decryptor: 通过获取到的webshell流量、url、key来还原攻击者使用webshell所做的操作。",
+              "href": "https://github.com/intbjw/webshell-decryptor",
+              "description": "通过获取到的webshell流量、url、key来还原攻击者使用webshell所做的操作。. Contribute to intbjw/webshell-decryptor development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761114969873.png",
+              "enabled": true
             }
           ]
         },
