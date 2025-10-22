@@ -15,6 +15,14 @@
           "description": "",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "3c0475e9-c93a-46eb-8645-3e1a909ae688",
+          "title": "爆破工具",
+          "icon": "Map",
+          "description": "就像:目录爆破\\目录扫描\\数据库爆破\\Wifi爆破...等",
+          "enabled": true,
+          "items": []
         }
       ]
     }
