@@ -1281,6 +1281,14 @@
               "description": "本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源。 - grayddq/GScan",
               "icon": "/assets/favicon_1761115010687.png",
               "enabled": true
+            },
+            {
+              "id": "1761115016782",
+              "title": "GitHub - alibaba/arthas: Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
+              "href": "https://github.com/alibaba/arthas",
+              "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas - alibaba/arthas",
+              "icon": "/assets/favicon_1761115019031.png",
+              "enabled": true
             }
           ]
         },
