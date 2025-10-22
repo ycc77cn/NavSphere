@@ -278,6 +278,14 @@
               "description": "GitHub - bee-san/RustScan: 比NMAP快几万倍的端口扫描工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110792189",
+              "title": "GitHub - projectdiscovery/naabu: 轻量化端口扫描工具-Go开发-可以快速可靠地枚举主机的有效端口-简单好用",
+              "href": "https://github.com/projectdiscovery/naabu",
+              "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests - projectdiscovery/naabu",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
