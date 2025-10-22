@@ -47,6 +47,14 @@
           "description": "支持远控木马与远程管理工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "c9b929e4-f5ee-49f6-8ef8-e3e80748b6ca",
+          "title": "逆向工具",
+          "icon": "Brain",
+          "description": "包含反编译、调试与逆向分析工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
