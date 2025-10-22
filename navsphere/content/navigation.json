@@ -2627,7 +2627,16 @@
           "icon": "Folder",
           "description": "Windows\\Linux\\渗透镜像等,都在这里",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761128077121",
+              "title": "Windows11_渗透定制系统_矛·盾 武器库 v3.2",
+              "href": "https://github.com/arch3rPro/Pentest-Windows",
+              "description": "访问 github.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
