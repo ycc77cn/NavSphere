@@ -327,6 +327,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110955786",
+              "title": "可视化Wifi密码爆破工具-Windows",
+              "href": "https://github.com/baihengaead/wifi-crack-tool",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
