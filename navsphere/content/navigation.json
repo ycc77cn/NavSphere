@@ -521,6 +521,14 @@
               "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws - r0oth3x49/ghauri",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111727375",
+              "title": "阿D注入包(可视化)",
+              "href": "https://pan.quark.cn/s/2ec869b9d849",
+              "description": "阿D注入包(可视化)",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
