@@ -1366,9 +1366,9 @@
         },
         {
           "id": "c9fcb52d-f307-424a-9d00-0d6aca8d1da1",
-          "title": "插件\\扩展板块",
+          "title": "浏览器插件\\扩展",
           "icon": "Settings",
-          "description": "一些?浏览器\\fiddler\\burp\\等插件或者扩展等",
+          "description": "一些?浏览器\\插件或者扩展等",
           "enabled": true,
           "items": [
             {
