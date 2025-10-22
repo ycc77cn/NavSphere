@@ -1249,6 +1249,14 @@
               "description": "通过获取到的webshell流量、url、key来还原攻击者使用webshell所做的操作。. Contribute to intbjw/webshell-decryptor development by creating an account on GitHub.",
               "icon": "/assets/favicon_1761114969873.png",
               "enabled": true
+            },
+            {
+              "id": "1761114976888",
+              "title": "GitHub - CafeD1/Kill_Memshell: 基于 Agent + Instrumentation + ASM 的 Java 进程内存马检测与清除查杀工具（含 GUI）",
+              "href": "https://github.com/CafeD1/Kill_Memshell ",
+              "description": "基于 Agent + Instrumentation + ASM 的 Java 进程内存马检测与清除查杀工具（含 GUI） - CafeD1/Kill_Memshell",
+              "icon": "/assets/favicon_1761114979500.png",
+              "enabled": true
             }
           ]
         },
