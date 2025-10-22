@@ -408,6 +408,14 @@
               "description": "比站长还要强的一个在线工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111226175",
+              "title": "站长Whois查询",
+              "href": "https://whois.aizhan.com/",
+              "description": "访问 whois.aizhan.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
