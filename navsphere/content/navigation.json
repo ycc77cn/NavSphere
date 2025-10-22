@@ -4915,6 +4915,14 @@
           "description": "手相面向,解梦",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "f17ab249-3a9e-4d28-a98e-a7e7c5fb9d12",
+          "title": "六壬系列",
+          "icon": "Folder",
+          "description": "大六壬-中六壬-小六壬,整个系列",
+          "enabled": true,
+          "items": []
         }
       ]
     }
