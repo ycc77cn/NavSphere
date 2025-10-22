@@ -1386,7 +1386,16 @@
           "icon": "Bell",
           "description": "一些绕过WAF\\CDN\\防火墙等一些与'绕'有关系的东西",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761115918694",
+              "title": "扫描目录并且可以绕过403限制的工具_dirsearch_bypass403_非常牛逼 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/10/15/33-dirsearch_bypass403%E6%89%AB%E6%8F%8F%E7%9B%AE%E5%BD%95%E5%B9%B6%E4%B8%94%E5%8F%AF%E4%BB%A5%E7%BB%95%E8%BF%87403%E7%9A%84%E5%B7%A5%E5%85%B7/",
+              "description": "扫描目录并且可以绕过403限制的工具_dirsearch_bypass403_非常牛逼-带使用教程-杨CC_网址:Ycc77.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "d30fe945-1755-42c6-83d7-0d9a411636f1",
