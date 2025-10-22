@@ -94,6 +94,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110062348",
+              "title": "SScan-资产收集+漏洞扫描",
+              "href": "https://github.com/test502git/SScan",
+              "description": "访问 github.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
