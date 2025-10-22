@@ -885,6 +885,14 @@
               "description": "mimikatz_Windows内网渗透神器-可以提取Windows密",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112728165",
+              "title": "netspy_一款快速探测内网的工具_by: 深信服深蓝实验室",
+              "href": "https://github.com/shmilylty/netspy",
+              "description": "netspy_一款快速探测内网的工具_by: 深信服深蓝实验室",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
