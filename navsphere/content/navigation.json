@@ -788,6 +788,14 @@
               "description": "红队打点工具，批量url快速发现文件上传点和登录框. Contribute to dahezhiquan/FindUpload development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112510646",
+              "title": "GitHub - JiuZero/z0scan:  z0scan_一款继承多功能的漏洞检测辅助工具",
+              "href": "https://github.com/JiuZero/z0scan",
+              "description": "Security tools for web vulnerability detection. | 兼具本地式与分布式优势、针对大类通用型Web漏洞、插件外部动态化导入的轻量级主被动扫描器 - JiuZero/z0scan",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
