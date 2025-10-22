@@ -4216,6 +4216,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761128842838",
+      "title": "手机工具",
+      "icon": "Folder",
+      "description": "可以?看电视?追据?看漫画?也许可以数据恢复?",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
