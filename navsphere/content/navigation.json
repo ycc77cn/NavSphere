@@ -1176,6 +1176,14 @@
               "description": "reconftw_很牛逼的资产发现工具",
               "icon": "/assets/favicon_1761114697734.png",
               "enabled": true
+            },
+            {
+              "id": "1761114722066",
+              "title": "FLYsecAgent_一个可以利用AI渗透的离谱项目_当前工具无视频 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/24/6-FLYsecAgent_%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E5%88%A9%E7%94%A8AI%E6%B8%97%E9%80%8F%E7%9A%84%E7%A6%BB%E8%B0%B1%E9%A1%B9%E7%9B%AE/",
+              "description": "一个可以让AI帮你渗透的工具,你可以输入自然语言,让AI帮你进行渗透工作.FLYsecAgent_这是一个基于大语言模型和MCP（Model-Controller-Plugin）和Rag架构的网络安全智能助手项目。它旨在通过自然语言交互，帮助用户执行渗透测试任务、查询安全信息、分析流量包等",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
