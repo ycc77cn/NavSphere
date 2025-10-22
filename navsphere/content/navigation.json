@@ -1410,6 +1410,14 @@
               "description": "浏览器存储桶配置漏洞检测插件. Contribute to libaibaia/BucketTool development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115457290",
+              "title": "GitHub - n0name-X/LoveJS: 漏洞挖掘神器 | 浏览器插件 | 发现页面和JS中的隐藏接口和敏感信息、URL批量打开 &amp; Vulnerability Mining Tool | Browser Plugin | Discover Hidden Interfaces, Sensitive Information in Pages and JS, Open Multiple URLs | Notepad",
+              "href": "https://github.com/n0name-X/LoveJS",
+              "description": "漏洞挖掘神器 | 浏览器插件 | 发现页面和JS中的隐藏接口和敏感信息、URL批量打开 &amp; Vulnerability Mining Tool | Browser Plugin | Discover Hidden Interfaces, Sensitive Information in Pages and JS, Open Multiple URLs | Notepad - n0name-X/LoveJS",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
