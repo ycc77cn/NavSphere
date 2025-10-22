@@ -4891,6 +4891,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "78820909-cfc6-435b-b673-992751e77171",
+          "title": "风水布局",
+          "icon": "Folder",
+          "description": "一些关于风水的书籍或者视频",
+          "enabled": true,
+          "items": []
         }
       ]
     }
