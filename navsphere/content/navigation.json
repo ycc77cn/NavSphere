@@ -780,6 +780,14 @@
               "description": "OssSca_自动扫描OSS漏洞的Burp插件",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112499849",
+              "title": "GitHub - dahezhiquan/FindUpload: 红队打点工具，批量url快速发现文件上传点和登录框",
+              "href": "https://github.com/dahezhiquan/FindUpload/",
+              "description": "红队打点工具，批量url快速发现文件上传点和登录框. Contribute to dahezhiquan/FindUpload development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
