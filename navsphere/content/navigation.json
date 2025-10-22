@@ -4817,9 +4817,9 @@
     },
     {
       "id": "1761132123831",
-      "title": "计算机学习资料",
+      "title": "编程学习",
       "icon": "Code",
-      "description": "这里是计算机学习资料,例如:编程啦,渗透啦~P图啦~等....",
+      "description": "这里是编程类的学习,例如:java啦,VUE啦~python啦~等....太多啦~",
       "enabled": true,
       "items": [],
       "subCategories": [
