@@ -2225,6 +2225,14 @@
           "description": "PS啊,AI啊,ID啊,AU啊,DW啊...都在这里了",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "5c34a1a1-3578-448a-b6aa-6f209b21fd69",
+          "title": "Adobe-全家桶-MAC版本",
+          "icon": "Folder",
+          "description": "PS啊,AI啊,PR啊...都在这里",
+          "enabled": true,
+          "items": []
         }
       ]
     }
