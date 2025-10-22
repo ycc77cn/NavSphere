@@ -1758,15 +1758,6 @@
       "enabled": true,
       "items": [],
       "subCategories": []
-    },
-    {
-      "id": "1761124249741",
-      "title": "电子取证工具",
-      "icon": "Search",
-      "description": "电子取证工具,一般用不着,但我还是想提前写上",
-      "enabled": true,
-      "items": [],
-      "subCategories": []
     }
   ]
 }
