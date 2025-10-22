@@ -4931,6 +4931,14 @@
           "description": "就是看日子,看结婚的日子,看婚葬的日子",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "4d8f5dd5-e3e0-48f8-b6cf-110a111a1889",
+          "title": "奇门遁甲",
+          "icon": "Folder",
+          "description": "不同版本的奇门遁甲",
+          "enabled": true,
+          "items": []
         }
       ]
     }
