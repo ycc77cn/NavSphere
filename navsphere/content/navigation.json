@@ -303,6 +303,14 @@
               "description": "Web path scanner. Contribute to maurosoria/dirsearch development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110884792",
+              "title": "GitHub - pagvac/dnsmap: python开发的子域名爆破工具",
+              "href": "https://github.com/pagvac/dnsmap",
+              "description": "Simple subdomain bruteforcer written in python. Contribute to pagvac/dnsmap development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
