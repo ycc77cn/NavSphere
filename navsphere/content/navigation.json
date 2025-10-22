@@ -400,6 +400,14 @@
               "description": "需要本地部署的服务-输入网之后,可以把所有信息都给列出来的离谱工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111204303",
+              "title": "Boce-比站长还要强的一个在线工具",
+              "href": "https://www.boce.com/?k=Lam0121BB",
+              "description": "比站长还要强的一个在线工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
