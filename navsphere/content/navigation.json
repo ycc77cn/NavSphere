@@ -4899,6 +4899,14 @@
           "description": "一些关于风水的书籍或者视频",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "eeb77cd1-5524-4f4e-9454-c88a583950e7",
+          "title": "四柱八字",
+          "icon": "Folder",
+          "description": "四柱八字",
+          "enabled": true,
+          "items": []
         }
       ]
     }
