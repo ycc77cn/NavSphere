@@ -619,6 +619,14 @@
               "description": "Fenrir 是一个基于 MCP 协议与 AST 技术的代码审计工具，旨在解决安全研究与自动化代码审计领域中，面对大规模、结构复杂甚至反编译代码时，传统代码搜索与分析手段效率低、准确性差的问题。 - ChangeYourWay/Fenrir-CodeAuditTool",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112126561",
+              "title": "GitHub - guchangan1/CodeVulnScan: CodeVulnScan 是一款基于正则表达式的代码安全审计工具，专为红队成员快速定位sink设计。它能够快速扫描目标代码库，定位潜在的漏洞 Sink 点，提升代码审计效率。",
+              "href": "https://github.com/guchangan1/CodeVulnScan.git",
+              "description": "CodeVulnScan 是一款基于正则表达式的代码安全审计工具，专为红队成员快速定位sink设计。它能够快速扫描目标代码库，定位潜在的漏洞 Sink 点，提升代码审计效率。 - guchangan1/CodeVulnScan",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
