@@ -1565,6 +1565,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "8ee6871a-74b0-4675-b803-938026559e71",
+          "title": "WebShell工具",
+          "icon": "Link",
+          "description": "好用,牛逼的Webshell工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
