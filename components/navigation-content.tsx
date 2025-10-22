@@ -156,7 +156,7 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
                 </Button>
               </Link>
               <Link
-                href="https://github.com/tianyaxiang/navsphere-extension"
+                href="https://space.bilibili.com/500076166?spm_id_from=333.33.0.0"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="杨CC的BiliBili"
