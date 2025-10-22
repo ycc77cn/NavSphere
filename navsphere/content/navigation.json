@@ -134,6 +134,14 @@
               "description": "",
               "icon": "/assets/favicon_1761110262428.png",
               "enabled": true
+            },
+            {
+              "id": "1761110288415",
+              "title": "GitHub - pingc0y/URLFinder: 快速发现和提取页面中的JS、URL和敏感信息的工具i。",
+              "href": "https://github.com/pingc0y/URLFinder",
+              "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。. Contribute to pingc0y/URLFinder development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761110291590.png",
+              "enabled": true
             }
           ]
         },
