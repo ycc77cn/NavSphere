@@ -941,6 +941,14 @@
               "description": "后渗透工具-Windump-Windows信息收集神器",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112909185",
+              "title": "CACM_一款Linux权限维持+后渗透的工具",
+              "href": "https://github.com/RuoJi6/CACM",
+              "description": "CACM_一款Linux权限维持+后渗透的工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
