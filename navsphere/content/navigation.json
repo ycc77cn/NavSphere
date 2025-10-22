@@ -1419,7 +1419,16 @@
           "icon": "Target",
           "description": "一些?免费\\付费的代理池工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761116133050",
+              "title": "yiy_这是一个很明确的代理（VPN、梯子）购买网址（需付费）—up已经用了三年了，未跑路",
+              "href": "https://yiy.one/register?codes=02D090",
+              "description": "yiy_这是一个很明确的代理（VPN、梯子）购买网址（需付费）—up已经用了三年了，未跑路",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "9400ca26-7577-430d-8d2b-f1ab4017f3d3",
