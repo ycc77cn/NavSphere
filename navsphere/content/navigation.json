@@ -31,6 +31,14 @@
           "description": "一些可以收集信息或者渗透测试的在线网站",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "9e388c50-f7f6-47e7-a050-2fe3a67a5d68",
+          "title": "注入工具",
+          "icon": "MessageSquare",
+          "description": "包含SQL注入\\XSS注入以及其他注入工具集合",
+          "enabled": true,
+          "items": []
         }
       ]
     }
