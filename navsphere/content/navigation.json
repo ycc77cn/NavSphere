@@ -214,6 +214,14 @@
               "description": "WebApp Information Gatherer. Contribute to jekyc/wig development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110597185",
+              "title": "GitHub - P001water/P1finger: P1finger - 红队行动下的重点资产指纹识别工具，解决信息收集过程中的一小步",
+              "href": "https://github.com/P001water/P1finger",
+              "description": "P1finger - 红队行动下的重点资产指纹识别工具，解决信息收集过程中的一小步. Contribute to P001water/P1finger development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
