@@ -1402,6 +1402,14 @@
               "description": "一款用于网页敏感信息检测，指纹识别的chrome插件. Contribute to SickleSec/SnowEyes development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115447339",
+              "title": "GitHub - libaibaia/BucketTool: 浏览器存储桶配置漏洞检测插件",
+              "href": "https://github.com/libaibaia/BucketTool",
+              "description": "浏览器存储桶配置漏洞检测插件. Contribute to libaibaia/BucketTool development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
