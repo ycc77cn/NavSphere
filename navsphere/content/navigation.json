@@ -14,7 +14,16 @@
           "icon": "Search",
           "description": "资产收集啊.CMS识别啊,系统识别...等很多",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761109357447",
+              "title": "GitHub - fankun99/Gathery: Gathery 是一款基于 PyQt5 开发的网络安全信息收集与分析工具，集成了多种实用的信息收集功能和小工具，帮助安全研究人员、渗透测试人员和网络管理员快速收集目标信息",
+              "href": "https://github.com/fankun99/Gathery",
+              "description": "Gathery 是一款基于 PyQt5 开发的网络安全信息收集与分析工具，集成了多种实用的信息收集功能和小工具，帮助安全研究人员、渗透测试人员和网络管理员快速收集目标信息 - fankun99/Gathery",
+              "icon": "/assets/favicon_1761109377818.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "3c0475e9-c93a-46eb-8645-3e1a909ae688",
