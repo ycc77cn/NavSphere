@@ -1434,6 +1434,14 @@
               "description": "HaE (Highlighter and Extractor) 是一款通过自定义正则表达式，对流经 Burp 的 HTTP 流量进行高亮标记和信息提取的插件",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115653907",
+              "title": "auth_analyzer_modify_一个越权测试插件",
+              "href": "https://github.com/ZFYy1x/auth_analyzer_modify",
+              "description": "auth_analyzer_modify_一个越权测试插件\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
