@@ -1418,6 +1418,14 @@
               "description": "绕过 web 防火墙.asp.txt",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115988755",
+              "title": "CF-Hero - 一款可以绕过 CDN 寻找到真实 IP 的工具 - 需要空间测绘的 API",
+              "href": "https://github.com/musana/CF-Hero",
+              "description": "CF-Hero - 一款可以绕过 CDN 寻找到真实 IP 的工具 - 需要空间测绘的 API\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
