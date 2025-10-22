@@ -46,6 +46,14 @@
               "description": "一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具. Contribute to EASY233/Finger development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761109580474",
+              "title": "GitHub - HunxByts/GhostTrack: 追踪位置或者手机号的牛逼工具",
+              "href": "https://github.com/HunxByts/GhostTrack",
+              "description": "Useful tool to track location or mobile number. Contribute to HunxByts/GhostTrack development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
