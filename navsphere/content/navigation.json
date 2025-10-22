@@ -1136,6 +1136,14 @@
               "description": "一款全方位扫描工具，具备高效的机器探活，端口探活，协议识别，指纹识别，漏洞扫描等功能. Contribute to polite-007/Milkyway development by creating an account on GitHub.",
               "icon": "/assets/favicon_1761114556372.png",
               "enabled": true
+            },
+            {
+              "id": "1761114627628",
+              "title": "AlliN-快速打点的综合工具",
+              "href": "https://github.com/P1-Team/AlliN",
+              "description": "A flexible scanner. Contribute to P1-Team/AlliN development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761114630512.png",
+              "enabled": true
             }
           ]
         },
