@@ -1378,6 +1378,14 @@
               "description": "Wavely - 轻量便捷的Nuclei POC漏洞管理与验证可视化工具. Contribute to perlh/Wavely development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761116058833",
+              "title": "GitHub - Mr-xn/Dumper: Dump loaded JVM classes . 支持从JVM 里dump 特定 classes",
+              "href": "https://github.com/Mr-xn/Dumper\t",
+              "description": "Dump loaded JVM classes . 支持从JVM 里dump 特定 classes. Contribute to Mr-xn/Dumper development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
