@@ -1168,6 +1168,14 @@
               "description": "Adversary simulation and Red teaming platform with AI - FunnyWolf/Viper",
               "icon": "/assets/favicon_1761114684097.png",
               "enabled": true
+            },
+            {
+              "id": "1761114695352",
+              "title": "reconftw_很牛逼的资产发现工具",
+              "href": "https://github.com/six2dez/reconftw",
+              "description": "reconftw_很牛逼的资产发现工具",
+              "icon": "/assets/favicon_1761114697734.png",
+              "enabled": true
             }
           ]
         },
