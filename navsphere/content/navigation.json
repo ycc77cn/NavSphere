@@ -95,6 +95,14 @@
           "description": "综合性渗透工具,类似与?工具包?全方位渗透测试工具?",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "b447cd14-5ed4-40c5-9441-cc459112a978",
+          "title": "防御/蓝队工具",
+          "icon": "Shield",
+          "description": "防御\\蓝队\\防护\\木马检测等一些工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
