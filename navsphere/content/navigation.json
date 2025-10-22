@@ -1365,6 +1365,38 @@
           "items": []
         },
         {
+          "id": "1b5ce593-9648-401b-a93a-c2bcfb78ec72",
+          "title": "渗透辅助工具",
+          "icon": "LayoutGrid",
+          "description": "一些可以让你渗透更加高效的工具",
+          "enabled": true,
+          "items": []
+        },
+        {
+          "id": "ae7b8301-346e-4bd9-af4e-c5d788c806c1",
+          "title": "代理\\代理池工具",
+          "icon": "Target",
+          "description": "一些?免费\\付费的代理池工具",
+          "enabled": true,
+          "items": []
+        },
+        {
+          "id": "9400ca26-7577-430d-8d2b-f1ab4017f3d3",
+          "title": "绕WAF\\CDN等工具",
+          "icon": "Bell",
+          "description": "一些绕过WAF\\CDN\\防火墙等一些与'绕'有关系的东西",
+          "enabled": true,
+          "items": []
+        },
+        {
+          "id": "d30fe945-1755-42c6-83d7-0d9a411636f1",
+          "title": "Burp扩展\\插件",
+          "icon": "Heart",
+          "description": "一些好用的Burp扩展?也许是插件?",
+          "enabled": true,
+          "items": []
+        },
+        {
           "id": "c9fcb52d-f307-424a-9d00-0d6aca8d1da1",
           "title": "浏览器插件\\扩展",
           "icon": "Settings",
@@ -1436,38 +1468,6 @@
               "enabled": true
             }
           ]
-        },
-        {
-          "id": "1b5ce593-9648-401b-a93a-c2bcfb78ec72",
-          "title": "渗透辅助工具",
-          "icon": "LayoutGrid",
-          "description": "一些可以让你渗透更加高效的工具",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "ae7b8301-346e-4bd9-af4e-c5d788c806c1",
-          "title": "代理\\代理池工具",
-          "icon": "Target",
-          "description": "一些?免费\\付费的代理池工具",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "9400ca26-7577-430d-8d2b-f1ab4017f3d3",
-          "title": "绕WAF\\CDN等工具",
-          "icon": "Bell",
-          "description": "一些绕过WAF\\CDN\\防火墙等一些与'绕'有关系的东西",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "d30fe945-1755-42c6-83d7-0d9a411636f1",
-          "title": "Burp扩展\\插件",
-          "icon": "Heart",
-          "description": "一些好用的Burp扩展?也许是插件?",
-          "enabled": true,
-          "items": []
         }
       ]
     }
