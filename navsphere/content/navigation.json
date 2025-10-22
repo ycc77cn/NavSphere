@@ -990,7 +990,16 @@
           "icon": "Files",
           "description": "包含密码、路径等各类渗透测试字典",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761113017477",
+              "title": "GitHub - LandGrey/pydictor: >pydictor_一款支持生成多种字典的神器",
+              "href": "https://github.com/LandGrey/pydictor",
+              "description": "A powerful and useful hacker dictionary builder for a brute-force attack - LandGrey/pydictor",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "26341b54-c82e-4f19-abc3-aa8fbbabc086",
