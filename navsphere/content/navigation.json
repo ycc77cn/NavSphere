@@ -965,6 +965,14 @@
               "description": "SharpScan_内网自动化横向+域内信息收集",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112964691",
+              "title": "linux 下清除日志的脚本",
+              "href": "https://pan.quark.cn/s/0c4b87912417",
+              "description": "linux 下清除日志的脚本",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
