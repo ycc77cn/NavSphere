@@ -311,6 +311,14 @@
               "description": "Simple subdomain bruteforcer written in python. Contribute to pagvac/dnsmap development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110909318",
+              "title": "GitHub - Chora10/FuzzDomain: 可视化子域名爆破工具",
+              "href": "https://github.com/Chora10/FuzzDomain",
+              "description": "FuzzDomain. Contribute to Chora10/FuzzDomain development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
