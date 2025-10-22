@@ -4814,6 +4814,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761132123831",
+      "title": "计算机学习资料",
+      "icon": "Code",
+      "description": "这里是计算机学习资料,例如:编程啦,渗透啦~P图啦~等....",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
