@@ -1402,6 +1402,14 @@
               "description": "集成资产定期监控功能的Nmap图形化扫描工具，让“扫描之王”Nmap使用更加简单。. Contribute to vam876/FastNmap development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761116105541",
+              "title": "GitHub - kN6jq/gatherNuclei: 一款集成了Nuclei模板管理、多空间引擎搜索的网络安全工具集。为安全研究人员提供高效的工作体验。",
+              "href": "https://github.com/kN6jq/gatherNuclei\t",
+              "description": "一款集成了Nuclei模板管理、多空间引擎搜索的网络安全工具集。为安全研究人员提供高效的工作体验。. Contribute to kN6jq/gatherNuclei development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
