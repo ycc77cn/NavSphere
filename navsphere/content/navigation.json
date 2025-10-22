@@ -1418,6 +1418,14 @@
               "description": "API_checker_专门为 BurpSuite 设计的 API 测试插件，可以自动解析 OpenAPI/Swagger 文档并测试其中的 API 接口",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115624852",
+              "title": "CaA_是一款自动收集 HTTP 流量中的参数、路径、文件名、参数值等信息，并进行频率统计和 Fuzzing 测试的插件",
+              "href": "https://github.com/gh0stkey/CaA/",
+              "description": "CaA_是一款自动收集 HTTP 流量中的参数、路径、文件名、参数值等信息，并进行频率统计和 Fuzzing 测试的插件",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
