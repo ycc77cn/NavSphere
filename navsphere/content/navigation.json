@@ -675,6 +675,14 @@
               "description": "针对 @hanbinglengyue 的FART项目下的Frida脱壳脚本进行最新适配，可在Frida16.1.0 + Android12环境下进行脱壳 - LLeavesG/FART-Fix",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112272263",
+              "title": "Android killer 安卓逆向工具",
+              "href": "https://github.com/liaojack8/AndroidKiller",
+              "description": "Android killer 安卓逆向",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
