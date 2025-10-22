@@ -732,6 +732,14 @@
               "description": "Nuclei_现代化的高性能漏洞扫描器，它利用基于 YAML 的模板_25年非常热门～",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112406386",
+              "title": "GitHub - Y5neKO/ShiroEXP: Shiro漏洞利用工具",
+              "href": "https://github.com/Y5neKO/ShiroEXP",
+              "description": "Shiro漏洞利用工具. Contribute to Y5neKO/ShiroEXP development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
