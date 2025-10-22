@@ -9,14 +9,6 @@
       "items": [],
       "subCategories": [
         {
-          "id": "d30fe945-1755-42c6-83d7-0d9a411636f1",
-          "title": "Burp扩展\\插件",
-          "icon": "Heart",
-          "description": "一些好用的Burp扩展?也许是插件?",
-          "enabled": true,
-          "items": []
-        },
-        {
           "id": "00a4ab09-5ead-4b04-8f42-bd4824eeeda7",
           "title": "信息收集工具",
           "icon": "Search",
@@ -1466,6 +1458,14 @@
           "title": "绕WAF\\CDN等工具",
           "icon": "Bell",
           "description": "一些绕过WAF\\CDN\\防火墙等一些与'绕'有关系的东西",
+          "enabled": true,
+          "items": []
+        },
+        {
+          "id": "d30fe945-1755-42c6-83d7-0d9a411636f1",
+          "title": "Burp扩展\\插件",
+          "icon": "Heart",
+          "description": "一些好用的Burp扩展?也许是插件?",
           "enabled": true,
           "items": []
         }
