@@ -238,6 +238,14 @@
               "description": "Contribute to ainiy-top/JSfind development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110663301",
+              "title": "JSAPIscan 扫描工具_安装以及使用 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/22/2-JSAPlscan-JS%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/",
+              "description": "JSAPIscan_一个速度很快的js和API的扫描工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
