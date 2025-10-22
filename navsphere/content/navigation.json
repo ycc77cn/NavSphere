@@ -440,6 +440,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111304602",
+              "title": "Beian-备案查询",
+              "href": "https://beian.miit.gov.cn/#/Integrated/index",
+              "description": "访问 beian.miit.gov.cn",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
