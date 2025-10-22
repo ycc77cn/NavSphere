@@ -1765,6 +1765,14 @@
           "description": "电脑游戏,有18+游戏,也有其他游戏",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "7e7b1fcd-4546-4bd2-aa08-2fa64e84f3f2",
+          "title": "手机游戏",
+          "icon": "Folder",
+          "description": "手机游戏",
+          "enabled": true,
+          "items": []
         }
       ]
     },
