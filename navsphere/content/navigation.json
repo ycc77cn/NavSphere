@@ -925,6 +925,14 @@
               "description": "MDUT-Extend-数据库提权工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112824248",
+              "title": "e0e1-config_内网-后渗透神器(Windows)",
+              "href": "https://github.com/eeeeeeeeee-code/e0e1-config",
+              "description": "e0e1-config_内网-后渗透神器(Windows)",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
