@@ -1758,6 +1758,15 @@
       "enabled": true,
       "items": [],
       "subCategories": []
+    },
+    {
+      "id": "1761124393656",
+      "title": "电脑工具",
+      "icon": "Laptop",
+      "description": "也许有一些黑科技呢~",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
