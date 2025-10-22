@@ -554,7 +554,16 @@
           "icon": "Cloud",
           "description": "支持远控木马与远程管理工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761111856061",
+              "title": "Escrcpy_安卓局域网远控工具",
+              "href": "https://pan.quark.cn/s/7c0a977dfc7e",
+              "description": "Escrcpy_安卓局域网远控工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "c9b929e4-f5ee-49f6-8ef8-e3e80748b6ca",
