@@ -119,6 +119,14 @@
           "description": "一些?浏览器\\fiddler\\burp\\等插件或者扩展等",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "1b5ce593-9648-401b-a93a-c2bcfb78ec72",
+          "title": "渗透辅助工具",
+          "icon": "LayoutGrid",
+          "description": "一些可以让你渗透更加高效的工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
