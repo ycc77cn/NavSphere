@@ -1055,7 +1055,16 @@
           "icon": "BarChart",
           "description": "流量监控\\测压\\抓包\\改包等类似工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761113191678",
+              "title": "GitHub - GyulyVGC/sniffnet: sniffnet_网卡实施流量检测工具_跨平台",
+              "href": "https://github.com/GyulyVGC/sniffnet",
+              "description": "Comfortably monitor your Internet traffic 🕵️‍♂️. Contribute to GyulyVGC/sniffnet development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "004e98d7-7d1e-4d4a-9a1c-de1683aaa8e7",
