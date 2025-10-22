@@ -7017,6 +7017,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761134835712",
+      "title": "杨CC的简介",
+      "icon": "Home",
+      "description": "这里是杨CC的简介",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
