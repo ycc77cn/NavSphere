@@ -1704,6 +1704,14 @@
               "description": "LingJing(灵境)一个可以让你一键搭建靶场,傻瓜式搭建靶场的工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761116257941",
+              "title": "GitHub - WebGoat/WebGoat: WebGoat is a deliberately insecure application",
+              "href": "https://github.com/WebGoat/WebGoat",
+              "description": "WebGoat is a deliberately insecure application. Contribute to WebGoat/WebGoat development by creating an account on GitHub.WebGoat_一个故意不安全的 Web 应用程序,由OWASP维护，旨在教授 Web 应用程序安全课程。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
