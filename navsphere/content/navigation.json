@@ -828,6 +828,14 @@
               "description": "SSRF-扫描与利用工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112607854",
+              "title": "GitHub - AabyssZG/SpringBoot-Scan: 针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
+              "href": "https://github.com/AabyssZG/SpringBoot-Scan",
+              "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具. Contribute to AabyssZG/SpringBoot-Scan development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
