@@ -1192,6 +1192,14 @@
               "description": "GateSentinel 是一个现代化的 C2 (Command and Control) 框架，专为安全研究和渗透测试设计。该项目采用 Go 语言开发服务端，C 语言开发客户端，提供了强大的远程控制和管理功能。 - kyxiaxiang/GateSentinel",
               "icon": "/assets/favicon_1761114736791.png",
               "enabled": true
+            },
+            {
+              "id": "1761114745305",
+              "title": "OpenArk-蓝队应急工具箱",
+              "href": "https://github.com/BlackINT3/OpenArk",
+              "description": "OpenArk-蓝队应急工具箱",
+              "icon": "/assets/favicon_1761114748147.png",
+              "enabled": true
             }
           ]
         },
