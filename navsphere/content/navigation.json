@@ -1466,6 +1466,14 @@
               "description": "OssSca_自动扫描 OSS 漏洞的 Burp 插件\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115711292",
+              "title": "Brup_TLA_一个流量监测的 burp 插件_且支持 XSS\\ 目录扫描 \\ 绕 WAF 等强大功能",
+              "href": "https://github.com/SharpKean/Brup_TLA",
+              "description": "Brup_TLA_一个流量监测的 burp 插件_且支持 XSS\\ 目录扫描 \\ 绕 WAF 等强大功能\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
