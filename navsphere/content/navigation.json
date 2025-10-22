@@ -1410,6 +1410,14 @@
               "description": "RVScan - Burp Suite 漏洞扫描与指纹识别扩展",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115611825",
+              "title": "API_checker_专门为 BurpSuite 设计的 API 测试插件，可以自动解析 OpenAPI/Swagger 文档并测试其中的 API 接口",
+              "href": "https://github.com/mumu0215/api_checker",
+              "description": "API_checker_专门为 BurpSuite 设计的 API 测试插件，可以自动解析 OpenAPI/Swagger 文档并测试其中的 API 接口",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
