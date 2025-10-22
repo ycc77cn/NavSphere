@@ -1087,6 +1087,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761113293119",
+              "title": "GitHub - foreni-packages/t50: t50 : t50,简单方便,支持DDOS\\CC等多种方式",
+              "href": "https://github.com/foreni-packages/t50",
+              "description": "t50 : Multi-protocol packet injector tool. Contribute to foreni-packages/t50 development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
