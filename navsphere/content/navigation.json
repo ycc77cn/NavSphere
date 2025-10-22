@@ -480,6 +480,14 @@
               "description": "访问 www.daydaymap.com",
               "icon": "/assets/favicon_1761111387228.png",
               "enabled": true
+            },
+            {
+              "id": "1761111396513",
+              "title": "Fofa-资产测绘",
+              "href": "https://fofa.info/",
+              "description": "FOFA 是白帽汇推出的一款网络空间搜索引擎，它通过进行网络空间测绘，能够帮助研究人员或者企业迅速进行网络资产匹配，例如进行漏洞影响范围分析、应用分布统计、应用流行度排名统计等。",
+              "icon": "/assets/favicon_1761111415032.ico",
+              "enabled": true
             }
           ]
         },
