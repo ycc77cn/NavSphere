@@ -1572,7 +1572,16 @@
           "icon": "Link",
           "description": "好用,牛逼的Webshell工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761115818184",
+              "title": "GitHub - hosch3n/msmap: Msmap is a Memory WebShell Generator.",
+              "href": "https://github.com/hosch3n/msmap",
+              "description": "Msmap is a Memory WebShell Generator. Contribute to hosch3n/msmap development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761115821144.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
