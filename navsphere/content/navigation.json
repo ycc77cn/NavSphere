@@ -1225,7 +1225,16 @@
           "icon": "Shield",
           "description": "防御\\蓝队\\防护\\木马检测等一些工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761114930241",
+              "title": "GitHub - komari-monitor/komari: A simple server monitor tool.komari_轻量化服务器监控系统",
+              "href": "https://github.com/komari-monitor/komari",
+              "description": "A simple server monitor tool. Contribute to komari-monitor/komari development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761114933885.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "05a42cca-7dfb-446c-8f68-7520589b3dfb",
