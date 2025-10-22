@@ -1313,6 +1313,14 @@
               "description": "The first Computer Emergency Response (ARK) Tools for young people ;) 　　　　　　　　　　　　　　　　　　　　　　年轻人的第一款应急响应(ARK)工具 ；） - QAX-Anti-Virus/QDoctor",
               "icon": "/assets/favicon_1761115051404.png",
               "enabled": true
+            },
+            {
+              "id": "1761115061399",
+              "title": "GitHub - Mangofang/MaliciousCheck: 基于C#.Net的开源应急响应工具",
+              "href": "https://github.com/Mangofang/MaliciousCheck",
+              "description": "基于C#.Net的开源应急响应工具. Contribute to Mangofang/MaliciousCheck development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761115063469.png",
+              "enabled": true
             }
           ]
         },
