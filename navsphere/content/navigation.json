@@ -2632,7 +2632,63 @@
               "id": "1761128077121",
               "title": "Windows11_渗透定制系统_矛·盾 武器库 v3.2",
               "href": "https://github.com/arch3rPro/Pentest-Windows",
-              "description": "访问 github.com",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_1",
+              "title": "Windows10_22H2版本_多版本ISO镜像_简体中文_官网镜像",
+              "href": "https://pan.quark.cn/s/ff812a4037ed",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_2",
+              "title": "Ubuntu 22.04",
+              "href": "https://pan.quark.cn/s/764355f741c6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_3",
+              "title": "Ubuntu 24.04",
+              "href": "https://pan.quark.cn/s/f0fe84ba9930",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_4",
+              "title": "Ubuntu 25.04(目前最新版)",
+              "href": "https://pan.quark.cn/s/6f6a4f514b98",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_5",
+              "title": "Ubuntu 20.04",
+              "href": "https://pan.quark.cn/s/6f6a4f514b98",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_6",
+              "title": "Parrot Linux 6.4",
+              "href": "https://pan.quark.cn/s/a084c1404e24",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_7",
+              "title": "Kali Linux",
+              "href": "https://pan.quark.cn/s/2ef5fa29def2",
+              "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
