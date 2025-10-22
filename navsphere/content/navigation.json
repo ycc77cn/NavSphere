@@ -2620,6 +2620,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "f064bb50-6507-41fd-852d-07a803aa89e1",
+          "title": "镜像文件",
+          "icon": "Folder",
+          "description": "Windows\\Linux\\渗透镜像等,都在这里",
+          "enabled": true,
+          "items": []
         }
       ]
     }
