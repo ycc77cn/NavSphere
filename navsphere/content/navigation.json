@@ -142,6 +142,14 @@
               "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。. Contribute to pingc0y/URLFinder development by creating an account on GitHub.",
               "icon": "/assets/favicon_1761110291590.png",
               "enabled": true
+            },
+            {
+              "id": "1761110339146",
+              "title": "Virgol-综合类信息收集工具",
+              "href": "https://pan.quark.cn/s/8aabfc26dd93",
+              "description": "",
+              "icon": "/assets/favicon_1761110348792.png",
+              "enabled": true
             }
           ]
         },
