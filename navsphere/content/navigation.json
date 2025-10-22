@@ -1200,6 +1200,14 @@
               "description": "OpenArk-蓝队应急工具箱",
               "icon": "/assets/favicon_1761114748147.png",
               "enabled": true
+            },
+            {
+              "id": "1761114786328",
+              "title": "GitHub - kkbo8005/mitan: 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、端口扫描、弱口令破解、jwt密钥爆破、sesionkey加解密、批量信息权重查询、密码字典等功能",
+              "href": "https://github.com/kkbo8005/mitan",
+              "description": "密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、端口扫描、弱口令破解、jwt密钥爆破、sesionkey加解密、批量信息权重查询、密码字典等功能 - kkbo8005/mitan",
+              "icon": "/assets/favicon_1761114795503.png",
+              "enabled": true
             }
           ]
         },
