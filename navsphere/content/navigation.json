@@ -86,6 +86,14 @@
               "description": "Scan for misconfigured S3 buckets across S3-compatible APIs! - sa7mon/S3Scanner",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110017324",
+              "title": "一个可以配合burp\\yakit\\爬虫等工具的敏感信息收集工具",
+              "href": "https://github.com/YouChenJun/Keydd",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
