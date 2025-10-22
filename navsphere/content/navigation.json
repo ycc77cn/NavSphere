@@ -62,6 +62,14 @@
               "description": "OneForAll是一款功能强大的子域收集工具. Contribute to shmilylty/OneForAll development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761109744567",
+              "title": "xkinfoscan-多维度的目标探测的信息收集工具",
+              "href": "https://github.com/xk11z/xkinfoscan",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
