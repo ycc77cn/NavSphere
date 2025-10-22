@@ -764,6 +764,14 @@
               "description": "一款免费开源轻量的漏洞情报系统. Contribute to menglike/bug_search development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112469943",
+              "title": "GitHub - Bywalks/DarkAngel: DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、漏洞URL截屏、消息通知。",
+              "href": "https://github.com/Bywalks/DarkAngel",
+              "description": "DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、漏洞URL截屏、消息通知。 - Bywalks/DarkAngel",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
