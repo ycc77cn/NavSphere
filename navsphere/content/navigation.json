@@ -7,7 +7,16 @@
       "description": "这里是渗透工具",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "00a4ab09-5ead-4b04-8f42-bd4824eeeda7",
+          "title": "信息收集工具",
+          "icon": "Search",
+          "description": "",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
