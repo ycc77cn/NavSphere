@@ -505,6 +505,14 @@
               "description": "傀儡注入点批量扫描工具v6.0_支持多种XSS和多种数据库注入_并且携带部分绕过功能_带源码_无后门版本",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111661152",
+              "title": "GitHub - s0md3v/XSStrike: 一个强大的xss工具-高级xss套件",
+              "href": "https://github.com/s0md3v/XSStrike",
+              "description": "Most advanced XSS scanner. Contribute to s0md3v/XSStrike development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
