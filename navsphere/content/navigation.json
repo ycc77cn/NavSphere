@@ -2361,7 +2361,16 @@
           "icon": "Folder",
           "description": "PS啊,AI啊,PR啊...都在这里",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761127580716",
+              "title": "Mac版2018-包含MAC版本 2018所有软件",
+              "href": "https://pan.quark.cn/s/d60d82dfb082",
+              "description": "Mac版2018-包含MAC版本 2018所有软件",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
