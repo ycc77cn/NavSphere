@@ -70,6 +70,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761109855123",
+              "title": "GitHub - chasingboy/appsx: appsx 是一款自动化信息收集｜敏感信息识别｜未授权漏洞扫描｜指纹识别｜常见漏洞扫描工具",
+              "href": "https://github.com/chasingboy/appsx",
+              "description": "appsx 是一款自动化信息收集｜敏感信息识别｜未授权漏洞扫描｜指纹识别｜常见漏洞扫描工具. Contribute to chasingboy/appsx development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
