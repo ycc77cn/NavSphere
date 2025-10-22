@@ -1370,7 +1370,16 @@
           "icon": "LayoutGrid",
           "description": "一些可以让你渗透更加高效的工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761116050514",
+              "title": "GitHub - perlh/Wavely: Wavely - 轻量便捷的Nuclei POC漏洞管理与验证可视化工具",
+              "href": "https://github.com/perlh/Wavely/tree/main",
+              "description": "Wavely - 轻量便捷的Nuclei POC漏洞管理与验证可视化工具. Contribute to perlh/Wavely development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "ae7b8301-346e-4bd9-af4e-c5d788c806c1",
