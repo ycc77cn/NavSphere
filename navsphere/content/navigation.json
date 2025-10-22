@@ -158,6 +158,14 @@
               "description": "1.5W+POC扫描工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110431388",
+              "title": "GitHub - owasp-amass/amass: 一款可寻找资产关联的工具",
+              "href": "https://github.com/owasp-amass/amass",
+              "description": "In-depth attack surface mapping and asset discovery - owasp-amass/amass",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
