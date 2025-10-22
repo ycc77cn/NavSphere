@@ -270,6 +270,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110760723",
+              "title": "GitHub - bee-san/RustScan: 比NMAP快几万倍的端口扫描工具",
+              "href": "https://github.com/bee-san/RustScan",
+              "description": "GitHub - bee-san/RustScan: 比NMAP快几万倍的端口扫描工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
