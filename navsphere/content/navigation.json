@@ -55,6 +55,14 @@
           "description": "包含反编译、调试与逆向分析工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "f049836b-8e9e-4eec-b808-3dc9ecfa0512",
+          "title": "漏扫工具",
+          "icon": "Coffee",
+          "description": "漏洞扫描与利用验证工具集合",
+          "enabled": true,
+          "items": []
         }
       ]
     }
