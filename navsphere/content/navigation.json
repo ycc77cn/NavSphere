@@ -804,6 +804,14 @@
               "description": "Nacos 综合利用工具. Contribute to h0ny/NacosExploit development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112556271",
+              "title": "ysoserial_Java-反序列化漏洞利用工具",
+              "href": "https://github.com/frohoff/ysoserial",
+              "description": "ysoserial_Java-反序列化漏洞利用工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
