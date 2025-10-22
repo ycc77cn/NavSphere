@@ -2226,11 +2226,131 @@
           "enabled": true,
           "items": [
             {
-              "id": "site_1761127469224_gv18mfrl8",
-              "title": "AE-下载安装即可正常使用",
-              "href": "https://pan.quark.cn/s/46d9ab2e1858",
-              "description": " AE-下载安装即可正常使用",
-              "icon": "/assets/favicon_1761127440458.ico",
+              "id": "1_2_1",
+              "title": "Pr",
+              "href": "https://pan.quark.cn/s/91159a87fcad",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_2",
+              "title": "一键安装版",
+              "href": "https://pan.quark.cn/s/d7b978c902f6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_3",
+              "title": "Ai",
+              "href": "https://pan.quark.cn/s/0660a7fa1230",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_4",
+              "title": "Br",
+              "href": "https://pan.quark.cn/s/53d3c1dba675",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_5",
+              "title": "DN",
+              "href": "https://pan.quark.cn/s/4a370f3f225d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_6",
+              "title": "PDF",
+              "href": "https://pan.quark.cn/s/543745ba582e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_7",
+              "title": "Ic",
+              "href": "https://pan.quark.cn/s/b75c4718aab5",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_8",
+              "title": "ID",
+              "href": "https://pan.quark.cn/s/832624a60f82",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_9",
+              "title": "An",
+              "href": "https://pan.quark.cn/s/9923fe3a4389",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_10",
+              "title": "AU",
+              "href": "https://pan.quark.cn/s/cf87f3093bc5",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_11",
+              "title": "ch",
+              "href": "https://pan.quark.cn/s/77d4f984d3d8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_12",
+              "title": "DW",
+              "href": "https://pan.quark.cn/s/c798d2d0574b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_13",
+              "title": "LRC",
+              "href": "https://pan.quark.cn/s/138d104466e7",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_14",
+              "title": "ME",
+              "href": "https://pan.quark.cn/s/9904ae166f4b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_15",
+              "title": "PS",
+              "href": "https://pan.quark.cn/s/81e100c2e0f4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_16",
+              "title": "PDF编辑和阅读器Adobe Acrobat（Win和Mac）",
+              "href": "https://pan.quark.cn/s/73b9f1e0d552",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
           ]
