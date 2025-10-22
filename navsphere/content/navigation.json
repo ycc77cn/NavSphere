@@ -5093,7 +5093,16 @@
           "icon": "Folder",
           "description": "大六壬-中六壬-小六壬,整个系列",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761133439609",
+              "title": "大六壬金口诀",
+              "href": "https://pan.quark.cn/s/a28db8cdc0a6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "356bb6c6-85b8-480b-abe9-136accf90417",
