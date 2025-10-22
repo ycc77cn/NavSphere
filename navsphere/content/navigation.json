@@ -6974,6 +6974,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "aff4b84d-9834-47b5-8b6d-53d3aeb765f2",
+          "title": "单手资源欣赏",
+          "icon": "Folder",
+          "description": "这个里面不能用个双手哈~只能用单手来欣赏咯~",
+          "enabled": true,
+          "items": []
         }
       ]
     }
