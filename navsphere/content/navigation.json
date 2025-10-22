@@ -1378,6 +1378,14 @@
               "description": "一个功能强大的浏览器扩展程序，专门用于检测Web系统中的权限越权漏洞，适用于Web渗透测试。. Contribute to phpcalm/exceed development by creating an account on GitHub.",
               "icon": "/assets/favicon_1761115374330.png",
               "enabled": true
+            },
+            {
+              "id": "1761115412944",
+              "title": "GitHub - MZgoudan/goudan-miguanshibieqi: 结合四大识别插件优点而集合的专业的全球蜜罐检测工具 - 支持35+种国际蜜罐平台，165+条检测规则。",
+              "href": "https://github.com/MZgoudan/goudan-miguanshibieqi",
+              "description": "结合四大识别插件优点而集合的专业的全球蜜罐检测工具 - 支持35+种国际蜜罐平台，165+条检测规则。 - MZgoudan/goudan-miguanshibieqi",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
