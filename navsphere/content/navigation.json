@@ -1386,6 +1386,14 @@
               "description": "结合四大识别插件优点而集合的专业的全球蜜罐检测工具 - 支持35+种国际蜜罐平台，165+条检测规则。 - MZgoudan/goudan-miguanshibieqi",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115426359",
+              "title": "幻影（Phantom）SRC漏洞挖掘辅助工具 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/23/4-%E5%B9%BB%E5%BD%B1(Phantom)Src%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/",
+              "description": "一款非常强的SRC漏洞挖掘辅助工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
