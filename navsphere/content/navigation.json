@@ -79,6 +79,14 @@
           "description": "包含密码、路径等各类渗透测试字典",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "26341b54-c82e-4f19-abc3-aa8fbbabc086",
+          "title": "流量分析/测压工具",
+          "icon": "BarChart",
+          "description": "流量监控\\测压\\抓包\\改包等类似工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
