@@ -456,6 +456,14 @@
               "description": "指纹识别  web指纹识别  潮汐指纹识别  潮汐指纹 TideFinger",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111336081",
+              "title": "Zoomeye-钟馗之眼",
+              "href": "https://www.zoomeye.org/",
+              "description": "访问 www.zoomeye.org",
+              "icon": "/assets/favicon_1761111346210.png",
+              "enabled": true
             }
           ]
         },
