@@ -724,6 +724,14 @@
               "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描. Contribute to LittleBear4/OA-EXPTOOL development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112384529",
+              "title": "Nuclei_现代化的高性能漏洞扫描器，它利用基于 YAML 的模板_25年非常热门～",
+              "href": "https://github.com/projectdiscovery/nuclei",
+              "description": "Nuclei_现代化的高性能漏洞扫描器，它利用基于 YAML 的模板_25年非常热门～",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
