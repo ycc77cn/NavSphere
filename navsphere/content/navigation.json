@@ -4845,6 +4845,486 @@
               "description": " ",
               "icon": "/assets/favicon_1761132599250.png",
               "enabled": true
+            },
+            {
+              "id": "2_2_1",
+              "title": "Python 数据化分析与数据化运营",
+              "href": "https://pan.quark.cn/s/c03cede34894",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_2",
+              "title": "Python 基础教程",
+              "href": "https://pan.quark.cn/s/db21b0e016af",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_3",
+              "title": "Python 神经网络编程",
+              "href": "https://pan.quark.cn/s/439eac72c648",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_4",
+              "title": "深度学习 Python",
+              "href": "https://pan.quark.cn/s/ea3735805e76",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_5",
+              "title": "Flask Web 开发实战",
+              "href": "https://pan.quark.cn/s/ab83b4ed7401",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_6",
+              "title": "Python3 网络爬虫开发实战",
+              "href": "https://pan.quark.cn/s/293b0e1f66bd",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_7",
+              "title": "Python 网络爬虫从入门到实践",
+              "href": "https://pan.quark.cn/s/3fbb1a8050dd",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_8",
+              "title": "Java Web开发实例大全",
+              "href": "https://pan.quark.cn/s/cd84b06f846a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_9",
+              "title": "Java 遗传算法编程",
+              "href": "https://pan.quark.cn/s/cf023cdd5938",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_10",
+              "title": "JAVA 高并发编程详解",
+              "href": "https://pan.quark.cn/s/9b1a8aa51a48",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_11",
+              "title": "JAVA9模块化开发核心原理与实践",
+              "href": "https://pan.quark.cn/s/79b9915e6ce0",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_12",
+              "title": "分布式JAVA应用的基础与实操",
+              "href": "https://pan.quark.cn/s/79011982a15a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_13",
+              "title": "JAVA并发编程的艺术",
+              "href": "https://pan.quark.cn/s/a0b9f2cf34ca",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_14",
+              "title": "阿里巴巴JAVA开发手册",
+              "href": "https://pan.quark.cn/s/de4eaa314a2e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_15",
+              "title": "阿里巴巴JAVA开发手册v1.3.1",
+              "href": "https://pan.quark.cn/s/ddbe57ceb250",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_16",
+              "title": "编写高质量代码:改善JAVA程序的151个建议",
+              "href": "https://pan.quark.cn/s/b90af9240b5e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_17",
+              "title": "第一行代码JAVA",
+              "href": "https://pan.quark.cn/s/71a7d2b7a667",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_18",
+              "title": "疯狂JAVA讲义(第四版)全文",
+              "href": "https://pan.quark.cn/s/0a25f6b40c26",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_19",
+              "title": "疯狂JAVA突破程序员基本功的16课",
+              "href": "https://pan.quark.cn/s/2a2f9e04bdec",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_20",
+              "title": "进入JAVA的世界(第二版)",
+              "href": "https://pan.quark.cn/s/d2456356a8d3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_21",
+              "title": "JAVA 8 实战",
+              "href": "https://pan.quark.cn/s/f5ec47887ca3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_22",
+              "title": "JAVA JDK 8 学习笔记",
+              "href": "https://pan.quark.cn/s/f5d31e2c42b8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_23",
+              "title": "JAVA RESTFUL Web Service 实战(第二版)",
+              "href": "https://pan.quark.cn/s/5a76eb6ce2d4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_24",
+              "title": "JAVA Web开发实例大全基础",
+              "href": "https://pan.quark.cn/s/5a7a803efc8a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_25",
+              "title": "JAVA Web 实战开发",
+              "href": "https://pan.quark.cn/s/95eb606eb224",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_26",
+              "title": "JAVAEE 核心技术和应用",
+              "href": "https://pan.quark.cn/s/ac77e0d3ebd3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_27",
+              "title": "JAVA Web整和开发-王者归来",
+              "href": "https://pan.quark.cn/s/370e2a2782c9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_28",
+              "title": "JAVA9 编程参考官方大全",
+              "href": "https://pan.quark.cn/s/7ec02644313f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_29",
+              "title": "Java编程思想第4版",
+              "href": "https://pan.quark.cn/s/329a8f9c3b70",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_30",
+              "title": "JAVA编程思想第四版完整中文高清",
+              "href": "https://pan.quark.cn/s/9f7375aa7975",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_31",
+              "title": "JAVA 并发编程从入门到精通",
+              "href": "https://pan.quark.cn/s/a08f30f23edb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_32",
+              "title": "JAVA并发的艺术",
+              "href": "https://pan.quark.cn/s/9f4ac68c31f3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_33",
+              "title": "JAVA并发编程实战",
+              "href": "https://pan.quark.cn/s/e656f56a5450",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_34",
+              "title": "JAVA并发编程之美",
+              "href": "https://pan.quark.cn/s/0063d8660e3e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_35",
+              "title": "JAVA 从入门到精通",
+              "href": "https://pan.quark.cn/s/74ce26e8b6b8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_36",
+              "title": "JAVA 测试与设计从单元测试到自动Web测试",
+              "href": "https://pan.quark.cn/s/311aa20c332b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_37",
+              "title": "JAVA从小白到大牛",
+              "href": "https://pan.quark.cn/s/3c54b7e98e3e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_38",
+              "title": "java 多线程编程实战指南",
+              "href": "https://pan.quark.cn/s/824b3d7005c9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_39",
+              "title": "JAVAee开发的颠覆者Spring Boot 实战",
+              "href": "https://pan.quark.cn/s/39bdc1655b2e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_40",
+              "title": "Java 核心技术.pdf",
+              "href": "https://pan.quark.cn/s/77d91338bbfe",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_41",
+              "title": "java 核心技术.第 8 版.pdf",
+              "href": "https://pan.quark.cn/s/5d6837a09950",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_42",
+              "title": "Java 核心技术.pdf",
+              "href": "https://pan.quark.cn/s/b2f79b068690",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_43",
+              "title": "Java 核心技术... 第 10 版.pdf",
+              "href": "https://pan.quark.cn/s/c72f08f0cd1a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_44",
+              "title": "JAVA经典算法40题",
+              "href": "https://pan.quark.cn/s/0ab5d4ca77c3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_45",
+              "title": "JAVA加密与解密的艺术",
+              "href": "https://pan.quark.cn/s/bace62505faa",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_46",
+              "title": "JAVA开发实例大全",
+              "href": "https://pan.quark.cn/s/0611948102f7",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_47",
+              "title": "java微服务.pdf",
+              "href": "https://pan.quark.cn/s/d4d6b6c9eba9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_48",
+              "title": "Java网络编程.pdf",
+              "href": "https://pan.quark.cn/s/e80bae045e2a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_49",
+              "title": "Java网络编程第三版.pdf",
+              "href": "https://pan.quark.cn/s/5f9eb51c08fe",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_50",
+              "title": "Java虚拟机（...第二版）.pdf",
+              "href": "https://pan.quark.cn/s/bb200eabbe5d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_51",
+              "title": "Java性能权威指南.pdf",
+              "href": "https://pan.quark.cn/s/041396945665",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_52",
+              "title": "Java性能优化...权威指南.pdf",
+              "href": "https://pan.quark.cn/s/c5e1c9050661",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_53",
+              "title": "Java游戏高级编程.pdf",
+              "href": "https://pan.quark.cn/s/41fb0d8c1f75",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_54",
+              "title": "Java语言描述.pdf",
+              "href": "https://pan.quark.cn/s/16b8745592b2",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_55",
+              "title": "码出高效：Jav...开发手册.pdf",
+              "href": "https://pan.quark.cn/s/fd97b6bbccf0",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_56",
+              "title": "明解Java b...柴田望洋.pdf",
+              "href": "https://pan.quark.cn/s/c6f30d4b8ea8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_57",
+              "title": "RxJava 2...x 实战.pdf",
+              "href": "https://pan.quark.cn/s/b5d6d31a5601",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_58",
+              "title": "RxJava响应式编程.pdf",
+              "href": "https://pan.quark.cn/s/c6cb2a78b1a9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_59",
+              "title": "实战Java虚拟机.pdf",
+              "href": "https://pan.quark.cn/s/4de95a4fa93d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_60",
+              "title": "《Java网络编...4版)》.pdf",
+              "href": "https://pan.quark.cn/s/c8a462c5ab15",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
