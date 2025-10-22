@@ -126,6 +126,14 @@
               "description": "ScopeSentry_一个超级全的牛逼渗透工具支持导入多种扩展",
               "icon": "/assets/favicon_1761110191778.png",
               "enabled": true
+            },
+            {
+              "id": "1761110240158",
+              "title": "听雨-Web指纹识别与资产扫描工具",
+              "href": "https://github.com/mk4no1/TingYu",
+              "description": "",
+              "icon": "/assets/favicon_1761110262428.png",
+              "enabled": true
             }
           ]
         },
