@@ -1442,6 +1442,14 @@
               "description": "auth_analyzer_modify_一个越权测试插件\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115667167",
+              "title": "repeaterManger_一款增强重放的牛逼插件",
+              "href": "https://github.com/GitHubNull/repeaterManger",
+              "description": "repeaterManger_一款增强重放的牛逼插件\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
