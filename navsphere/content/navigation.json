@@ -772,6 +772,14 @@
               "description": "DarkAngel 是一款全自动白帽漏洞扫描器，从hackerone、bugcrowd资产监听到漏洞报告生成、漏洞URL截屏、消息通知。 - Bywalks/DarkAngel",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112482845",
+              "title": "OssSca_自动扫描OSS漏洞的Burp插件",
+              "href": "https://github.com/hookdd/OssSca",
+              "description": "OssSca_自动扫描OSS漏洞的Burp插件",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
