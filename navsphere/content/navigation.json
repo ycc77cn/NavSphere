@@ -150,6 +150,14 @@
               "description": "",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110387056",
+              "title": "1.5W+POC扫描工具",
+              "href": "https://github.com/GhostTroops/scan4all",
+              "description": "1.5W+POC扫描工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
