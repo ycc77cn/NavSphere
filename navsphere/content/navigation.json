@@ -1689,6 +1689,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "a4a9a5f0-02bc-48a9-bed8-1e266f26d919",
+          "title": "靶场",
+          "icon": "Target",
+          "description": "web靶场,让咱们提升用的靶场",
+          "enabled": true,
+          "items": []
         }
       ]
     }
