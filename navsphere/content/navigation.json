@@ -893,6 +893,14 @@
               "description": "netspy_一款快速探测内网的工具_by: 深信服深蓝实验室",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112743623",
+              "title": "SharpScan_内网自动化横向+域内信息收集",
+              "href": "https://github.com/INotGreen/SharpScan",
+              "description": "SharpScan_内网自动化横向+域内信息收集",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
