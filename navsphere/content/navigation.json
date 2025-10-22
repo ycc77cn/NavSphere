@@ -2363,10 +2363,90 @@
           "enabled": true,
           "items": [
             {
-              "id": "1761127580716",
-              "title": "Mac版2018-包含MAC版本 2018所有软件",
-              "href": "https://pan.quark.cn/s/d60d82dfb082",
-              "description": "Mac版2018-包含MAC版本 2018所有软件",
+              "id": "1_2_1",
+              "title": "MAC2021系列-包含MAC版本 2021所有软件",
+              "href": "https://pan.quark.cn/s/6dde1d7dee23",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_2",
+              "title": "Mac版2020-包含MAC版本 2020所有软件",
+              "href": "https://pan.quark.cn/s/fbed0c5f87ed",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_3",
+              "title": "MAC2022-包含MAC版本 2022所有软件",
+              "href": "https://pan.quark.cn/s/5916378261ce",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_4",
+              "title": "MAC2023-包含MAC版本 2023所有软件",
+              "href": "https://pan.quark.cn/s/b48dcc245f56",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_5",
+              "title": "PDF",
+              "href": "https://pan.quark.cn/s/e19023ac256c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_6",
+              "title": "MAC版2024-包含MAC版本 2024所有软件",
+              "href": "https://pan.quark.cn/s/6766576ab5bc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_7",
+              "title": "Mac版2019-包含MAC版本 2019所有软件",
+              "href": "https://pan.quark.cn/s/559166ac3440",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_8",
+              "title": "AE",
+              "href": "https://pan.quark.cn/s/3b8d8dd9e3ba",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_9",
+              "title": "AN",
+              "href": "https://pan.quark.cn/s/196dc18b12c9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_10",
+              "title": "AU",
+              "href": "https://pan.quark.cn/s/3f0a482bc27c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_11",
+              "title": "PDF编辑和阅读器Adobe Acrobat（Win和Mac）",
+              "href": "https://pan.quark.cn/s/73b9f1e0d552",
+              "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
