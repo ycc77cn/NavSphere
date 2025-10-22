@@ -949,6 +949,14 @@
               "description": "CACM_一款Linux权限维持+后渗透的工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112928463",
+              "title": "xlogger_Linux(MAC OS)劫持任意程序的键盘输入和执行结果的工具",
+              "href": "https://github.com/TheKingOfDuck/xlogger",
+              "description": "xlogger_Linux(MAC OS)劫持任意程序的键盘输入和执行结果的工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
