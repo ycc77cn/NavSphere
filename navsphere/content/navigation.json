@@ -909,6 +909,14 @@
               "description": "Windwos横向工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112787180",
+              "title": "PEASS-ng-全系统提权工具",
+              "href": "https://github.com/carlospolop/PEASS-ng",
+              "description": "PEASS-ng-全系统提权工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
