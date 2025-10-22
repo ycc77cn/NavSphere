@@ -845,7 +845,16 @@
           "icon": "Edit",
           "description": "Windows\\Linux\\MAC oS 内网可以用的工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761112644015",
+              "title": "GitHub - howmp/reality: grs内网穿透工具通过reality协议隐藏特征",
+              "href": "https://github.com/howmp/reality",
+              "description": "grs内网穿透工具通过reality协议隐藏特征. Contribute to howmp/reality development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "a5751215-d36b-422a-b455-51261ae6f566",
