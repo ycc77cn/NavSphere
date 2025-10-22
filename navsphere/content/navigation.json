@@ -6893,6 +6893,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761134116957",
+      "title": "其他学习资源",
+      "icon": "Globe",
+      "description": "其他学习资源,例如:创业资源啦~摆摊资源啦~很多的啦~",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
