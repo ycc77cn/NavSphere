@@ -4923,6 +4923,14 @@
           "description": "大六壬-中六壬-小六壬,整个系列",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "356bb6c6-85b8-480b-abe9-136accf90417",
+          "title": "择吉日法",
+          "icon": "Folder",
+          "description": "就是看日子,看结婚的日子,看婚葬的日子",
+          "enabled": true,
+          "items": []
         }
       ]
     }
