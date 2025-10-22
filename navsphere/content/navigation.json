@@ -127,6 +127,14 @@
           "description": "一些可以让你渗透更加高效的工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "ae7b8301-346e-4bd9-af4e-c5d788c806c1",
+          "title": "代理\\代理池工具",
+          "icon": "Target",
+          "description": "一些?免费\\付费的代理池工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
