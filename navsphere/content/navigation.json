@@ -7071,6 +7071,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761136266544_duuu3z0rr",
+              "title": "一个黄色网站",
+              "href": "http://39.96.176.191:36199/",
+              "description": "可以自己注册上传视频,快来上传吧~",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
