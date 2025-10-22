@@ -1749,6 +1749,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761122624332",
+      "title": "游戏资源",
+      "icon": "Music",
+      "description": "这里是游戏资源,包括电脑游戏和手机游戏",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
