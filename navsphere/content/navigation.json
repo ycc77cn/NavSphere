@@ -2693,6 +2693,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "993828bb-8509-4c46-9e85-577a039d0f5d",
+          "title": "源码资源",
+          "icon": "Folder",
+          "description": "图库啦~毕业设计啦~恶搞源码啦~等,都在这里",
+          "enabled": true,
+          "items": []
         }
       ]
     }
