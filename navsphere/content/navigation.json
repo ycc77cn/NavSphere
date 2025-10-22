@@ -4866,6 +4866,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761132717159",
+      "title": "国学学习",
+      "icon": "Folder",
+      "description": "例如八字啦\\风水啦\\奇门遁甲啦\\大六壬啦\\经文很多啦~",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
