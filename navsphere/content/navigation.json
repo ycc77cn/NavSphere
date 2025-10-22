@@ -46,6 +46,14 @@
           "description": "这是我的QQ交流群",
           "icon": "/assets/favicon_1761135275280.png",
           "enabled": true
+        },
+        {
+          "id": "1761135318744",
+          "title": "我的闲鱼店铺",
+          "href": "https://m.tb.cn/h.SVV6SYS?tk=qu0q4DsfaWK",
+          "description": "这是我的闲鱼店铺,一毛钱的小店铺,可以来支持一下~感谢~",
+          "icon": "/assets/favicon_1761135356522.png",
+          "enabled": true
         }
       ],
       "subCategories": []
