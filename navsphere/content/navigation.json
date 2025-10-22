@@ -182,6 +182,14 @@
               "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool. - niudaii/zpscan",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110511455",
+              "title": "GitHub - M0nster3/OneLong: 快速的信息收集，达到一条龙的效果",
+              "href": "https://github.com/M0nster3/OneLong",
+              "description": "简化前期信息收集的繁重任务，协助红队人员快速的信息收集，达到一条龙的效果. Contribute to M0nster3/OneLong development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
