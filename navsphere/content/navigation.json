@@ -667,6 +667,14 @@
               "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. - WerWolv/ImHex",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112246213",
+              "title": "安卓自动脱壳工具",
+              "href": "https://github.com/LLeavesG/FART-Fix",
+              "description": "针对 @hanbinglengyue 的FART项目下的Frida脱壳脚本进行最新适配，可在Frida16.1.0 + Android12环境下进行脱壳 - LLeavesG/FART-Fix",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
