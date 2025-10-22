@@ -1482,6 +1482,14 @@
               "description": "BurpAPIFinder_一个 Burp 插件_最全面完善的 API 挖掘工具\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115738483",
+              "title": "这是一个插件集合的仓库 - 包含了很多非常牛逼的工具",
+              "href": "https://github.com/Mr-xn/BurpSuite-collections",
+              "description": "这是一个插件集合的仓库 - 包含了很多非常牛逼的工具\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
