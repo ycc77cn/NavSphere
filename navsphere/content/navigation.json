@@ -6901,7 +6901,16 @@
       "description": "其他学习资源,例如:创业资源啦~摆摊资源啦~很多的啦~",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "4a9e06fc-0be5-4b65-9d77-f323e4029b4a",
+          "title": "创业学习中心",
+          "icon": "Folder",
+          "description": "摆摊啦~烧烤啦~虚拟商品电商啦~都在这里啦~",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
