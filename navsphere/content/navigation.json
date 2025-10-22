@@ -6,7 +6,16 @@
       "icon": "Home",
       "description": "这里是杨CC的简介",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1761135050070",
+          "title": "疯狂的杨CC-BiliBili",
+          "href": "https://space.bilibili.com/500076166?spm_id_from=333.33.0.0",
+          "description": "工具不知道怎么用.视频教学看这个",
+          "icon": "/assets/favicon_1761135054068.png",
+          "enabled": true
+        }
+      ],
       "subCategories": []
     },
     {
