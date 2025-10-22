@@ -416,6 +416,14 @@
               "description": "访问 whois.aizhan.com",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111246514",
+              "title": "万网Whois查询",
+              "href": "https://whois.aliyun.com/",
+              "description": "访问 whois.aliyun.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
