@@ -877,6 +877,14 @@
               "description": "Six Degrees of Domain Admin. Contribute to SpecterOps/BloodHound-Legacy development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112708778",
+              "title": "mimikatz_Windows内网渗透神器",
+              "href": "https://github.com/gentilkiwi/mimikatz",
+              "description": "mimikatz_Windows内网渗透神器-可以提取Windows密",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
