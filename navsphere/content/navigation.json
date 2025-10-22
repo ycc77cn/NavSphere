@@ -103,6 +103,14 @@
           "description": "防御\\蓝队\\防护\\木马检测等一些工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "05a42cca-7dfb-446c-8f68-7520589b3dfb",
+          "title": "POC\\EXP板块",
+          "icon": "Folder",
+          "description": "好用的POC\\EXP等相关类目",
+          "enabled": true,
+          "items": []
         }
       ]
     }
