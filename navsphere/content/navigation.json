@@ -262,6 +262,14 @@
               "description": "EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具. Contribute to EdgeSecurityTeam/EHole development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110726255",
+              "title": "ESP-一个可视化且很牛逼的端口类扫描工具",
+              "href": "https://pan.quark.cn/s/9cb00e4b0ba5",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
