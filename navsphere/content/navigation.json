@@ -1370,7 +1370,16 @@
           "icon": "Settings",
           "description": "一些?浏览器\\fiddler\\burp\\等插件或者扩展等",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "site_1761115394464_3o2mg8g26",
+              "title": "GitHub - phpcalm/exceed: 一个功能强大的浏览器扩展程序，专门用于检测Web系统中的权限越权漏洞，适用于Web渗透测试。",
+              "href": "https://github.com/phpcalm/exceed",
+              "description": "一个功能强大的浏览器扩展程序，专门用于检测Web系统中的权限越权漏洞，适用于Web渗透测试。. Contribute to phpcalm/exceed development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761115374330.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "1b5ce593-9648-401b-a93a-c2bcfb78ec72",
