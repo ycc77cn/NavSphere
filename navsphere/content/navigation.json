@@ -1160,6 +1160,14 @@
               "description": "EasyTools 一个简单方便使用的渗透测试工具箱. Contribute to doki-byte/EasyTools development by creating an account on GitHub.",
               "icon": "/assets/favicon_1761114672911.png",
               "enabled": true
+            },
+            {
+              "id": "1761114681794",
+              "title": "GitHub - FunnyWolf/Viper: Adversary simulation and Red teaming platform with AI",
+              "href": "https://github.com/FunnyWolf/Viper",
+              "description": "Adversary simulation and Red teaming platform with AI - FunnyWolf/Viper",
+              "icon": "/assets/favicon_1761114684097.png",
+              "enabled": true
             }
           ]
         },
