@@ -933,6 +933,14 @@
               "description": "e0e1-config_内网-后渗透神器(Windows)",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112844063",
+              "title": "后渗透工具-Windump-Windows信息收集神器",
+              "href": "https://pan.quark.cn/s/14161faa7366",
+              "description": "后渗透工具-Windump-Windows信息收集神器",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
