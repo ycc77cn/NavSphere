@@ -1329,6 +1329,14 @@
               "description": "Kyanos is a networking analysis tool using eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient. - hengyoush/kyanos   kyanos_开源流量分析工具",
               "icon": "/assets/favicon_1761115073518.png",
               "enabled": true
+            },
+            {
+              "id": "1761115096088",
+              "title": "GitHub - odedshimon/BruteShark: Network Analysis Tool",
+              "href": "https://github.com/odedshimon/BruteShark",
+              "description": "Network Analysis Tool. Contribute to odedshimon/BruteShark development by creating an account on GitHub.BruteShark_功能全面的网络安全取证工具箱\n",
+              "icon": "/assets/favicon_1761115099512.png",
+              "enabled": true
             }
           ]
         },
