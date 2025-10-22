@@ -4232,6 +4232,14 @@
           "description": "追剧\\漫画\\动漫\\跟看有关的全在这里了",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "8f2a17c8-1d03-4a08-a355-e6203d41aaed",
+          "title": "与'听'有关",
+          "icon": "Folder",
+          "description": "听小说,听动漫,听歌,听相声...都在这里了",
+          "enabled": true,
+          "items": []
         }
       ]
     }
