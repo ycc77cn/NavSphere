@@ -31,7 +31,7 @@ export default function RootLayout({
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-QG9PGG4K13"
         />
-        <script async strategy="afterInteractive" src="https://019a0a6d-1fcf-7a3f-9a2a-629c77604710.spst2.com/ustat.js"></script>
+        <script async src="https://019a0a6d-1fcf-7a3f-9a2a-629c77604710.spst2.com/ustat.js"></script>
         <Script
           id="google-analytics"
           strategy="afterInteractive"
