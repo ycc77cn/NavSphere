@@ -295,7 +295,16 @@
           "icon": "Map",
           "description": "就像:目录爆破\\目录扫描\\数据库爆破\\Wifi爆破...等",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761110863071",
+              "title": "GitHub - maurosoria/dirsearch: 老牌目录扫描工具-现在依然能打",
+              "href": "https://github.com/maurosoria/dirsearch",
+              "description": "Web path scanner. Contribute to maurosoria/dirsearch development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "64b55215-a923-4484-b8e8-38f92dd54ae4",
