@@ -513,6 +513,14 @@
               "description": "Most advanced XSS scanner. Contribute to s0md3v/XSStrike development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111701789",
+              "title": "GitHub - r0oth3x49/ghauri: 跨平台sql注入工具-弱于sqlmap",
+              "href": "https://github.com/r0oth3x49/ghauri",
+              "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws - r0oth3x49/ghauri",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
