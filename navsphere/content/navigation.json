@@ -190,6 +190,14 @@
               "description": "简化前期信息收集的繁重任务，协助红队人员快速的信息收集，达到一条龙的效果. Contribute to M0nster3/OneLong development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110537082",
+              "title": "GitHub - jammny/jws-cli: 全自动化信息收集工具，解放双手。",
+              "href": "https://github.com/jammny/jws-cli",
+              "description": "全自动化信息收集工具，解放双手。. Contribute to jammny/jws-cli development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
