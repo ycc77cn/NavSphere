@@ -1265,6 +1265,14 @@
               "description": "山石防火墙IP一键封禁，`IP_fengjin` 是一款专为网络安全管理员设计的图形化工具，旨在简化在防火墙设备上批量封禁 IP 地址的操作流程。本工具通过 SSH 连接到防火墙，自动化地将大量 IP 地址添加至指定的地址簿，并创建或更新相应的安全策略，极大地提高了应急响应和日常维护的效率。 - junyibb/ip-fengjin-tool",
               "icon": "/assets/favicon_1761114989526.png",
               "enabled": true
+            },
+            {
+              "id": "1761114998059",
+              "title": "GitHub - BeichenDream/MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者",
+              "href": "https://github.com/BeichenDream/MysqlT ",
+              "description": "伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者. Contribute to BeichenDream/MysqlT development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761115001014.png",
+              "enabled": true
             }
           ]
         },
