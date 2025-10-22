@@ -135,6 +135,14 @@
           "description": "一些?免费\\付费的代理池工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "9400ca26-7577-430d-8d2b-f1ab4017f3d3",
+          "title": "绕WAF\\CDN等工具",
+          "icon": "Bell",
+          "description": "一些绕过WAF\\CDN\\防火墙等一些与'绕'有关系的东西",
+          "enabled": true,
+          "items": []
         }
       ]
     }
