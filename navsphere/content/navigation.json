@@ -448,6 +448,14 @@
               "description": "访问 beian.miit.gov.cn",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111323527",
+              "title": "TideFinger  潮汐指纹 TideFinger  潮汐指纹",
+              "href": "http://finger.tidesec.com/",
+              "description": "指纹识别  web指纹识别  潮汐指纹识别  潮汐指纹 TideFinger",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
