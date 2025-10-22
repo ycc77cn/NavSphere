@@ -748,6 +748,14 @@
               "description": "一款开源的综合漏洞扫描器",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112445335",
+              "title": "GitHub - wh1t3zer/SpringBootVul-GUI: 一个半自动化springboot打点工具，内置目前springboot所有漏洞",
+              "href": "https://github.com/wh1t3zer/SpringBootVul-GUI",
+              "description": "一个半自动化springboot打点工具，内置目前springboot所有漏洞. Contribute to wh1t3zer/SpringBootVul-GUI development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
