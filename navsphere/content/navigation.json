@@ -23,6 +23,14 @@
           "description": "就像:目录爆破\\目录扫描\\数据库爆破\\Wifi爆破...等",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "64b55215-a923-4484-b8e8-38f92dd54ae4",
+          "title": "在线渗透工具",
+          "icon": "Globe",
+          "description": "一些可以收集信息或者渗透测试的在线网站",
+          "enabled": true,
+          "items": []
         }
       ]
     }
