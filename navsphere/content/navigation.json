@@ -1394,6 +1394,14 @@
               "description": "一款非常强的SRC漏洞挖掘辅助工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115437445",
+              "title": "GitHub - SickleSec/SnowEyes: 一款用于网页敏感信息检测，指纹识别的chrome插件",
+              "href": "https://github.com/SickleSec/SnowEyes",
+              "description": "一款用于网页敏感信息检测，指纹识别的chrome插件. Contribute to SickleSec/SnowEyes development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
