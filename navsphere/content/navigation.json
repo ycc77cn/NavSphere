@@ -1152,6 +1152,14 @@
               "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities. - 0x4m4/hexstrike-aihexstrike-ai-一个可以丢给AI网站后,AI帮你渗透的工具(贼JB离谱)",
               "icon": "/assets/favicon_1761114651166.png",
               "enabled": true
+            },
+            {
+              "id": "1761114670135",
+              "title": "GitHub - doki-byte/EasyTools: EasyTools 一个简单方便使用的渗透测试工具箱",
+              "href": "https://github.com/doki-byte/EasyTools",
+              "description": "EasyTools 一个简单方便使用的渗透测试工具箱. Contribute to doki-byte/EasyTools development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761114672911.png",
+              "enabled": true
             }
           ]
         },
