@@ -1063,6 +1063,14 @@
               "description": "Comfortably monitor your Internet traffic 🕵️‍♂️. Contribute to GyulyVGC/sniffnet development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761113216116",
+              "title": "GitHub - ZingerLittleBee/netop: netop_一款可以自定义过滤网络流量规则的终端命令行工具。",
+              "href": "https://github.com/ZingerLittleBee/netop",
+              "description": "Network Top -- Help you monitor network traffic with bpf - ZingerLittleBee/netop",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
