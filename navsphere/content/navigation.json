@@ -1386,6 +1386,14 @@
               "description": "Dump loaded JVM classes . 支持从JVM 里dump 特定 classes. Contribute to Mr-xn/Dumper development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761116077891",
+              "title": "GitHub - gophish/gophish: Open-Source Phishing Toolkitgophish_ 邮箱钓鱼的工具咯～",
+              "href": "https://github.com/gophish/gophish\t",
+              "description": "Open-Source Phishing Toolkit. Contribute to gophish/gophish development by creating an account on GitHub.gophish_ 邮箱钓鱼的工具咯～",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
