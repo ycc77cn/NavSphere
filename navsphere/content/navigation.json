@@ -594,6 +594,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111950013",
+              "title": "RdViewer Pro Lite_一款支持自建服务器的免费远控神器",
+              "href": "https://github.com/wisny101/RdViewer",
+              "description": "RdViewer Pro Lite_一款支持自建服务器的免费远控神器",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
