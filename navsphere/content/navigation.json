@@ -392,7 +392,16 @@
           "icon": "Globe",
           "description": "一些可以收集信息或者渗透测试的在线网站",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761111159989",
+              "title": "需要本地部署的服务-输入网之后,可以把所有信息都给列出来的离谱工具",
+              "href": "https://github.com/Lissy93/web-check",
+              "description": "需要本地部署的服务-输入网之后,可以把所有信息都给列出来的离谱工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "9e388c50-f7f6-47e7-a050-2fe3a67a5d68",
