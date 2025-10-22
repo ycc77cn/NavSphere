@@ -1345,6 +1345,14 @@
               "description": "火绒剑独立文件 - Win10 ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115129698",
+              "title": "轻量 哈希 \\MD5 计算工具 - hashmyfiles",
+              "href": "https://pan.quark.cn/s/02abed1b0c6a",
+              "description": "轻量 哈希 \\MD5 计算工具 - hashmyfiles",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
