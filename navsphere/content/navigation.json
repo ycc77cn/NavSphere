@@ -464,6 +464,14 @@
               "description": "访问 www.zoomeye.org",
               "icon": "/assets/favicon_1761111346210.png",
               "enabled": true
+            },
+            {
+              "id": "1761111366082",
+              "title": "Shodan Search Engine-撒旦-资产测绘",
+              "href": "https://www.shodan.io",
+              "description": "Search Engine for the Internet of Things",
+              "icon": "/assets/favicon_1761111368001.png",
+              "enabled": true
             }
           ]
         },
