@@ -659,6 +659,14 @@
               "description": "010 Editor-破解版-汉化版",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112216121",
+              "title": "ImHex-逆向神器-非常离谱且牛逼的逆向工具",
+              "href": "https://github.com/WerWolv/ImHex",
+              "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. - WerWolv/ImHex",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
