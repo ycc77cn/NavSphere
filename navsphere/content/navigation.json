@@ -111,6 +111,14 @@
           "description": "好用的POC\\EXP等相关类目",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "c9fcb52d-f307-424a-9d00-0d6aca8d1da1",
+          "title": "插件\\扩展板块",
+          "icon": "Settings",
+          "description": "一些?浏览器\\fiddler\\burp\\等插件或者扩展等",
+          "enabled": true,
+          "items": []
         }
       ]
     }
