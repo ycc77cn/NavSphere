@@ -22,6 +22,14 @@
               "description": "Gathery 是一款基于 PyQt5 开发的网络安全信息收集与分析工具，集成了多种实用的信息收集功能和小工具，帮助安全研究人员、渗透测试人员和网络管理员快速收集目标信息 - fankun99/Gathery",
               "icon": "/assets/favicon_1761109377818.png",
               "enabled": true
+            },
+            {
+              "id": "1761109421250",
+              "title": "ICP_Query: 查询域名、APP、小程序、快应用以及企业的ICP备案信息",
+              "href": "https://github.com/HG-ha/ICP_Query",
+              "description": "查询域名、APP、小程序、快应用以及企业的ICP备案信息，提供完全本地化的API. Contribute to HG-ha/ICP_Query development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
