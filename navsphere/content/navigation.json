@@ -716,7 +716,16 @@
           "icon": "Coffee",
           "description": "漏洞扫描与利用验证工具集合",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761112359005",
+              "title": "GitHub - LittleBear4/OA-EXPTOOL: OA综合利用工具，集合将近20款OA漏洞批量扫描",
+              "href": "https://github.com/LittleBear4/OA-EXPTOOL",
+              "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描. Contribute to LittleBear4/OA-EXPTOOL development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "90d0b1a4-6d7e-4cdb-8913-fd699a616be5",
