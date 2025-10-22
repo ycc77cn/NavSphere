@@ -1426,6 +1426,14 @@
               "description": "JSAPIscan_一个速度很快的js和API的扫描工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115476590",
+              "title": "GitHub - vam876/FastBurp: FastBurp 是一款专为网络安全测试和Web开发设计的浏览器扩展工具。它通过利用Chrome浏览器的原生调试API，实现了无证书的HTTPS流量拦截、修改和重放，并结合AI技术提供智能化的安全分析功能。",
+              "href": "https://github.com/vam876/FastBurp",
+              "description": "FastBurp 是一款专为网络安全测试和Web开发设计的浏览器扩展工具。它通过利用Chrome浏览器的原生调试API，实现了无证书的HTTPS流量拦截、修改和重放，并结合AI技术提供智能化的安全分析功能。 - vam876/FastBurp",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
