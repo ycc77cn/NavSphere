@@ -1,3 +1,13 @@
 {
-  "navigationItems": []
+  "navigationItems": [
+    {
+      "id": "1761108271311",
+      "title": "渗透工具",
+      "icon": "Zap",
+      "description": "这里是渗透工具",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
+    }
+  ]
 }
