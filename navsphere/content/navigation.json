@@ -71,6 +71,14 @@
           "description": "Windows\\Linux\\MAC oS 内网可以用的工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "a5751215-d36b-422a-b455-51261ae6f566",
+          "title": "字典工具",
+          "icon": "Files",
+          "description": "包含密码、路径等各类渗透测试字典",
+          "enabled": true,
+          "items": []
         }
       ]
     }
