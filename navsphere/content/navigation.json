@@ -4907,6 +4907,14 @@
           "description": "四柱八字",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "e6a63eae-4518-43f4-b189-e1f2f7b11a9d",
+          "title": "手面解梦",
+          "icon": "Folder",
+          "description": "手相面向,解梦",
+          "enabled": true,
+          "items": []
         }
       ]
     }
