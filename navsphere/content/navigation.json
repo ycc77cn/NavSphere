@@ -38,6 +38,14 @@
           "description": "这是微信交流群",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "1761135271222",
+          "title": "QQ交流群",
+          "href": "https://qm.qq.com/q/1P1FIz9mCg",
+          "description": "这是我的QQ交流群",
+          "icon": "/assets/favicon_1761135275280.png",
+          "enabled": true
         }
       ],
       "subCategories": []
