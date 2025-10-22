@@ -4224,7 +4224,16 @@
       "description": "可以?看电视?追据?看漫画?也许可以数据恢复?",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "ca5199f7-eab5-48ee-bab1-b33b5ea299a9",
+          "title": "来追剧啦~",
+          "icon": "Folder",
+          "description": "追剧\\漫画\\动漫\\跟看有关的全在这里了",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
