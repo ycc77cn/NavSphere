@@ -38,6 +38,14 @@
               "description": "riskbird 企业信息收集工具. Contribute to future204/riskbird development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761109561728",
+              "title": "GitHub - EASY233/Finger: 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具",
+              "href": "https://github.com/EASY233/Finger",
+              "description": "一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具. Contribute to EASY233/Finger development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
