@@ -1696,7 +1696,16 @@
           "icon": "Target",
           "description": "web靶场,让咱们提升用的靶场",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761116244707",
+              "title": "LingJing-一款可以让你三秒钟部署靶机的工具,重要的是免费,还好用 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/26/8-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E9%9D%B6%E5%9C%BA/",
+              "description": "LingJing(灵境)一个可以让你一键搭建靶场,傻瓜式搭建靶场的工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
