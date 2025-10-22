@@ -1394,6 +1394,14 @@
               "description": "Open-Source Phishing Toolkit. Contribute to gophish/gophish development by creating an account on GitHub.gophish_ 邮箱钓鱼的工具咯～",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761116097036",
+              "title": "GitHub - vam876/FastNmap: 集成资产定期监控功能的Nmap图形化扫描工具，让“扫描之王”Nmap使用更加简单。",
+              "href": "https://github.com/vam876/FastNmap\t",
+              "description": "集成资产定期监控功能的Nmap图形化扫描工具，让“扫描之王”Nmap使用更加简单。. Contribute to vam876/FastNmap development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
