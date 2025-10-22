@@ -627,6 +627,14 @@
               "description": "CodeVulnScan 是一款基于正则表达式的代码安全审计工具，专为红队成员快速定位sink设计。它能够快速扫描目标代码库，定位潜在的漏洞 Sink 点，提升代码审计效率。 - guchangan1/CodeVulnScan",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112141452",
+              "title": "GitHub - winezer0/PrivacyCheckGo: 代码审计-快速检测源码敏感信息工具",
+              "href": "https://github.com/winezer0/PrivacyCheckGo",
+              "description": "Privacy Check Go. Contribute to winezer0/PrivacyCheckGo development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761112144098.png",
+              "enabled": true
             }
           ]
         },
