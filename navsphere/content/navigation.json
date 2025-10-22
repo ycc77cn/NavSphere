@@ -699,6 +699,14 @@
               "description": "小程序反编译工具. Contribute to junxiaqiao/unveilr-v2.0.0 development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112327912",
+              "title": "GitHub - wux1an/wxapkg: 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具",
+              "href": "https://github.com/wux1an/wxapkg",
+              "description": "微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具. Contribute to wux1an/wxapkg development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
