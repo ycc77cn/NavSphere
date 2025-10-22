@@ -5342,6 +5342,1198 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "2_2_1",
+              "title": "汽车黑客大曝光",
+              "href": "https://pan.quark.cn/s/0b2ebd3d5944",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_2",
+              "title": "灰帽黑客 (第四版)",
+              "href": "https://pan.quark.cn/s/01954e43c246",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_3",
+              "title": "黑客简史：棱镜中的帝国",
+              "href": "https://pan.quark.cn/s/435dbe07ba06",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_4",
+              "title": "黑客_网络社会的流浪者",
+              "href": "https://pan.quark.cn/s/e16a796d8e44",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_5",
+              "title": "黑客计算机革命的英雄",
+              "href": "https://pan.quark.cn/s/76607bfb52da",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_6",
+              "title": "网站渗透测试实战入门",
+              "href": "https://pan.quark.cn/s/590cbc7e4097",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_7",
+              "title": "网络渗透测试：保护网络安全的技术 \\ 工具和过程",
+              "href": "https://pan.quark.cn/s/a2cfedfab697",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_8",
+              "title": "网络和系统管理员，Web 安全指南",
+              "href": "https://pan.quark.cn/s/c144e5fd9928",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_9",
+              "title": "渗透测试完全初学者指南",
+              "href": "https://pan.quark.cn/s/03fd3196d329",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_10",
+              "title": "物联网渗透测试",
+              "href": "https://pan.quark.cn/s/7f6bc61bdf77",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_11",
+              "title": "专业渗透测试第二版",
+              "href": "https://pan.quark.cn/s/c20d9e431061",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_12",
+              "title": "渗透测试基础可拷性安全审计实践指南",
+              "href": "https://pan.quark.cn/s/bae77915354c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_13",
+              "title": "渗透测试实践指南：必知必会的工具与方法",
+              "href": "https://pan.quark.cn/s/4e881cf83a96",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_14",
+              "title": "渗透测试高手打造固若金汤的安全网络",
+              "href": "https://pan.quark.cn/s/3092f8e6dd02",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_15",
+              "title": "全面掌握 Web 服务安全性",
+              "href": "https://pan.quark.cn/s/8ed02b6ddb54",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_16",
+              "title": "树莓派渗透测试实战",
+              "href": "https://pan.quark.cn/s/e3d9e2b87ced",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_17",
+              "title": "渗透测试基础教程",
+              "href": "https://pan.quark.cn/s/b867a0148b39",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_18",
+              "title": "BackTRACK4 利用渗透测试保证系统安全",
+              "href": "https://pan.quark.cn/s/43a9936162bc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_19",
+              "title": "社会工程学 3: 防范钓鱼欺诈",
+              "href": "https://pan.quark.cn/s/91942eb04825",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_20",
+              "title": "社会工程学 2: 解读肢体语言",
+              "href": "https://pan.quark.cn/s/c6d9a8ae91a8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_21",
+              "title": "社会工程学 1: 安全体系中的人性漏洞",
+              "href": "https://pan.quark.cn/s/455b533a54c4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_22",
+              "title": "内网安全工坊渗透测试实战指南",
+              "href": "https://pan.quark.cn/s/773cb5310ead",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_23",
+              "title": "矛与盾：黑客就这几招",
+              "href": "https://pan.quark.cn/s/9e28dda3a05e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_24",
+              "title": "矛与盾：黑客攻防与脚本编程",
+              "href": "https://pan.quark.cn/s/e6e74ceefe20",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_25",
+              "title": "漏洞利用及渗透测试基础版 (第二版)",
+              "href": "https://pan.quark.cn/s/45b0f0d7c692",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_26",
+              "title": "精通渗透测试 (第三版)",
+              "href": "https://pan.quark.cn/s/1c5308d2f90a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_27",
+              "title": "解密家用路由器 0Day 漏洞挖掘技术",
+              "href": "https://pan.quark.cn/s/17f9261d6c9d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_28",
+              "title": "精通 Metasploit 渗透测试 (第三版)",
+              "href": "https://pan.quark.cn/s/0b40fbbb4c84",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_29",
+              "title": "黑客社会工程学工坊演练",
+              "href": "https://pan.quark.cn/s/ce23954d200d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_30",
+              "title": "黑客攻防入门秘籍",
+              "href": "https://pan.quark.cn/s/9eb016b2927b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_31",
+              "title": "黑客攻防从入门到精通：命令版",
+              "href": "https://pan.quark.cn/s/023c47a04b8e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_32",
+              "title": "黑客攻防技术宝典：WEB 实战篇 (第二版)",
+              "href": "https://pan.quark.cn/s/d61a45fa8309",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_33",
+              "title": "黑客攻防从入门到精通",
+              "href": "https://pan.quark.cn/s/5faf928c581d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_34",
+              "title": "黑客心理学：社会工程学原理",
+              "href": "https://pan.quark.cn/s/03a75fc01e5f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_35",
+              "title": "黑客攻防：WEB 安全实战详解",
+              "href": "https://pan.quark.cn/s/f3e24c4702ac",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_36",
+              "title": "黑客秘笈：渗透测试实用指南",
+              "href": "https://pan.quark.cn/s/7561f1700fdf",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_37",
+              "title": "黑客大曝光：无线网络安全",
+              "href": "https://pan.quark.cn/s/bf8b37d510f9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_38",
+              "title": "黑客大曝光：恶意软件和 Rootkit 安全第二版",
+              "href": "https://pan.quark.cn/s/fd8a605153d4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_39",
+              "title": "黑客宝典：浏览器实战篇",
+              "href": "https://pan.quark.cn/s/7728073207fd",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_40",
+              "title": "黑客技术宝典：反病毒篇",
+              "href": "https://pan.quark.cn/s/f9878e67f219",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_41",
+              "title": "黑客大曝光：WEB 应用程序安全原书",
+              "href": "https://pan.quark.cn/s/8bb60f880b78",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_42",
+              "title": "黑客攻防技巧 - 随手查",
+              "href": "https://pan.quark.cn/s/fe11b6ce0932",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_43",
+              "title": "黑客攻防技术宝典：IOS 实战篇",
+              "href": "https://pan.quark.cn/s/6b616c3d7de6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_44",
+              "title": "WEB 应用安全机密与解决方案第二版",
+              "href": "https://pan.quark.cn/s/d692be82f4e1",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_45",
+              "title": "近源渗透测试",
+              "href": "https://pan.quark.cn/s/d7dcf8bdddf9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_46",
+              "title": "构建安全 web 站点",
+              "href": "https://pan.quark.cn/s/e73fa0777b46",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_47",
+              "title": "使用低功耗设备进行破解和渗透测试",
+              "href": "https://pan.quark.cn/s/a9200b843a99",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_48",
+              "title": "Web 渗透技术与实战案例解析 (第二版)",
+              "href": "https://pan.quark.cn/s/7309169e6664",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_49",
+              "title": "现代 WEB 应用安全指南",
+              "href": "https://pan.quark.cn/s/0a4ff125d417",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_50",
+              "title": "高度安全环境下的高级渗透测试",
+              "href": "https://pan.quark.cn/s/8b59740dbcd1",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_51",
+              "title": "WEB 应用安全威胁与防治",
+              "href": "https://pan.quark.cn/s/c5b935faa282",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_52",
+              "title": "Web 站点安全与防火墙技术",
+              "href": "https://pan.quark.cn/s/78ffc218b10f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_53",
+              "title": "Web 系统安全和渗透性测试基础",
+              "href": "https://pan.quark.cn/s/b6c2056d44a3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_54",
+              "title": "Web 应用安全权威指南",
+              "href": "https://pan.quark.cn/s/53d684137614",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_55",
+              "title": "白帽子讲 WEB 安全",
+              "href": "https://pan.quark.cn/s/e5acc2ad5338",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_56",
+              "title": "WEB 攻防之业务安全实战指南",
+              "href": "https://pan.quark.cn/s/7f45609121eb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_57",
+              "title": "WEB 入侵中的安全测试与对策",
+              "href": "https://pan.quark.cn/s/0c9c98d3044a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_58",
+              "title": "WEB 服务安全",
+              "href": "https://pan.quark.cn/s/2d7c0fcb8836",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_59",
+              "title": "WEB 安全之强化学习与 GAN",
+              "href": "https://pan.quark.cn/s/d97ed9486eb6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_60",
+              "title": "WEB 安全之机器学习入门",
+              "href": "https://pan.quark.cn/s/d1c3d4793246",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_61",
+              "title": "WEB 安全原理分析与实践",
+              "href": "https://pan.quark.cn/s/3c13c5798bd3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_62",
+              "title": "WEB 安全实践",
+              "href": "https://pan.quark.cn/s/312e07f9b676",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_63",
+              "title": "Web 应用安全权威指南",
+              "href": "https://pan.quark.cn/s/4f83746d65d4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_64",
+              "title": "WEB 渗透测试 - Kali Linux",
+              "href": "https://pan.quark.cn/s/1a6d1261b0fd",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_65",
+              "title": "Web 安全设计之道",
+              "href": "https://pan.quark.cn/s/7bdf9190d3c9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_66",
+              "title": "Web 安全深度剖析",
+              "href": "https://pan.quark.cn/s/96db5c2cba34",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_67",
+              "title": "Web 前段黑客技术揭秘",
+              "href": "https://pan.quark.cn/s/5ee62a319416",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_68",
+              "title": "Web 安全漏洞原理及实战",
+              "href": "https://pan.quark.cn/s/d969358d6f5d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_69",
+              "title": "Web 安全开发指南",
+              "href": "https://pan.quark.cn/s/dcef84d07a88",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_70",
+              "title": "Web 安全之深度学习",
+              "href": "https://pan.quark.cn/s/395f2e1f2153",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_71",
+              "title": "Web 安全之基础教程",
+              "href": "https://pan.quark.cn/s/9c1aa639abbc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_72",
+              "title": "Web 安全工坊渗透测试实战指南",
+              "href": "https://pan.quark.cn/s/7964fd9137a6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_73",
+              "title": "Web 安全防护指南基础",
+              "href": "https://pan.quark.cn/s/b897c72455ea",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_74",
+              "title": "Web 安全测试之有效的安全测试",
+              "href": "https://pan.quark.cn/s/7d2c7458e55c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_75",
+              "title": "Web 安全 \\ 隐私和商务",
+              "href": "https://pan.quark.cn/s/e035dd832525",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_76",
+              "title": "Web 安全测试",
+              "href": "https://pan.quark.cn/s/8aac47b1212b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_77",
+              "title": "Linux 黑客渗透测试揭秘",
+              "href": "https://pan.quark.cn/s/c120899432d4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_78",
+              "title": "Web 服务安全技术与原理",
+              "href": "https://pan.quark.cn/s/8004e6e0a55d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_79",
+              "title": "Metasploit 渗透测试手册",
+              "href": "https://pan.quark.cn/s/0c2e1991d3bb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_80",
+              "title": "0Day 安全第二版",
+              "href": "https://pan.quark.cn/s/a1a650b286fb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_81",
+              "title": "暗月内部学院资料",
+              "href": "https://pan.quark.cn/s/2f6e4340514b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_82",
+              "title": "PHPWeb 安全开发实战",
+              "href": "https://pan.quark.cn/s/5b85f01b03f4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_83",
+              "title": "Python 渗透测试编程技术方法与实践",
+              "href": "https://pan.quark.cn/s/ea1c4adf4744",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_84",
+              "title": "python 渗透实战测试",
+              "href": "https://pan.quark.cn/s/3e408c610471",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_85",
+              "title": "Python 黑帽子：黑客与渗透测试编程之道",
+              "href": "https://pan.quark.cn/s/79f2e9ce7807",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_86",
+              "title": "Python3 反爬虫原理与绕过",
+              "href": "https://pan.quark.cn/s/50d6fe6a4a0a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_87",
+              "title": "Python 渗透测试实战指南",
+              "href": "https://pan.quark.cn/s/37fa6dc32e91",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_88",
+              "title": "C++ 黑客编程解密与防范",
+              "href": "https://pan.quark.cn/s/19c4f657a92e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_89",
+              "title": "C++ 反编译与逆向分析技术揭秘",
+              "href": "https://pan.quark.cn/s/6544bfa7848c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_90",
+              "title": "Kali 渗透测试技术实战",
+              "href": "https://pan.quark.cn/s/571bfbce63d3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_91",
+              "title": "Kali 无线网络渗透测试详解",
+              "href": "https://pan.quark.cn/s/bb5f517585bb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_92",
+              "title": "Nmap 渗透测试指南",
+              "href": "https://pan.quark.cn/s/24ca399102cd",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_93",
+              "title": "kali 渗透测试的艺术",
+              "href": "https://pan.quark.cn/s/06a77861eb19",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_94",
+              "title": "Kali 高级渗透测试原书",
+              "href": "https://pan.quark.cn/s/4569e1a436b7",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_95",
+              "title": "Kali 大揭秘，深入掌握渗透测试平台",
+              "href": "https://pan.quark.cn/s/5b148fe7c6b2",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_96",
+              "title": "Kali 渗透测试实战.",
+              "href": "https://pan.quark.cn/s/d487f6126504",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_97",
+              "title": "Klai 网络渗透测试实战指南",
+              "href": "https://pan.quark.cn/s/9b43889f52b6",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_98",
+              "title": "逆向工程核心原理",
+              "href": "https://pan.quark.cn/s/bf648bdc3a05",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_99",
+              "title": "透视 java - 反编译 \\ 修补和逆向工程技术",
+              "href": "https://pan.quark.cn/s/0126754cf01b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_100",
+              "title": "逆向工程实战",
+              "href": "https://pan.quark.cn/s/1181499eb95b",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_101",
+              "title": "逆向工程技术",
+              "href": "https://pan.quark.cn/s/8cc5954d715a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_102",
+              "title": "逆向工程解密",
+              "href": "https://pan.quark.cn/s/909bcc1ce6bc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_103",
+              "title": "逆向工程权威指南",
+              "href": "https://pan.quark.cn/s/e28af2f8d11a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_104",
+              "title": "逆向工程技术综合实践",
+              "href": "https://pan.quark.cn/s/ba78bf86ca79",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_105",
+              "title": "逆向分析实战",
+              "href": "https://pan.quark.cn/s/8bfdd04a9c54",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_106",
+              "title": "反编译技术与软件逆向分析",
+              "href": "https://pan.quark.cn/s/01275c2cff3f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_107",
+              "title": "恶意软件 \\RooTKIT 和僵尸网络",
+              "href": "https://pan.quark.cn/s/0229f3509e85",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_108",
+              "title": "恶意软件分析诀窍与工具箱",
+              "href": "https://pan.quark.cn/s/df87754135a8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_109",
+              "title": "MacOS 软件安全与逆向分析",
+              "href": "https://pan.quark.cn/s/0b6af15d6677",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_110",
+              "title": "IOS 逆向工程 (第二版)",
+              "href": "https://pan.quark.cn/s/ca5cb1bc8922",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_111",
+              "title": "android 软件安全与逆向分析",
+              "href": "https://pan.quark.cn/s/ea42aaacf4e4",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_112",
+              "title": "安卓恶意代码分析与渗透测试",
+              "href": "https://pan.quark.cn/s/56ffef707e4f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_113",
+              "title": "有趣的二进制：软件安全与逆向分析",
+              "href": "https://pan.quark.cn/s/f7339de083b3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_114",
+              "title": "数学家间谍与黑客：密码与解码",
+              "href": "https://pan.quark.cn/s/b235709643ad",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_115",
+              "title": "微软.net 加密与解密",
+              "href": "https://pan.quark.cn/s/d6d5e9f221ce",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_116",
+              "title": "软件加密与解密",
+              "href": "https://pan.quark.cn/s/6a6647f009f7",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_117",
+              "title": "软件加密原理与应用",
+              "href": "https://pan.quark.cn/s/dec71b45d1ca",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_118",
+              "title": "加密与解密实战入门",
+              "href": "https://pan.quark.cn/s/4ad0d4e5c1ea",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_119",
+              "title": "软件逆向分析实用技术",
+              "href": "https://pan.quark.cn/s/bea3b64787f0",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_120",
+              "title": "加密与解密实战攻略",
+              "href": "https://pan.quark.cn/s/e5ab68b029d9",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_121",
+              "title": "加密与解密实战全攻略",
+              "href": "https://pan.quark.cn/s/57cdd0d8c576",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_122",
+              "title": "加密与解密 -- 软件保护技术及完全解决方案",
+              "href": "https://pan.quark.cn/s/829c11266bc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_123",
+              "title": "加密与解密 (第四版)",
+              "href": "https://pan.quark.cn/s/ebbfcee8fcad",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_124",
+              "title": "加密与解密 SofICE 使用手册",
+              "href": "https://pan.quark.cn/s/c0f4cac403b3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_125",
+              "title": "加密与解密",
+              "href": "https://pan.quark.cn/s/b7ccdeb40140",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_126",
+              "title": "计算机信息加密与解密",
+              "href": "https://pan.quark.cn/s/d4440a239956",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_127",
+              "title": "黑客工坊实战加密与解密",
+              "href": "https://pan.quark.cn/s/df1f858169e0",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_128",
+              "title": "黑客工坊从入门到精通：加密与解密篇",
+              "href": "https://pan.quark.cn/s/1affdce97813",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_129",
+              "title": "Java 加密与解密的艺术 (第二版)",
+              "href": "https://pan.quark.cn/s/06a5d6f4175e",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_130",
+              "title": "清华大学 - 世界 CTF 技术大赛之初体验",
+              "href": "https://pan.quark.cn/s/005e33d77f79",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_131",
+              "title": "CTF 种 PWN 题目实例分析",
+              "href": "https://pan.quark.cn/s/962c7098026d",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_132",
+              "title": "CTF 系列文章整理 (学习 CTF 非常重要)",
+              "href": "https://pan.quark.cn/s/eb7d689f4c72",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_133",
+              "title": "CTF 人才培养与联赛机制构建",
+              "href": "https://pan.quark.cn/s/69f043bd4ba5",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_134",
+              "title": "隐写术",
+              "href": "https://pan.quark.cn/s/9606bec0d643",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_135",
+              "title": "CTF_Web 学习资料",
+              "href": "https://pan.quark.cn/s/64b9c644ca2a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_136",
+              "title": "CTF_小技巧.ppt",
+              "href": "https://pan.quark.cn/s/73a3ecfac8b5",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_137",
+              "title": "国内外 CTF 介绍及对比",
+              "href": "https://pan.quark.cn/s/ffa8cd213428",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_138",
+              "title": "从 CTF 到工业安全",
+              "href": "https://pan.quark.cn/s/131c77384c66",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_139",
+              "title": "CTF - 长亭",
+              "href": "https://pan.quark.cn/s/7c47f8048975",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_140",
+              "title": "CTF 中的密码学",
+              "href": "https://pan.quark.cn/s/4358cbdd1277",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_141",
+              "title": "CTF 决赛回顾 (具体哪一期我不清楚)",
+              "href": "https://pan.quark.cn/s/fdd655d85b44",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_142",
+              "title": "CTF 中 web 狗的生存之道",
+              "href": "https://pan.quark.cn/s/a7d383c7cba",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_143",
+              "title": "CTF 比赛中的那些技巧",
+              "href": "https://pan.quark.cn/s/68abefabafbc",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_144",
+              "title": "CTF 经验分享",
+              "href": "https://pan.quark.cn/s/e36da83814d3",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_145",
+              "title": "CTF 指南",
+              "href": "https://pan.quark.cn/s/b10b97d18c75",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_146",
+              "title": "CTF 战队建设与网安人才培养模式探索",
+              "href": "https://pan.quark.cn/s/2bb78373e494",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_147",
+              "title": "CTF 逆向选手的自我修养",
+              "href": "https://pan.quark.cn/s/9a20c2967aea",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_148",
+              "title": "CTF 人才培养计划 (2016 年)",
+              "href": "https://pan.quark.cn/s/1e9cabf762eb",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_149",
+              "title": "CTF 比赛总是输，你还差点 Tricks!",
+              "href": "https://pan.quark.cn/s/5a6b8ed99679",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
