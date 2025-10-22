@@ -30,6 +30,14 @@
               "description": "查询域名、APP、小程序、快应用以及企业的ICP备案信息，提供完全本地化的API. Contribute to HG-ha/ICP_Query development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761109536181",
+              "title": "GitHub - future204/riskbird: riskbird 企业信息收集工具",
+              "href": "https://github.com/future204/riskbird",
+              "description": "riskbird 企业信息收集工具. Contribute to future204/riskbird development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
