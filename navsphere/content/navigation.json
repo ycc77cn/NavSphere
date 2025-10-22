@@ -836,6 +836,14 @@
               "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具. Contribute to AabyssZG/SpringBoot-Scan development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761114814378",
+              "title": "GitHub - whgojp/JavaSecLab: JavaSecLab is a comprehensive Java vulnerability platform｜​ JavaSecLab是一款综合型Java漏洞平台，提供相关漏洞缺陷代码、修复代码、漏洞场景、审计SINK点、安全编码规范，覆盖多种漏洞场景，友好用户交互UI……",
+              "href": "https://github.com/whgojp/JavaSecLab",
+              "description": "JavaSecLab is a comprehensive Java vulnerability platform｜​ JavaSecLab是一款综合型Java漏洞平台，提供相关漏洞缺陷代码、修复代码、漏洞场景、审计SINK点、安全编码规范，覆盖多种漏洞场景，友好用户交互UI…… - whgojp/JavaSecLab",
+              "icon": "/assets/favicon_1761114817203.png",
+              "enabled": true
             }
           ]
         },
