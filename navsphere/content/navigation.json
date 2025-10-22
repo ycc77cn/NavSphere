@@ -4874,7 +4874,16 @@
       "description": "例如八字啦\\风水啦\\奇门遁甲啦\\大六壬啦\\经文很多啦~",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "0c92b9d0-4525-48dc-a710-d71bd4e7baae",
+          "title": "易经八卦",
+          "icon": "Folder",
+          "description": "六十四卦\\易经\\归藏\\连山这一类的书啦~",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
