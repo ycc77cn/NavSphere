@@ -319,6 +319,14 @@
               "description": "FuzzDomain. Contribute to Chora10/FuzzDomain development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110929935",
+              "title": "Github-智能子域名爆破工具",
+              "href": "https://github.com/chainreactors/spray",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
