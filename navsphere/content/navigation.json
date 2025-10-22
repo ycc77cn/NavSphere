@@ -497,7 +497,16 @@
           "icon": "MessageSquare",
           "description": "包含SQL注入\\XSS注入以及其他注入工具集合",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1761111637400",
+              "title": "傀儡注入点批量扫描工具v6.0_支持多种XSS和多种数据库注入_并且携带部分绕过功能_带源码_无后门版本",
+              "href": "https://pan.quark.cn/s/769526d7e876",
+              "description": "傀儡注入点批量扫描工具v6.0_支持多种XSS和多种数据库注入_并且携带部分绕过功能_带源码_无后门版本",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "0e1d72b8-46d1-4c3c-828a-d1b6bcc29d94",
