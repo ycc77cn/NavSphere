@@ -2224,7 +2224,16 @@
           "icon": "Folder",
           "description": "PS啊,AI啊,ID啊,AU啊,DW啊...都在这里了",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "site_1761127469224_gv18mfrl8",
+              "title": "AE-下载安装即可正常使用",
+              "href": "https://pan.quark.cn/s/46d9ab2e1858",
+              "description": " AE-下载安装即可正常使用",
+              "icon": "/assets/favicon_1761127440458.ico",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "5c34a1a1-3578-448a-b6aa-6f209b21fd69",
