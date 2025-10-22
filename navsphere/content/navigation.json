@@ -2217,7 +2217,16 @@
       "description": "也许有一些黑科技呢~",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "4948c7f3-e0c3-454e-b422-6b78e5bbd283",
+          "title": "Adobe-全家桶",
+          "icon": "Folder",
+          "description": "PS啊,AI啊,ID啊,AU啊,DW啊...都在这里了",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
