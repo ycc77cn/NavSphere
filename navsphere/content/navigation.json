@@ -63,6 +63,14 @@
           "description": "漏洞扫描与利用验证工具集合",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "90d0b1a4-6d7e-4cdb-8913-fd699a616be5",
+          "title": "内网工具",
+          "icon": "Edit",
+          "description": "Windows\\Linux\\MAC oS 内网可以用的工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
