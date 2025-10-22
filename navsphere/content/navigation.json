@@ -1079,6 +1079,14 @@
               "description": "Burp_Pro_25.9版本，支持Mac\\Linux\\Windows通用版本（Linux和Windows请下载Pro版本）—该软件来源于公众号。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761113258655",
+              "title": "IxChariot(好用的测压\\监控工具,需要有一定的动手能力)",
+              "href": "https://pan.quark.cn/s/e33ce890fa76",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
