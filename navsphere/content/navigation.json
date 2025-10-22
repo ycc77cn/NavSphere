@@ -1095,6 +1095,14 @@
               "description": "t50 : Multi-protocol packet injector tool. Contribute to foreni-packages/t50 development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761113313727",
+              "title": "EasyTshark_一个比Wireshark更方便更快捷抓包工具",
+              "href": "https://pan.quark.cn/s/6f8050d5dd68",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
