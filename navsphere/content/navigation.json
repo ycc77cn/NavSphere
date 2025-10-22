@@ -1289,6 +1289,14 @@
               "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas - alibaba/arthas",
               "icon": "/assets/favicon_1761115019031.png",
               "enabled": true
+            },
+            {
+              "id": "1761115027219",
+              "title": "GitHub - AfterSnows/ApricusFindEvil: 检测查杀java内存马",
+              "href": "https://github.com/AfterSnows/ApricusFindEvil ",
+              "description": "检测查杀java内存马. Contribute to AfterSnows/ApricusFindEvil development by creating an account on GitHub.",
+              "icon": "/assets/favicon_1761115030000.png",
+              "enabled": true
             }
           ]
         },
