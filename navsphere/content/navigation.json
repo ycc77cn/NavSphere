@@ -1474,6 +1474,14 @@
               "description": "Brup_TLA_一个流量监测的 burp 插件_且支持 XSS\\ 目录扫描 \\ 绕 WAF 等强大功能\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761115727484",
+              "title": "BurpAPIFinder_一个 Burp 插件_最全面完善的 API 挖掘工具",
+              "href": "https://github.com/shuanx/BurpAPIFinder",
+              "description": "BurpAPIFinder_一个 Burp 插件_最全面完善的 API 挖掘工具\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
