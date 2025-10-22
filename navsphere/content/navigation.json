@@ -166,6 +166,14 @@
               "description": "In-depth attack surface mapping and asset discovery - owasp-amass/amass",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761110477424",
+              "title": "GitHub - perlh/hscan: hscan 网络资产收集与漏洞扫描探活 服务扫描(常规 &amp; 非常规端口)、 poc探测( xray v2 &amp; nuclei 格式) 、数据库等弱口令爆破 、内网常见漏洞利用",
+              "href": "https://github.com/perlh/hscan",
+              "description": "hscan 网络资产收集与漏洞扫描探活 服务扫描(常规 &amp; 非常规端口)、 poc探测( xray v2 &amp; nuclei 格式) 、数据库等弱口令爆破 、内网常见漏洞利用 - perlh/hscan",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
