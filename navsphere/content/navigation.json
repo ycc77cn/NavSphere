@@ -1757,7 +1757,16 @@
       "description": "这里是游戏资源,包括电脑游戏和手机游戏",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "d2567f64-91b4-44f8-95c0-63036dc18a2d",
+          "title": "电脑游戏",
+          "icon": "Folder",
+          "description": "电脑游戏,有18+游戏,也有其他游戏",
+          "enabled": true,
+          "items": []
+        }
+      ]
     },
     {
       "id": "1761124393656",
