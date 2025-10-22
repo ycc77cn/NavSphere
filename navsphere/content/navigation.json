@@ -1257,6 +1257,14 @@
               "description": "基于 Agent + Instrumentation + ASM 的 Java 进程内存马检测与清除查杀工具（含 GUI） - CafeD1/Kill_Memshell",
               "icon": "/assets/favicon_1761114979500.png",
               "enabled": true
+            },
+            {
+              "id": "1761114987008",
+              "title": "GitHub - junyibb/ip-fengjin-tool: 山石防火墙IP一键封禁，`IP_fengjin` 是一款专为网络安全管理员设计的图形化工具，旨在简化在防火墙设备上批量封禁 IP 地址的操作流程。本工具通过 SSH 连接到防火墙，自动化地将大量 IP 地址添加至指定的地址簿，并创建或更新相应的安全策略，极大地提高了应急响应和日常维护的效率。",
+              "href": "https://github.com/junyibb/ip-fengjin-tool ",
+              "description": "山石防火墙IP一键封禁，`IP_fengjin` 是一款专为网络安全管理员设计的图形化工具，旨在简化在防火墙设备上批量封禁 IP 地址的操作流程。本工具通过 SSH 连接到防火墙，自动化地将大量 IP 地址添加至指定的地址簿，并创建或更新相应的安全策略，极大地提高了应急响应和日常维护的效率。 - junyibb/ip-fengjin-tool",
+              "icon": "/assets/favicon_1761114989526.png",
+              "enabled": true
             }
           ]
         },
