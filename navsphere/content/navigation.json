@@ -861,6 +861,14 @@
               "description": "Impacket is a collection of Python classes for working with network protocols. - fortra/impacket",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761112679477",
+              "title": "GitHub - shadow1ng/fscan: 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
+              "href": "https://github.com/shadow1ng/fscan",
+              "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。. Contribute to shadow1ng/fscan development by creating an account on GitHub.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
