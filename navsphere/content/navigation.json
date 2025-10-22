@@ -472,6 +472,14 @@
               "description": "Search Engine for the Internet of Things",
               "icon": "/assets/favicon_1761111368001.png",
               "enabled": true
+            },
+            {
+              "id": "1761111383061",
+              "title": "Daydaymap-资产测绘",
+              "href": "https://www.daydaymap.com/home",
+              "description": "访问 www.daydaymap.com",
+              "icon": "/assets/favicon_1761111387228.png",
+              "enabled": true
             }
           ]
         },
