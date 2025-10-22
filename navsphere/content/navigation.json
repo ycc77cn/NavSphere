@@ -424,6 +424,14 @@
               "description": "访问 whois.aliyun.com",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761111267793",
+              "title": "ip段网站查询 旁站查询 C段网站查询 查旁站",
+              "href": "https://chapangzhan.com/",
+              "description": "查询指定ip段上的网站",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
