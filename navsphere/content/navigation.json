@@ -2216,7 +2216,16 @@
       "icon": "Laptop",
       "description": "也许有一些黑科技呢~",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1761127745204",
+          "title": "一款支持闲鱼自动回复\\自动发货的神奇工具-带安装教程 | 杨CC 技术录",
+          "href": "https://ycc77.com/2025/08/21/1-%E7%94%B5%E5%95%86%E5%B7%A5%E5%85%B71_%E5%92%B8%E9%B1%BC%E8%87%AA%E5%8A%A8%E5%9B%9E%E5%A4%8D/",
+          "description": "闲鱼自动发货,自动回复,支持发虚拟货",
+          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+          "enabled": true
+        }
+      ],
       "subCategories": [
         {
           "id": "4948c7f3-e0c3-454e-b422-6b78e5bbd283",
