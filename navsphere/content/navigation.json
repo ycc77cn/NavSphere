@@ -39,6 +39,14 @@
           "description": "包含SQL注入\\XSS注入以及其他注入工具集合",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "0e1d72b8-46d1-4c3c-828a-d1b6bcc29d94",
+          "title": "远控工具",
+          "icon": "Cloud",
+          "description": "支持远控木马与远程管理工具",
+          "enabled": true,
+          "items": []
         }
       ]
     }
