@@ -87,6 +87,14 @@
           "description": "流量监控\\测压\\抓包\\改包等类似工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "004e98d7-7d1e-4d4a-9a1c-de1683aaa8e7",
+          "title": "综合工具",
+          "icon": "Laptop",
+          "description": "综合性渗透工具,类似与?工具包?全方位渗透测试工具?",
+          "enabled": true,
+          "items": []
         }
       ]
     }
