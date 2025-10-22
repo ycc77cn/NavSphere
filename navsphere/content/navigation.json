@@ -22,6 +22,14 @@
           "description": "一些教学文章,部分工具也会发文章,和其他教程",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "1761135178127",
+          "title": "杨CC的Github",
+          "href": "https://github.com/ycc77cn",
+          "description": "这是我的GitHub仓库",
+          "icon": "/assets/favicon_1761135182459.png",
+          "enabled": true
         }
       ],
       "subCategories": []
