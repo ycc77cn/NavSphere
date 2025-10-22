@@ -4963,6 +4963,14 @@
           "description": "佛-道-儒等这些经文",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "3f9b3b70-1d58-41a0-b35c-8e869384bccb",
+          "title": "其他卜术",
+          "icon": "Folder",
+          "description": "例如:紫薇\\梅花...等",
+          "enabled": true,
+          "items": []
         }
       ]
     }
