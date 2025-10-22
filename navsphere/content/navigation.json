@@ -4939,6 +4939,14 @@
           "description": "不同版本的奇门遁甲",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "d8e7023b-5ff8-4341-ba71-7b72e803cf69",
+          "title": "经文",
+          "icon": "Folder",
+          "description": "佛-道-儒等这些经文",
+          "enabled": true,
+          "items": []
         }
       ]
     }
