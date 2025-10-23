@@ -4272,6 +4272,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "64d017ff-1cb1-4110-a870-cc481fc6cf54",
+          "title": "其他工具",
+          "icon": "Folder",
+          "description": "其他工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
