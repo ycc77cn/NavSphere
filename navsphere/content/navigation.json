@@ -2274,208 +2274,7 @@
       "icon": "Laptop",
       "description": "也许有一些黑科技呢~",
       "enabled": true,
-      "items": [
-        {
-          "id": "1_2_1",
-          "title": "rufus-4.6(制作系统U盘工具,开源)",
-          "href": "https://pan.quark.cn/s/764c4a1b0b41",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_2",
-          "title": "ventoy-1.0.99-Windows(制作装系统U盘,开源)",
-          "href": "https://pan.quark.cn/s/67bf01f5f579",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_3",
-          "title": "clash_0.20.15_Windows版",
-          "href": "https://pan.quark.cn/s/dbc24f9cdb89",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_4",
-          "title": "typora-1.9.5-破解版-编写md文档的神器-Windows",
-          "href": "https://pan.quark.cn/s/5c0cde0873b8",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_5",
-          "title": "GIF神器ScreenToGif_是最好用的免费开源Gif动画录制工具-单执行文件-录制屏幕、录制画板、图像编辑器等-支持增减重复帧、调整循环播放、调整播放速度及删除帧。",
-          "href": "https://pan.quark.cn/s/ab0b9259cb02",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_6",
-          "title": "JetBrains全家桶激活补丁-支持三系统",
-          "href": "https://pan.quark.cn/s/beb998bafa70",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_7",
-          "title": "全版本Windows/Office激活工具",
-          "href": "https://pan.quark.cn/s/26155758a06f",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_8",
-          "title": "IDM激活工具,更新后依然可用(管理员运行)",
-          "href": "https://pan.quark.cn/s/7fc11c1112ad",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_9",
-          "title": "WinBoat - Linux上无缝运行Windows应用的神奇工具（Linux）",
-          "href": "https://ycc77.com/2025/09/14/18-/",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_10",
-          "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
-          "href": "https://pan.quark.cn/s/11576e846110",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_11",
-          "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
-          "href": "https://pan.quark.cn/s/7baac696d871",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_12",
-          "title": "navicat Premium,16.3. 破解版+补丁包",
-          "href": "https://pan.quark.cn/s/3371163a2f42",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_13",
-          "title": "navicat Premium,17.1. 破解版+补丁包",
-          "href": "https://pan.quark.cn/s/fe880d194749",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_14",
-          "title": "数据恢复R-Studio（9.5.191603）- 免激活技术员版本- 驱动级别恢复技术,支持NTFS、UFS、HFS等分区文件系统恢复数据_Windows",
-          "href": "https://pan.quark.cn/s/6b7434eb98bf",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_15",
-          "title": "AI视频生成工具啦～",
-          "href": "https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_16",
-          "title": "WhisperLiveKit_本地实施语音转换文字_不依赖网络_无延迟_支持多人说话-需要NVIDIA显卡",
-          "href": "https://github.com/QuentinFuxa/WhisperLiveKit",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_17",
-          "title": "Real-Time-Voice-Cloning_声音克隆工具-并且支持按照文本转换语音",
-          "href": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_18",
-          "title": "chatterbox_高质量-文本转语音模型-支持23种语言的高质量语音合成—内置防滥用的音频水印功能",
-          "href": "https://github.com/resemble-ai/chatterbox",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_2_19",
-          "title": "genkit_一个编写AI工具的框架-想编写AI工具，这是你最好的选择",
-          "href": "https://github.com/firebase/genkit",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_1",
-          "title": "Zen-浏览器-火狐内核-初次启动略慢,但占用资源极小",
-          "href": "https://pan.quark.cn/s/0a254089bd2a",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_2",
-          "title": "google chrome（谷歌浏览器）- 在线安装包（需要梯子）",
-          "href": "https://pan.quark.cn/s/d4fc2d069827",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_3",
-          "title": "Windows摸鱼屏保- 支持蓝屏-卡死- 可挂闲鱼",
-          "href": "https://pan.quark.cn/s/8e53f05ecb93",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_4",
-          "title": "自己搭建的一个网站_直接点击就能访问_可以上传自己喜欢的视频",
-          "href": "http://39.96.176.191:36199/",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_5",
-          "title": "一个接码平台_可以指定手机号_可以指定接实体卡\\虚拟卡\\地区等,而且不用实名注册_但是up没有测试_需要自己验证(付费)",
-          "href": "http://www.uoomsg.com/appweb/signUp.html?inviter=2f0my7bk",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        },
-        {
-          "id": "1_3_6",
-          "title": "Ustat_一个免费-好用-专业-不用实名的网站数据统计平台",
-          "href": "https://ustat.com/?k=20",
-          "description": " ",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
-        }
-      ],
+      "items": [],
       "subCategories": [
         {
           "id": "4948c7f3-e0c3-454e-b422-6b78e5bbd283",
@@ -4279,7 +4078,208 @@
           "icon": "Folder",
           "description": "其他工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1_2_1",
+              "title": "rufus-4.6(制作系统U盘工具,开源)",
+              "href": "https://pan.quark.cn/s/764c4a1b0b41",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_2",
+              "title": "ventoy-1.0.99-Windows(制作装系统U盘,开源)",
+              "href": "https://pan.quark.cn/s/67bf01f5f579",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_3",
+              "title": "clash_0.20.15_Windows版",
+              "href": "https://pan.quark.cn/s/dbc24f9cdb89",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_4",
+              "title": "typora-1.9.5-破解版-编写md文档的神器-Windows",
+              "href": "https://pan.quark.cn/s/5c0cde0873b8",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_5",
+              "title": "GIF神器ScreenToGif_是最好用的免费开源Gif动画录制工具-单执行文件-录制屏幕、录制画板、图像编辑器等-支持增减重复帧、调整循环播放、调整播放速度及删除帧。",
+              "href": "https://pan.quark.cn/s/ab0b9259cb02",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_6",
+              "title": "JetBrains全家桶激活补丁-支持三系统",
+              "href": "https://pan.quark.cn/s/beb998bafa70",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_7",
+              "title": "全版本Windows/Office激活工具",
+              "href": "https://pan.quark.cn/s/26155758a06f",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_8",
+              "title": "IDM激活工具,更新后依然可用(管理员运行)",
+              "href": "https://pan.quark.cn/s/7fc11c1112ad",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_9",
+              "title": "WinBoat - Linux上无缝运行Windows应用的神奇工具（Linux）",
+              "href": "https://ycc77.com/2025/09/14/18-/",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_10",
+              "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
+              "href": "https://pan.quark.cn/s/11576e846110",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_11",
+              "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
+              "href": "https://pan.quark.cn/s/7baac696d871",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_12",
+              "title": "navicat Premium,16.3. 破解版+补丁包",
+              "href": "https://pan.quark.cn/s/3371163a2f42",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_13",
+              "title": "navicat Premium,17.1. 破解版+补丁包",
+              "href": "https://pan.quark.cn/s/fe880d194749",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_14",
+              "title": "数据恢复R-Studio（9.5.191603）- 免激活技术员版本- 驱动级别恢复技术,支持NTFS、UFS、HFS等分区文件系统恢复数据_Windows",
+              "href": "https://pan.quark.cn/s/6b7434eb98bf",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_15",
+              "title": "AI视频生成工具啦～",
+              "href": "https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_16",
+              "title": "WhisperLiveKit_本地实施语音转换文字_不依赖网络_无延迟_支持多人说话-需要NVIDIA显卡",
+              "href": "https://github.com/QuentinFuxa/WhisperLiveKit",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_17",
+              "title": "Real-Time-Voice-Cloning_声音克隆工具-并且支持按照文本转换语音",
+              "href": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_18",
+              "title": "chatterbox_高质量-文本转语音模型-支持23种语言的高质量语音合成—内置防滥用的音频水印功能",
+              "href": "https://github.com/resemble-ai/chatterbox",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_19",
+              "title": "genkit_一个编写AI工具的框架-想编写AI工具，这是你最好的选择",
+              "href": "https://github.com/firebase/genkit",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_1",
+              "title": "Zen-浏览器-火狐内核-初次启动略慢,但占用资源极小",
+              "href": "https://pan.quark.cn/s/0a254089bd2a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_2",
+              "title": "google chrome（谷歌浏览器）- 在线安装包（需要梯子）",
+              "href": "https://pan.quark.cn/s/d4fc2d069827",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_3",
+              "title": "Windows摸鱼屏保- 支持蓝屏-卡死- 可挂闲鱼",
+              "href": "https://pan.quark.cn/s/8e53f05ecb93",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_4",
+              "title": "自己搭建的一个网站_直接点击就能访问_可以上传自己喜欢的视频",
+              "href": "http://39.96.176.191:36199/",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_5",
+              "title": "一个接码平台_可以指定手机号_可以指定接实体卡\\虚拟卡\\地区等,而且不用实名注册_但是up没有测试_需要自己验证(付费)",
+              "href": "http://www.uoomsg.com/appweb/signUp.html?inviter=2f0my7bk",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_3_6",
+              "title": "Ustat_一个免费-好用-专业-不用实名的网站数据统计平台",
+              "href": "https://ustat.com/?k=20",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
