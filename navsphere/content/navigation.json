@@ -918,6 +918,14 @@
               "description": "介绍\n集成漏洞系统包括：用友、泛微、蓝凌、万户、致远、通达、帆软、金蝶、金和、红帆、宏景、浪潮、普元、亿赛通、海康威视、飞企互联、大华DSS、jeecg-boot\n\n集成memshell功能：用友NC、用友U8C、亿赛通、帆软channel、jeecgboot注入内存马。\n\n目前集成385漏洞，包括nday、1day（未公开poc）",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761361587698_mmrt5w5sm",
+              "title": "jeecg综合漏洞利用工具",
+              "href": "https://github.com/MInggongK/jeecg-",
+              "description": "jeecg综合漏洞利用工具,程序采用javafx开发,环境JDK 1.8 声明：仅用于授权测试，用户滥用造成的一切后果和作者无关 请遵守法律法规！ 漏洞收录如下：\n\njeecg-boot queryFieldBySql远程命令执行漏洞\n\njeecg-boot testConnection远程命令执行漏洞\n\nJeecgBoot jmreport/loadTableData SSTI模板注入漏洞\n\njeecg-boot-queryTableData-sqli注入漏洞\n\njeecg-boot-getDictItemsByTable-sqli注入漏洞\n\nJeecg-Boot qurestSql-SQL注入漏洞\n\njeecg-boot commonController 任意文件上传漏洞\n\njeecg-boot jmreport任意文件上传漏洞\n\njeecg-boot-querySysUser信息泄露漏洞\n\njeecg-boot-checkOnlyUser信息泄露漏洞\n\njeecg-boot-httptrace信息泄露漏洞\n\njeecg-boot-任意文件下载漏洞\n\njeecg-boot-jeecgFormDemoController漏洞\n\njeecg-boot-v2 P3 Biz Chat任意文件读取漏洞\n\njeecg-boot-v2 sys/duplicate/check注入漏洞\n\njeecg-boot-v2 AviatorScript表达式注入漏洞",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
