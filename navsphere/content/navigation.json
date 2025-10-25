@@ -934,6 +934,14 @@
               "description": "jeecg综合漏洞利用工具,程序采用javafx开发,环境JDK 1.8 声明：仅用于授权测试，用户滥用造成的一切后果和作者无关 请遵守法律法规！ 漏洞收录如下：\n\njeecg-boot queryFieldBySql远程命令执行漏洞\n\njeecg-boot testConnection远程命令执行漏洞\n\nJeecgBoot jmreport/loadTableData SSTI模板注入漏洞\n\njeecg-boot-queryTableData-sqli注入漏洞\n\njeecg-boot-getDictItemsByTable-sqli注入漏洞\n\nJeecg-Boot qurestSql-SQL注入漏洞\n\njeecg-boot commonController 任意文件上传漏洞\n\njeecg-boot jmreport任意文件上传漏洞\n\njeecg-boot-querySysUser信息泄露漏洞\n\njeecg-boot-checkOnlyUser信息泄露漏洞\n\njeecg-boot-httptrace信息泄露漏洞\n\njeecg-boot-任意文件下载漏洞\n\njeecg-boot-jeecgFormDemoController漏洞\n\njeecg-boot-v2 P3 Biz Chat任意文件读取漏洞\n\njeecg-boot-v2 sys/duplicate/check注入漏洞\n\njeecg-boot-v2 AviatorScript表达式注入漏洞",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761362290442_1a6m9ztsg",
+              "title": "Nacos漏洞检测专项工具",
+              "href": "https://github.com/charonlight/NacosExploitGUI",
+              "description": "在攻防演练中，Nacos一直是红队攻击的重点目标之一，红队通常需要快速打点，尽快发现系统中的漏洞，并利用它们获取权限。在NacosExploitGUI_v7.0版本中，更新了UI及其各种友好的提示、新增空间测绘功能让打点资产更迅速、修复derby sql注入漏洞在在特殊场景下的编码问题、新增derby sql注入不出网RCE的检测及其利用、 修复配置文件提取接口上限的问题、Jraft Hessian 反序列化漏洞新增自定义group攻击链路、新增自定义注入内存马密码及其路径、新增注入蚁剑内存马、新增命令执行可反弹shell功能等等。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
