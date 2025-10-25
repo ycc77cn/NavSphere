@@ -902,6 +902,14 @@
               "description": "JavaSecLab is a comprehensive Java vulnerability platform｜​ JavaSecLab是一款综合型Java漏洞平台，提供相关漏洞缺陷代码、修复代码、漏洞场景、审计SINK点、安全编码规范，覆盖多种漏洞场景，友好用户交互UI…… - whgojp/JavaSecLab",
               "icon": "/assets/favicon_1761114817203.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761361152758_gmuoxyqaa",
+              "title": "Sirius",
+              "href": "https://github.com/SiriusScan/Sirius",
+              "description": "Sirius Scan是业内首款真正开源的通用漏洞扫描工具，靠信息安全社区的集体技术力，功能上有超越部分商业产品的潜力。它的核心框架含四大关键模块：漏洞数据库、网络扫描引擎、代理发现机制和自定义评估分析，下文会详解其安装与核心功能，帮安全从业者快速上手。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
