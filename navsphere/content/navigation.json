@@ -2263,6 +2263,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761360264552_rn05u4a20",
+              "title": "僵尸射击与防御",
+              "href": "https://pan.quark.cn/s/f6d435e3dc2c",
+              "description": "游戏介绍：已更新！是一款横版像素风格的枪战射击游戏。游戏中，玩家将扮演幸存者，抵御入侵的僵尸潮。玩家需边移动边射击，利用多种武器，搭配路障、陷阱等道具来防御僵尸。游戏设有战役和生存等模式，关卡丰富，僵尸类型多样，还支持武器升级与配件改装。其操作简单，物理引擎逼真，能给玩家带来紧张刺激的末日生存体验。解锁使用货币后即可获得大量货币。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
