@@ -4876,6 +4876,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761359486527_woelegcwy",
+              "title": "AI扫描王",
+              "href": "https://pan.quark.cn/s/df9516c3880d",
+              "description": "软件介绍：是一款效率办公类软件。它是集AI扫描、AI写作、AI分析等多元功能于一体的专业手机扫描工具。支持图片高清扫描、扫描转表格、文字提取、证件文件扫描等功能，还能拍照计数、扫描测量。此外，该软件全面接入推理大模型DeepSeek-R1，具备AI写作能力，可辅助撰写各种文案，能满足用户工作、生活、学习中的多种需求。解锁会员功能。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
