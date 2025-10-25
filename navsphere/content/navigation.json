@@ -910,6 +910,14 @@
               "description": "Sirius Scan是业内首款真正开源的通用漏洞扫描工具，靠信息安全社区的集体技术力，功能上有超越部分商业产品的潜力。它的核心框架含四大关键模块：漏洞数据库、网络扫描引擎、代理发现机制和自定义评估分析，下文会详解其安装与核心功能，帮安全从业者快速上手。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761361488445_ig2mxan3u",
+              "title": "OA漏洞利用工具",
+              "href": "https://github.com/R4gd0ll/I-Wanna-Get-All",
+              "description": "介绍\n集成漏洞系统包括：用友、泛微、蓝凌、万户、致远、通达、帆软、金蝶、金和、红帆、宏景、浪潮、普元、亿赛通、海康威视、飞企互联、大华DSS、jeecg-boot\n\n集成memshell功能：用友NC、用友U8C、亿赛通、帆软channel、jeecgboot注入内存马。\n\n目前集成385漏洞，包括nday、1day（未公开poc）",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
