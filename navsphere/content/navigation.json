@@ -2660,6 +2660,14 @@
               "description": "Win10全栈安全系统- 这是一个基于Windows10定制的安全渗透系统，里面包含了数百种黑客常用武器。可以让你省去很多的安装过程。好用爱用。\n物理主机须支持 CPU 虚拟化功能, 否则 WSL Kali 可能无法使用。开启 VMware - 虚拟机设置 - 处理器 - 虚拟化引擎:虚拟化 Intel VT-x/EPT 或 AMD-V/RVI虚拟化 CPU 性能计数器虚拟化 IOMMU(IO 内存管理单元)精简系统自带软件, 美化字体及部分图标, 适度优化;推荐运行环境:VMware: 17.x(建议视情分配图形内存)运行内存: 8 GB固态硬盘: 300 GB",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761362876483_wdyjx4vw1",
+              "title": "Win11 全栈安全武器系统",
+              "href": "https://pan.quark.cn/s/86faeffde724",
+              "description": "这是一个基Windows11安装定制的渗透安全系统，与Windows10安全系统一致。由于工具众多，请参考下述进行安装。（注意：此系统结合了kali）\n物理主机须支持 CPU 虚拟化功能, 否则 WSL Kali 可能无法使用。开启 VMware - 虚拟机设置 - 处理器 - 虚拟化引擎:虚拟化 Intel VT-x/EPT 或 AMD-V/RVI虚拟化 CPU 性能计数器虚拟化 IOMMU(IO 内存管理单元)精简系统自带软件, 美化字体及部分图标, 适度优化;推荐运行环境:VMware: 17.x(建议视情分配图形内存)运行内存: 8 GB固态硬盘: 300 GB",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
