@@ -554,6 +554,14 @@
               "description": "FOFA 是白帽汇推出的一款网络空间搜索引擎，它通过进行网络空间测绘，能够帮助研究人员或者企业迅速进行网络资产匹配，例如进行漏洞影响范围分析、应用分布统计、应用流行度排名统计等。",
               "icon": "/assets/favicon_1761111415032.ico",
               "enabled": true
+            },
+            {
+              "id": "site_1761363019297_hhw4f4hqi",
+              "title": "小众的边缘资产收集方式。",
+              "href": "https://instantdomainsearch.com/domain-extensions",
+              "description": "聚焦在域名。但不是子域名，而是域名TLD的信息收集工具。\n访问之后，已经被注册的域名显示为红色，这个时候大佬们就可以逐个访问看看有没有新的资产暴露出来了；\n",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
