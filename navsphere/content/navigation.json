@@ -974,6 +974,14 @@
               "description": "在攻防演练中，Nacos一直是红队攻击的重点目标之一，红队通常需要快速打点，尽快发现系统中的漏洞，并利用它们获取权限。在NacosExploitGUI_v7.0版本中，更新了UI及其各种友好的提示、新增空间测绘功能让打点资产更迅速、修复derby sql注入漏洞在在特殊场景下的编码问题、新增derby sql注入不出网RCE的检测及其利用、 修复配置文件提取接口上限的问题、Jraft Hessian 反序列化漏洞新增自定义group攻击链路、新增自定义注入内存马密码及其路径、新增注入蚁剑内存马、新增命令执行可反弹shell功能等等。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761364102391_x4r23vwpi",
+              "title": "Frchannel-帆软报表V10 channel反序列漏洞利用工具",
+              "href": "https://github.com/Huang7k/Frchannel",
+              "description": "原工具地址：https://github.com/yecp181/Frchannel\n\n在原工具基础上增加了多种内存马类型，优化了gui\n\n内存马支持类型:\n\nGodzilla(哥斯拉)\nBehinder(冰蝎)\nAntSword(蚁剑)\nNeoreGeorg\nSuo5\n支持HsqlDeserialize、jackson、hibernate、cb反序列化链来进行利用",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
