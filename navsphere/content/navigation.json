@@ -1419,6 +1419,14 @@
               "description": "轻量 哈希 \\MD5 计算工具 - hashmyfiles",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761361274563_tt6txz31j",
+              "title": "SafeLine: 一个超级无敌牛逼的开源WAF",
+              "href": "https://github.com/chaitin/SafeLine",
+              "description": "SafeLine 是一款国产的反向代理型  Web 应用防火墙（WAF），部署在 Web 应用与互联网之间，通过过滤、监控和阻断恶意流量，保护你的网站免受攻击，同时防止未授权数据泄露。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
