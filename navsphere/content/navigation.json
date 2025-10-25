@@ -368,6 +368,14 @@
               "description": "一款高效、灵活的 SSRF（Server-Side Request Forgery）漏洞检测工具。\n✨ 特性\n🎯 多种扫描模式\n\n内网端口扫描（优先探测高危端口）\n文件读取测试（支持file://、dict://、gopher://等协议）\n云服务元数据接口探测（AWS/GCP/阿里云）\nOOB（Out-of-Band）带外数据检测\n🚀 高性能并发\n\n支持自定义并发线程数\n智能互斥锁保护输出顺序\n高效的payload管理\n🎨 友好的输出\n\n彩色命令行输出（漏洞绿色，错误红色）\n输出文件与命令行内容完全一致\n简洁清晰的扫描进度\n🔧 灵活配置\n\n支持自定义HTTP方法（GET/POST/PUT等）\n支持自定义HTTP Headers（Burp格式）\n支持自定义Payload字典\n支持CIDR网段扫描",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761363588259_4a3norazt",
+              "title": "AppInfoScanner: 一款移动端的信息收集工具",
+              "href": "https://github.com/kelvinBen/AppInfoScanner",
+              "description": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。 - kelvinBen/AppInfoScanner",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
