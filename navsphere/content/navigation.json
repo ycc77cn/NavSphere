@@ -4900,6 +4900,14 @@
               "description": "自助配音(2.0.1)配音软件、解锁会员功能，手机登录即可",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761359776098_moi4943ac",
+              "title": "全球高清街景",
+              "href": "https://pan.quark.cn/s/67269fc7481d",
+              "description": "是一款集成导航功能的安卓地图软件。它覆盖全球大部分地区，用户可在地图上自由选择位置，查看实时街景，进行驾驶或步行导航。软件提供多种地图类型，如高清卫星地图、3D地图等，还具备全球景点VR功能，用户可佩戴VR眼镜360度欣赏美景。此外，它还能为用户推荐知名或网红地点，是出行旅游和虚拟旅游的理想助手。解锁会员功能。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
