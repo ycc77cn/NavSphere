@@ -1857,6 +1857,14 @@
               "description": "FastBurp 是一款专为网络安全测试和Web开发设计的浏览器扩展工具。它通过利用Chrome浏览器的原生调试API，实现了无证书的HTTPS流量拦截、修改和重放，并结合AI技术提供智能化的安全分析功能。 - vam876/FastBurp",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761486636089_2lwrlusdz",
+              "title": "Parsing ",
+              "href": "https://github.com/w-sega/Parsing",
+              "description": "Parsing 是一个 Chrome 插件，用于解析当前页面的 JavaScript 代码，并提供多维度的 AI 分析功能，以及信息收集。 - w-sega/Parsing",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
