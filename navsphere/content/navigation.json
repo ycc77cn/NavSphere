@@ -6794,6 +6794,14 @@
           "description": "不想看书，就看这个啦",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "6aeb9f0b-c0f8-4582-ae1c-3cda04a48269",
+          "title": "渗透学习-视频",
+          "icon": "Folder",
+          "description": "不想看书，就看这个啦",
+          "enabled": true,
+          "items": []
         }
       ]
     },
