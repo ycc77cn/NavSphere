@@ -7263,6 +7263,14 @@
               "description": "可以自己注册上传视频,快来上传吧~",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761445429847_dkqyjcqr4",
+              "title": "福利合集",
+              "href": "https://pan.quark.cn/s/46e7a1cc8428",
+              "description": "对，这是福利，跳舞视频，街拍，质量挺低的反正。喜欢漏点的可以试一试",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
