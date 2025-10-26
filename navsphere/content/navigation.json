@@ -6833,6 +6833,14 @@
               "description": "python 全栈开发教程-里面包含了基础、前端、数据库、django、flask、Linux、爬虫、数据分析。。等多个板块，适合想要综合性学习的小友，但视频比较老，需要自行斟酌。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761488073387",
+              "title": "「黑马程序员-2025年python人工智能开发 V5.0」",
+              "href": "https://pan.quark.cn/s/230e25002016",
+              "description": "「黑马程序员-2025年python人工智能开发 V5.0」课程比较新，而且设计到的范围也比较广，同样包括了。linux、数据库、等一系列需要人功能开发的教学，基于V5.0, 还算比较详细，版本也比较新，可以考虑学习。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
