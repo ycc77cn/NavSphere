@@ -6786,6 +6786,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "a62a4a38-251c-420d-a6fc-2df1c99f7f6e",
+          "title": "编程学习-视频",
+          "icon": "Folder",
+          "description": "不想看书，就看这个啦",
+          "enabled": true,
+          "items": []
         }
       ]
     },
