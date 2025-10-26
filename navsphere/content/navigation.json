@@ -6825,6 +6825,14 @@
               "description": "这是一个专门讲解python flask的API的教程，适合想要深入使用flask框架的小友。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761487927322",
+              "title": "python 全栈开发教程",
+              "href": "https://pan.quark.cn/s/3b511e067612",
+              "description": "python 全栈开发教程-里面包含了基础、前端、数据库、django、flask、Linux、爬虫、数据分析。。等多个板块，适合想要综合性学习的小友，但视频比较老，需要自行斟酌。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
