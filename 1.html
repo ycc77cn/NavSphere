@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber File Explorer</title>
+    <style>
+        /* 基础样式设置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: #0d0221;
+            color: #00f3ff;
+            line-height: 1.6;
+            padding: 20px;
+            /* 赛博朋克风格网格背景 */
+            background-image: 
+                linear-gradient(rgba(0, 243, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        /* 标题样式 */
+        h1 {
+            color: #ff2a6d;
+            text-shadow: 0 0 5px #ff2a6d, 0 0 10px #ff2a6d;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ff2a6d;
+            padding-bottom: 10px;
+        }
+
+        /* 文件浏览器容器 */
+        .file-explorer {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #00f3ff;
+            padding: 20px;
+            box-shadow: 0 0 10px #00f3ff;
+        }
+
+        /* 目录树样式 */
+        .directory-tree {
+            margin-left: 20px;
+        }
+
+        .tree-node {
+            margin: 5px 0;
+            position: relative;
+        }
+
+        /* 目录连接线 */
+        .tree-node:before {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            height: 1px;
+            width: 10px;
+            background-color: #ff2a6d;
+        }
+
+        .tree-node:after {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background-color: #ff2a6d;
+        }
+
+        .tree-node:last-child:after {
+            height: 10px;
+        }
+
+        /* 节点内容样式 */
+        .node-content {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+
+        .node-content:hover {
+            color: #ff2a6d;
+            text-shadow: 0 0 5px #ff2a6d;
+        }
+
+        .node-icon {
+            margin-right: 5px;
+        }
+
+        /* 目录节点样式 */
+        .directory > .node-content:before {
+            content: "+";
+            display: inline-block;
+            width: 15px;
+            text-align: center;
+            color: #ff2a6d;
+        }
+
+        .directory.open > .node-content:before {
+            content: "-";
+        }
+
+        /* 目录展开/折叠控制 */
+        .directory > .tree-node {
+            display: none;
+        }
+
+        .directory.open > .tree-node {
+            display: block;
+        }
+
+        /* 文件节点样式 */
+        .file > .node-content:before {
+            content: "•";
+            display: inline-block;
+            width: 15px;
+            text-align: center;
+            color: #00f3ff;
+        }
+
+        /* 赛博朋克风格按钮 */
+        .cyber-button {
+            background: transparent;
+            border: 1px solid #ff2a6d;
+            color: #ff2a6d;
+            padding: 8px 15px;
+            margin: 10px 5px 20px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-shadow: 0 0 5px #ff2a6d;
+            box-shadow: 0 0 5px #ff2a6d;
+        }
+
+        .cyber-button:hover {
+            background-color: #ff2a6d;
+            color: #0d0221;
+        }
+
+        /* 状态栏样式 */
+        .status-bar {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #00f3ff;
+            font-size: 0.9em;
+            color: #00f3ff;
+        }
+
+        /* 赛博朋克故障效果 */
+        .glitch {
+            position: relative;
+        }
+
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 #ff2a6d;
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 #00f3ff;
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim2 5s infinite linear alternate-reverse;
+        }
+
+        /* 故障动画 */
+        @keyframes glitch-anim {
+            0% { clip: rect(42px, 9999px, 44px, 0); }
+            5% { clip: rect(12px, 9999px, 59px, 0); }
+            10% { clip: rect(48px, 9999px, 29px, 0); }
+            15% { clip: rect(42px, 9999px, 73px, 0); }
+            20% { clip: rect(63px, 9999px, 27px, 0); }
+            25% { clip: rect(34px, 9999px, 55px, 0); }
+            30% { clip: rect(86px, 9999px, 73px, 0); }
+            35% { clip: rect(20px, 9999px, 20px, 0); }
+            40% { clip: rect(26px, 9999px, 60px, 0); }
+            45% { clip: rect(25px, 9999px, 66px, 0); }
+            50% { clip: rect(57px, 9999px, 98px, 0); }
+            55% { clip: rect(5px, 9999px, 46px, 0); }
+            60% { clip: rect(82px, 9999px, 31px, 0); }
+            65% { clip: rect(54px, 9999px, 27px, 0); }
+            70% { clip: rect(28px, 9999px, 99px, 0); }
+            75% { clip: rect(45px, 9999px, 69px, 0); }
+            80% { clip: rect(23px, 9999px, 85px, 0); }
+            85% { clip: rect(54px, 9999px, 84px, 0); }
+            90% { clip: rect(45px, 9999px, 47px, 0); }
+            95% { clip: rect(37px, 9999px, 20px, 0); }
+            100% { clip: rect(4px, 9999px, 91px, 0); }
+        }
+
+        @keyframes glitch-anim2 {
+            0% { clip: rect(65px, 9999px, 100px, 0); }
+            5% { clip: rect(52px, 9999px, 74px, 0); }
+            10% { clip: rect(79px, 9999px, 85px, 0); }
+            15% { clip: rect(75px, 9999px, 5px, 0); }
+            20% { clip: rect(67px, 9999px, 61px, 0); }
+            25% { clip: rect(14px, 9999px, 79px, 0); }
+            30% { clip: rect(1px, 9999px, 66px, 0); }
+            35% { clip: rect(86px, 9999px, 30px, 0); }
+            40% { clip: rect(23px, 9999px, 98px, 0); }
+            45% { clip: rect(85px, 9999px, 72px, 0); }
+            50% { clip: rect(71px, 9999px, 75px, 0); }
+            55% { clip: rect(2px, 9999px, 48px, 0); }
+            60% { clip: rect(30px, 9999px, 16px, 0); }
+            65% { clip: rect(59px, 9999px, 50px, 0); }
+            70% { clip: rect(41px, 9999px, 62px, 0); }
+            75% { clip: rect(2px, 9999px, 82px, 0); }
+            80% { clip: rect(47px, 9999px, 73px, 0); }
+            85% { clip: rect(3px, 9999px, 27px, 0); }
+            90% { clip: rect(26px, 9999px, 55px, 0); }
+            95% { clip: rect(42px, 9999px, 97px, 0); }
+            100% { clip: rect(38px, 9999px, 49px, 0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="file-explorer">
+        <h1 class="glitch" data-text="CYBER FILE EXPLORER">CYBER FILE EXPLORER</h1>
+        
+        <!-- 控制按钮 -->
+        <div class="controls">
+            <button class="cyber-button" id="expandAll">EXPAND ALL</button>
+            <button class="cyber-button" id="collapseAll">COLLAPSE ALL</button>
+        </div>
+        
+        <!-- 目录树结构 -->
+        <div class="directory-tree" id="rootTree">
+            <div class="tree-node directory open">
+                <div class="node-content">
+                    <span class="node-icon">📂</span>
+                    <span>root</span>
+                </div>
+                
+                <div class="tree-node directory">
+                    <div class="node-content">
+                        <span class="node-icon">📂</span>
+                        <span>system</span>
+                    </div>
+                    
+                    <div class="tree-node file">
+                        <div class="node-content">
+                            <span class="node-icon">📄</span>
+                            <span>config.ini</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-node file">
+                        <div class="node-content">
+                            <span class="node-icon">📄</span>
+                            <span>kernel.exe</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-node directory">
+                        <div class="node-content">
+                            <span class="node-icon">📂</span>
+                            <span>drivers</span>
+                        </div>
+                        
+                        <div class="tree-node file">
+                            <div class="node-content">
+                                <span class="node-icon">📄</span>
+                                <span>gpu.sys</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tree-node file">
+                            <div class="node-content">
+                                <span class="node-icon">📄</span>
+                                <span>audio.sys</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tree-node directory">
+                    <div class="node-content">
+                        <span class="node-icon">📂</span>
+                        <span>users</span>
+                    </div>
+                    
+                    <div class="tree-node directory">
+                        <div class="node-content">
+                            <span class="node-icon">📂</span>
+                            <span>admin</span>
+                        </div>
+                        
+                        <div class="tree-node file">
+                            <div class="node-content">
+                                <span class="node-icon">📄</span>
+                                <span>profile.dat</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tree-node directory">
+                        <div class="node-content">
+                            <span class="node-icon">📂</span>
+                            <span>guest</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tree-node file">
+                    <div class="node-content">
+                        <span class="node-icon">📄</span>
+                        <span>readme.txt</span>
+                    </div>
+                </div>
+                
+                <div class="tree-node file">
+                    <div class="node-content">
+                        <span class="node-icon">📄</span>
+                        <span>log.txt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 状态栏 -->
+        <div class="status-bar">
+            <span>STATUS: ONLINE | NODES: 12 | PATH: /root</span>
+        </div>
+    </div>
+
+    <script>
+        // 目录节点点击事件 - 展开/折叠
+        document.querySelectorAll('.node-content').forEach(content => {
+            content.addEventListener('click', function() {
+                const node = this.closest('.tree-node');
+                if (node.classList.contains('directory')) {
+                    node.classList.toggle('open');
+                    
+                    // 更新状态路径
+                    updateStatusPath(node);
+                } else {
+                    // 如果是文件，显示文件信息
+                    showFileInfo(this.querySelector('span:last-child').textContent);
+                }
+            });
+        });
+        
+        // 展开所有目录
+        document.getElementById('expandAll').addEventListener('click', function() {
+            document.querySelectorAll('.directory').forEach(dir => {
+                dir.classList.add('open');
+            });
+        });
+        
+        // 折叠所有目录
+        document.getElementById('collapseAll').addEventListener('click', function() {
+            document.querySelectorAll('.directory').forEach(dir => {
+                dir.classList.remove('open');
+            });
+            // 保持根目录展开
+            document.querySelector('.directory-tree > .tree-node.directory').classList.add('open');
+        });
+        
+        // 更新状态路径
+        function updateStatusPath(node) {
+            let path = '';
+            let currentNode = node;
+            
+            // 向上遍历获取完整路径
+            while (currentNode && currentNode.querySelector('.node-content')) {
+                const name = currentNode.querySelector('.node-content span:last-child').textContent;
+                path = '/' + name + path;
+                currentNode = currentNode.parentElement.closest('.tree-node.directory');
+            }
+            
+            // 更新状态栏
+            const statusBar = document.querySelector('.status-bar span');
+            statusBar.textContent = `STATUS: ONLINE | NODES: 12 | PATH: ${path}`;
+        }
+        
+        // 显示文件信息
+        function showFileInfo(filename) {
+            alert(`FILE: ${filename}\nTYPE: ${getExtension(filename) || 'Unknown'}\nSIZE: ${Math.floor(Math.random() * 1000)} KB`);
+        }
+        
+        // 获取文件扩展名
+        function getExtension(filename) {
+            const parts = filename.split('.');
+            return parts.length > 1 ? parts.pop() : null;
+        }
+    </script>
+</body>
+</html>
