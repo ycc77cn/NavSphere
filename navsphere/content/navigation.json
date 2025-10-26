@@ -6817,6 +6817,14 @@
               "description": "这是哈尔滨工业大学录制的高级语言程序设计（python），适合想要深入python的小友，没有基础的话，可能会稍微难一些。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761487822035",
+              "title": "「【Python教程】Python Flask高级编程之RESTFul API前后端分离精讲」",
+              "href": "https://pan.quark.cn/s/7e214e96b069",
+              "description": "这是一个专门讲解python flask的API的教程，适合想要深入使用flask框架的小友。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
