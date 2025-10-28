@@ -521,7 +521,7 @@
 
   async function init() {
     try {
-      const res = await fetch('./navigation.json', { cache: 'no-store' });
+      const res = await fetch('./navsphere/content/navigation.json', { cache: 'no-store' });
       if (!res.ok) throw new Error('数据加载失败：' + res.status);
       const raw = await res.json();
       if (!raw || !isArray(raw.navigationItems)) {
