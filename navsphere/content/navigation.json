@@ -54,6 +54,14 @@
           "description": "如果你感觉此网站对你有帮助，可以选择投喂up，以支持网站持续更新。",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "1761624418912",
+          "title": "网盘推广+游戏推广+看广告赚钱",
+          "href": "https://ycc77.cn/tuiguang.jpg",
+          "description": "点击链接后，会出现一个图片，使用微信进行扫码，就可以进行网盘推广+游戏推广+看广告赚钱了。\n注意： 看广告看钱，需要找到游戏推广分类，然后申请链接（一般三秒左右可以申请成功），然后点击查看申请链接，复制你刚才申请的链接，粘贴到好友的对话框，让好友点击链接玩游戏，或者自己玩游戏看广告也可以拥有收益。",
+          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+          "enabled": true
         }
       ],
       "subCategories": []
