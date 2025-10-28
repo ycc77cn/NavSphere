@@ -1784,6 +1784,14 @@
               "description": "这是一个插件集合的仓库 - 包含了很多非常牛逼的工具\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761612364397_2wzsroib9",
+              "title": "BpArsena",
+              "href": "https://github.com/youmulijiang/BpArsena",
+              "description": "BpArsenal 是一个基于 Montoya API 开发的 Burp Suite 插件，旨在快速将 HTTP 请求转化为命令行工具执行、启动第三方工具和打开相关网站，提高渗透测试效率",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
