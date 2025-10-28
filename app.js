@@ -337,7 +337,7 @@
       if (e.subId) row.dataset.subId = e.subId;
       row.dataset.elementId = e.elementId || '';
       row.innerHTML = `
-        <span class="pill">${e.type === 'item' ? '工具' : e.type === 'subcategory' ? '子类' : '分类'}</span>
+        <span class="pill${e.type === 'item' ? ' pill--logo' : ''}">${e.type === 'item' ? '<img src="https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png" alt="logo" class="pill-logo" />' : e.type === 'subcategory' ? '子类' : '分类'}</span>
         <span class="title">${e.title || '(未命名)'}</span>
         <span class="meta">${e.subTitle ? e.catTitle + ' / ' + e.subTitle : (e.catTitle || '')}</span>
       `;
@@ -521,7 +521,7 @@
 
   async function init() {
     try {
-      const res = await fetch('./navsphere/content/navigation.json', { cache: 'no-store' });
+      const res = await fetch('./navigation.json', { cache: 'no-store' });
       if (!res.ok) throw new Error('数据加载失败：' + res.status);
       const raw = await res.json();
       if (!raw || !isArray(raw.navigationItems)) {
