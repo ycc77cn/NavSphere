@@ -1784,6 +1784,14 @@
               "description": "这是一个插件集合的仓库 - 包含了很多非常牛逼的工具\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1761612298131_fyi6hgsnt",
+              "title": "GitHub - youmulijiang/BpArsenal: BpArsenal, a Burp Suite plugin that can quickly convert http requests into command-line tool execution, launch third-party tools and open related websites, can improve the efficiency of penetration testing|BpArsenal,一个皆在快速将http请求转化命令行工具执行,启动第三方工具和打开相关网站的Burp Suite插件,能够提高渗透测试效率",
+              "href": "https://github.com/youmulijiang/BpArsenal",
+              "description": "BpArsenal, a Burp Suite plugin that can quickly convert http requests into command-line tool execution, launch third-party tools and open related websites, can improve the efficiency of penetration testing|BpArsenal,一个皆在快速将http请求转化命令行工具执行,启动第三方工具和打开相关网站的Burp Suite插件,能够提高渗透测试效率 - youmulijiang/BpArsenal",
+              "icon": "/assets/favicon_1761612296239.png",
+              "enabled": true
             }
           ]
         },
