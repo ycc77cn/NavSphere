@@ -62,6 +62,14 @@
           "description": "扫码-注册-游戏推广-申请-查看申请-复制链接-发送给好友-点击链接-看广告=收益",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "site_1761830447305_3cips8r3u",
+          "title": "答案之书 - 神秘的智慧",
+          "href": "https://ycc77.cn/daanzhishu",
+          "description": "一个非常有趣的答案之书。",
+          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+          "enabled": true
         }
       ],
       "subCategories": []
