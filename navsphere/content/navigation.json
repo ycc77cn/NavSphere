@@ -5094,6 +5094,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "8f2130f7-6f47-45ef-8ed1-addc13b9cc42",
+          "title": "连点器",
+          "icon": "Folder",
+          "description": "手机连点器工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
