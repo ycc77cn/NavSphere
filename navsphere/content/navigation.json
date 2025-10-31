@@ -4748,14 +4748,6 @@
               "enabled": true
             },
             {
-              "id": "2_2_5",
-              "title": "酷我音乐-解锁高级版",
-              "href": "https://pan.quark.cn/s/1ec95ea8fbbd",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "2_2_6",
               "title": "07 - 睡前故事会_1_4_6_解锁VIP版_Lwely.apk",
               "href": "https://pan.quark.cn/s/d6e80b476fd7",
@@ -5094,6 +5086,14 @@
           "description": "手机连点器工具",
           "enabled": true,
           "items": [
+            {
+              "id": "2_2_5",
+              "title": "安卓手机连点器-无需会员-无广告-安装即用",
+              "href": "https://pan.quark.cn/s/02cc0be7355a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
             {
               "id": "2_2_5",
               "title": "安卓手机连点器-无需会员-无广告-安装即用",
