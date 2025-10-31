@@ -4499,14 +4499,6 @@
               "enabled": true
             },
             {
-              "id": "2_2_5",
-              "title": "阳光彼岸-是一款免费安卓影视软件-免广告-免升级-可能会报毒",
-              "href": "https://pan.quark.cn/s/1eda662c8c21",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "2_2_6",
               "title": "速搜视频-支持4K、可投屏、缓存、换源等。解锁去广告等。",
               "href": "https://pan.quark.cn/s/5c514835b2cb",
@@ -5101,7 +5093,16 @@
           "icon": "Folder",
           "description": "手机连点器工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "2_2_5",
+              "title": "安卓手机连点器-无需会员-无广告-安装即用",
+              "href": "https://pan.quark.cn/s/02cc0be7355a",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
