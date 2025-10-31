@@ -602,6 +602,14 @@
               "description": "聚焦在域名。但不是子域名，而是域名TLD的信息收集工具。\n访问之后，已经被注册的域名显示为红色，这个时候大佬们就可以逐个访问看看有没有新的资产暴露出来了；\n",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1761884728209",
+              "title": "Globalcve-全球CVE搜索中心",
+              "href": "https://globalcve.xyz/",
+              "description": "GlobalCVE 不仅仅是另一个漏洞信息源。是一个透明、统一且开源的全球 CVE 情报主干系统。包含了多种国家系统CVE漏洞，你可以通过编号，标题或者说明，来搜索你需要的漏洞。本网站从各大国家的公共信息源（NVD、CIRCL、JVN、ExploitDB 等）中提取信息，并具有完整的归因和回退逻辑。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
