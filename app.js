@@ -102,6 +102,7 @@
       btn.type = 'button';
       btn.className = 'category-item' + (idx === activeCategoryIdx ? ' active' : '');
       btn.textContent = isString(cat.title) ? cat.title : `分类 ${idx + 1}`;
+      btn.dataset.catId = String(cat.id);
       btn.addEventListener('click', () => {
         activeCategoryIdx = idx;
         renderTopBars();
@@ -135,6 +136,7 @@
       btn.type = 'button';
       btn.className = 'subcategory-item';
       btn.textContent = isString(sub.title) ? sub.title : '子类';
+      btn.dataset.subId = String(sub.id);
       btn.addEventListener('click', () => {
         const targetId = `sub-${sub.id}`;
         history.replaceState(null, '', `#${targetId}`);
@@ -144,6 +146,19 @@
       subcategoryPanel.appendChild(btn);
     });
     computeStickyOffsets();
+  }
+
+  // 更新二级分类面板显示，确保显示正确的二级分类
+  function updateSubcategoriesPanelForSub(subId) {
+    if (!subcategoryPanel) return;
+    
+    // 找到包含这个二级分类的一级分类
+    const catIdx = navData.findIndex(c => (c.subCategories || []).some(s => String(s.id) === subId));
+    if (catIdx >= 0) {
+      activeCategoryIdx = catIdx;
+      const currentCat = navData[activeCategoryIdx];
+      renderSubcategoriesPanel(currentCat);
+    }
   }
 
   function makeSectionTitle(tag, text, desc) {
@@ -285,6 +300,64 @@
     }
   }
 
+  function setupScrollHighlight() {
+    let ticking = false;
+    
+    function updateActiveSection() {
+      const sections = document.querySelectorAll('.category-section, .subcategory-section');
+      const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sticky-offset') || '120');
+      
+      let activeSection = null;
+      let closestDistance = Infinity;
+      
+      // 找到距离视口顶部最近且可见的section
+      for (let i = 0; i < sections.length; i++) {
+        const section = sections[i];
+        const rect = section.getBoundingClientRect();
+        
+        // 计算section顶部到视口顶部的距离
+        const distance = Math.abs(rect.top - offset);
+        
+        // 如果section在视口内或接近视口顶部
+        if (rect.top <= offset + 100 && distance < closestDistance) {
+          activeSection = section;
+          closestDistance = distance;
+        }
+      }
+      
+      if (activeSection) {
+        // 如果是二级分类，需要更新二级分类面板
+        if (activeSection.id.startsWith('sub-')) {
+          const subId = activeSection.id.slice(4);
+          updateSubcategoriesPanelForSub(subId);
+        }
+        // 如果是没有二级分类的一级分类，确保显示正确的分类
+        else if (activeSection.id.startsWith('cat-')) {
+          const catId = activeSection.id.slice(4);
+          const catIdx = navData.findIndex(c => String(c.id) === catId);
+          if (catIdx >= 0) {
+            activeCategoryIdx = catIdx;
+            const currentCat = navData[activeCategoryIdx];
+            renderSubcategoriesPanel(currentCat);
+          }
+        }
+        
+        highlightSection(activeSection.id);
+      }
+      
+      ticking = false;
+    }
+    
+    function onScroll() {
+      if (!ticking) {
+        requestAnimationFrame(updateActiveSection);
+        ticking = true;
+      }
+    }
+    
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
   // ===== 全局搜索 =====
   function buildSearchIndex() {
     const idx = [];
@@ -418,8 +491,55 @@
   function highlightSection(sectionId) {
     const sec = document.getElementById(sectionId);
     if (!sec) return;
-    sec.classList.add('highlight');
-    setTimeout(() => sec.classList.remove('highlight'), 1800);
+    
+    // 根据sectionId类型设置对应的高亮
+    if (sectionId.startsWith('cat-')) {
+      // 一级分类高亮
+      const catId = sectionId.slice(4);
+      
+      // 移除所有分类按钮的高亮
+      document.querySelectorAll('.category-item.active').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.subcategory-item.active').forEach(el => el.classList.remove('active'));
+      
+      // 设置当前一级分类按钮持续高亮
+      const catBtn = document.querySelector(`.category-item[data-cat-id="${catId}"]`);
+      if (catBtn) catBtn.classList.add('active');
+      
+      // 内容区域高亮1.8秒后消失
+      sec.classList.add('highlight');
+      setTimeout(() => sec.classList.remove('highlight'), 1800);
+      
+    } else if (sectionId.startsWith('sub-')) {
+      // 二级分类高亮
+      const subId = sectionId.slice(4);
+      
+      // 先更新二级分类面板，确保显示正确的二级分类
+      updateSubcategoriesPanelForSub(subId);
+      
+      // 移除所有分类按钮的高亮
+      document.querySelectorAll('.category-item.active').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.subcategory-item.active').forEach(el => el.classList.remove('active'));
+      
+      // 设置当前二级分类按钮持续高亮
+      const subBtn = document.querySelector(`.subcategory-item[data-sub-id="${subId}"]`);
+      if (subBtn) subBtn.classList.add('active');
+      
+      // 同时高亮对应的一级分类
+      const catId = navData.findIndex(c => (c.subCategories || []).some(s => String(s.id) === subId));
+      if (catId >= 0) {
+        const catBtn = document.querySelector(`.category-item[data-cat-id="${navData[catId].id}"]`);
+        if (catBtn) catBtn.classList.add('active');
+      }
+      
+      // 内容区域高亮1.8秒后消失
+      sec.classList.add('highlight');
+      setTimeout(() => sec.classList.remove('highlight'), 1800);
+      
+    } else {
+      // 其他元素高亮（仅内容区域，1.8秒后消失）
+      sec.classList.add('highlight');
+      setTimeout(() => sec.classList.remove('highlight'), 1800);
+    }
   }
 
   function goToResult(entry) {
@@ -536,6 +656,7 @@
       computeStickyOffsets();
       buildSearchIndex();
       bindSearch();
+      setupScrollHighlight();
 
       window.addEventListener('resize', computeStickyOffsets);
     } catch (e) {
