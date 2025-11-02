@@ -489,6 +489,14 @@
               "description": "SHELL暴力破解.exe",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762063920987_kmzn9ttt5",
+              "title": "Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破\\检测工具",
+              "href": "https://github.com/Fly-Playgroud/Boom",
+              "description": "Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破\\检测工具，支持自动识别登录界面，自动识别爆破类型，自动识别登录相关组件，自动判别登录成功与否，支持 URL 批量并发爆破，多种爆破模式：密码优先和用户名优先，功能相当多，非常强大",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
