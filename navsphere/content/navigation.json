@@ -4438,6 +4438,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762062555585_qbt1di6sl",
+              "title": "HuLa: 🍀 ",
+              "href": "https://github.com/HuLaSpark/HuLa",
+              "description": "一个可以自己部署的开源IM聊天工具，支持安卓、IOS、MAC、Linux、Windows、等，支持AI聊天，等众多功能。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
