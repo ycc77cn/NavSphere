@@ -936,14 +936,6 @@
               "enabled": true
             },
             {
-              "id": "1761112577332",
-              "title": "GitHub - kk12-30/Scan-X: 【AI漏洞扫描器】【多功能Web扫描器】Scan-X是一款基于mitmproxy高效的被动扫描器，专注于快速识别常见Web漏洞，包括SQL注入、越权访问、未授权访问等，支持AI漏洞扫描。通过代理模式自动分析HTTP流量，实现被动扫描，适合大规模资产安全评估与渗透测试场景。",
-              "href": "https://github.com/kk12-30/Scan-X",
-              "description": "【AI漏洞扫描器】【多功能Web扫描器】Scan-X是一款基于mitmproxy高效的被动扫描器，专注于快速识别常见Web漏洞，包括SQL注入、越权访问、未授权访问等，支持AI漏洞扫描。通过代理模式自动分析HTTP流量，实现被动扫描，适合大规模资产安全评估与渗透测试场景。 - kk12-30/Scan-X",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "1761112588314",
               "title": "GitHub - swisskyrepo/SSRFmap: SSRF-扫描与利用工具",
               "href": "https://github.com/swisskyrepo/SSRFmap",
