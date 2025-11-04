@@ -1958,6 +1958,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "bd0730d8-d96d-42ae-8030-bfd45c5de5ce",
+          "title": "免杀",
+          "icon": "Folder",
+          "description": "一些免杀工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
