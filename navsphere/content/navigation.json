@@ -1941,6 +1941,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "06e56374-1410-4c50-a610-e04a0c5d2936",
+          "title": "加解密工具",
+          "icon": "Folder",
+          "description": "一些专门用于加解密的工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
