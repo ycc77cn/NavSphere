@@ -1965,7 +1965,16 @@
           "icon": "Folder",
           "description": "一些免杀工具",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1762253827195",
+              "title": " 哥斯拉webshell免杀工具",
+              "href": "https://github.com/xsshim/GzWebsocket",
+              "description": "哥斯拉 Websocket型 webshell",
+              "icon": "/assets/favicon_1761115821144.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
