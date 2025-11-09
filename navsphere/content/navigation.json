@@ -4812,6 +4812,14 @@
               "description": "假装来电免费的模拟来电应用",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762690048979_kw4gxx0vp",
+              "title": "小旋风",
+              "href": "https://pan.quark.cn/s/6e4cbad13abe",
+              "description": "免费广播电台软件",
+              "icon": "/assets/favicon_1762690014701.ico",
+              "enabled": true
             }
           ]
         },
