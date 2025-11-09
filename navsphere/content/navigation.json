@@ -5321,6 +5321,14 @@
               "description": "全网小说软件、去广告",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762691521182_2zaxz7v6d",
+              "title": "东南小说",
+              "href": "https://pan.quark.cn/s/36bfe6edf6ae",
+              "description": "全网小说软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
