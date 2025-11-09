@@ -2457,6 +2457,14 @@
               "description": "婚介所经营为核心的模拟游戏-游戏具有智能匹配算法，结合时代背景设置了独特的社交系统和事件触发机制。解锁免广告获得奖励、使用货币不减反增。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762689822115_sqaymfpec",
+              "title": "不要喂猴子",
+              "href": "https://pan.quark.cn/s/3923fda9c1cc",
+              "description": "模拟策略游戏-解锁完整版-玩家扮演的角色加入了“灵长类动物观察俱乐部”，通过窥探陌生人生活。游戏中玩家需遵守“不要喂食猴子”的规则，即禁止与被监视对象直接互动。玩家要观察“猴子”的行为，收集线索并推理事件真相",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
