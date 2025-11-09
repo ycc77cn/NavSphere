@@ -5313,6 +5313,14 @@
               "description": "全网小说软件、去广告",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762691477411_pzneyqr1r",
+              "title": "苍云阅读",
+              "href": "https://pan.quark.cn/s/171910c6f86c",
+              "description": "全网小说软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
