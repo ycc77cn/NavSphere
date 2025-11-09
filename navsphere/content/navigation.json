@@ -4780,6 +4780,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762688609488_bog46f474",
+              "title": "听听广播",
+              "href": "https://pan.quark.cn/s/59ad0d915df5",
+              "description": "听听广播-手机广播软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
