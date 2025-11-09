@@ -5256,6 +5256,14 @@
               "description": "全网漫画、解锁免广告特权、去广告、去更新(搜索不可用)",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762691092229_unlvejbax",
+              "title": "轻漫岛",
+              "href": "https://pan.quark.cn/s/f30eea809d4a",
+              "description": "为用户提供全网热门漫画 - 漫画自动实时更新，为广大用户带来更加优质的漫画阅读体验。解锁去广告。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
