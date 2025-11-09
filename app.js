@@ -574,8 +574,9 @@
       setTimeout(() => {
         const el = document.getElementById(entry.elementId);
         if (el && el.classList.contains('card')) {
-          el.classList.add('highlight');
-          setTimeout(() => el.classList.remove('highlight'), 1800);
+          // 使用更明显的高亮效果
+          el.classList.add('search-highlight');
+          setTimeout(() => el.classList.remove('search-highlight'), 3000);
         } else if (targetId) {
           highlightSection(targetId);
         }
