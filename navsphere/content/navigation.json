@@ -5257,7 +5257,16 @@
           "icon": "Folder",
           "description": "这里是免费看小说的软件",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "site_1762690916814_4ll8plnfy",
+              "title": "肥猫阅读",
+              "href": "https://pan.quark.cn/s/7e87c50c01c4",
+              "description": "一款漫画和小说阅读软件-汇聚全网热门文学资源，拥有涵盖玄幻、科幻等多种题材，还收录小说和漫画-解锁去广告、去升级",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
