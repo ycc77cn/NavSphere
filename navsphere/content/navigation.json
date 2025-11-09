@@ -4723,6 +4723,14 @@
               "description": "免费安卓影视软件-全网热门影视资源同步更新-解锁免广告特权、去升级等",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762689529688_6w8pcou22",
+              "title": "七猫短剧",
+              "href": "https://pan.quark.cn/s/f62ebd301caa",
+              "description": "七猫小说推出的安卓免费短剧观看平台-解锁去广告、去升级。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
