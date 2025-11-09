@@ -5208,6 +5208,14 @@
               "description": "全网漫画软件、去广告",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762690503480_91nu6i1rg",
+              "title": "美漫园",
+              "href": "https://pan.quark.cn/s/923ea7f6c7a4",
+              "description": "全网漫画软件、去广告、去升级(搜索不可用)",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
