@@ -4677,14 +4677,6 @@
               "enabled": true
             },
             {
-              "id": "2_2_24",
-              "title": "漫世界-1.0.1",
-              "href": "https://pan.quark.cn/s/0d9ed2f9c67c",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "2_2_25",
               "title": "COLA漫画",
               "href": "https://pan.quark.cn/s/9372b3a689a1",
@@ -5113,6 +5105,14 @@
           "description": "这里是免费看漫画的工具",
           "enabled": true,
           "items": [
+            {
+              "id": "2_2_24",
+              "title": "漫世界-1.0.1",
+              "href": "https://pan.quark.cn/s/0d9ed2f9c67c",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
             {
               "id": "site_1762688872692_ydor9s6iz",
               "title": "漫画屋",
