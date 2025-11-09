@@ -5250,6 +5250,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "caccf0f2-f119-4f3b-85f6-d3fcf94be568",
+          "title": "看小说",
+          "icon": "Folder",
+          "description": "这里是免费看小说的软件",
+          "enabled": true,
+          "items": []
         }
       ]
     },
