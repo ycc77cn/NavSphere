@@ -4504,6 +4504,14 @@
               "description": "一个可以自己部署的开源IM聊天工具，支持安卓、IOS、MAC、Linux、Windows、等，支持AI聊天，等众多功能。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762690704198_htjhu65pb",
+              "title": "Total CAD Converter",
+              "href": "https://pan.quark.cn/s/576966922025",
+              "description": "CAD图纸转换器，可以将CAD转换为PDF，DWG，SVG，PNG图像等格式。可以批量转换CAD图纸DWG格式，转换为黑白或增加线宽比例，线条更清晰，支持自动化任务转换。专业版。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
