@@ -4804,6 +4804,14 @@
               "description": "听听广播-手机广播软件、去广告",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762689903963_x9kn71lz6",
+              "title": "假装来电",
+              "href": "https://pan.quark.cn/s/4a2aaec2ac7c",
+              "description": "假装来电免费的模拟来电应用",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
