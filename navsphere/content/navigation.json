@@ -4497,7 +4497,7 @@
       "id": "1761128842838",
       "title": "手机工具",
       "icon": "Book",
-      "description": "可以?看电视?追据?看漫画?也许可以数据恢复?",
+      "description": "可以?看电视?追据?看动漫?也许可以数据恢复?",
       "enabled": true,
       "items": [],
       "subCategories": [
@@ -4505,7 +4505,7 @@
           "id": "ca5199f7-eab5-48ee-bab1-b33b5ea299a9",
           "title": "来追剧啦~",
           "icon": "Folder",
-          "description": "追剧\\漫画\\动漫\\跟看有关的全在这里了",
+          "description": "追剧\\动漫\\跟看有关的全在这里了",
           "enabled": true,
           "items": [
             {
@@ -4664,22 +4664,6 @@
               "id": "2_2_22",
               "title": "30 - 钻石TV 1.0.4 央视+卫视+地区.apk",
               "href": "https://pan.quark.cn/s/dd51ccc07bc6",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
-              "id": "2_2_23",
-              "title": "费看漫画软件 - 去广告 - 安装需断网.",
-              "href": "https://pan.quark.cn/s/bc09b1605296",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
-              "id": "2_2_25",
-              "title": "COLA漫画",
-              "href": "https://pan.quark.cn/s/9372b3a689a1",
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
@@ -5106,10 +5090,18 @@
           "enabled": true,
           "items": [
             {
+              "id": "2_2_25",
+              "title": "COLA漫画",
+              "href": "https://pan.quark.cn/s/9372b3a689a1",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
               "id": "2_2_24",
               "title": "漫世界-1.0.1",
               "href": "https://pan.quark.cn/s/0d9ed2f9c67c",
-              "description": " ",
+              "description": " 这是一个可以免费看漫画的软件-解锁会员-免升级。 ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             },
@@ -5118,6 +5110,14 @@
               "title": "漫画屋",
               "href": "https://pan.quark.cn/s/d89e6079354d",
               "description": "免费漫画阅读软件-汇聚了多元漫画资源-收录热门新作与经典佳作。解锁去广告、去升级。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "2_2_23",
+              "title": "费看漫画软件 - 去广告 - 安装需断网.",
+              "href": "https://pan.quark.cn/s/bc09b1605296",
+              "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
