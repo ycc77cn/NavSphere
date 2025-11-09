@@ -5305,6 +5305,14 @@
               "description": "一款漫画和小说阅读软件-汇聚全网热门文学资源，拥有涵盖玄幻、科幻等多种题材，还收录小说和漫画-解锁去广告、去升级",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1762691438630_19jw2d9bv",
+              "title": "一键书阁",
+              "href": "https://pan.quark.cn/s/9485bf63d2fd",
+              "description": "全网小说软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
