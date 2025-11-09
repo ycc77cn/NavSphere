@@ -5105,6 +5105,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "d2b0cf4e-72fb-4734-b416-49ccf454e687",
+          "title": "看漫画",
+          "icon": "Folder",
+          "description": "这里是免费看漫画的工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
