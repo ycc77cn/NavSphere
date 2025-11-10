@@ -7161,6 +7161,14 @@
           "description": "学习逆向的不二选择",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "d2c5d969-de7c-427e-a473-3e3fbd374219",
+          "title": "逆向学习-视频",
+          "icon": "Folder",
+          "description": "学习逆向的不二选择",
+          "enabled": true,
+          "items": []
         }
       ]
     },
