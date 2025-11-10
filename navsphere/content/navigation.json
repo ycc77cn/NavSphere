@@ -7153,6 +7153,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "532aa4bf-9252-4463-b05d-66a0b7145d7c",
+          "title": "逆向学习-书籍",
+          "icon": "Folder",
+          "description": "学习逆向的不二选择",
+          "enabled": true,
+          "items": []
         }
       ]
     },
