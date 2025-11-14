@@ -4803,6 +4803,14 @@
               "description": "免费安卓影视软件 - 全网热门影视资源同步更新，可投屏、换源等。解锁去广告、去效验。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763116262972_8y98t67xb",
+              "title": "剧多多",
+              "href": "https://pan.quark.cn/s/64bacfb77948",
+              "description": "剧多多(1.0.0)全网影视软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
