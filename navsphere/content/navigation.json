@@ -2489,6 +2489,14 @@
               "description": "安卓沙盒生存类游戏 - 需通过收集资源、制作工具、建造营地、捕猎烹饪等方式维持生存。它是开放式沙盒游戏。 -  解锁大量胡萝卜。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763121315257_iwbvj54w8",
+              "title": "Incredibox/节奏盒子",
+              "href": "https://pan.quark.cn/s/8cdbfdce802b",
+              "description": "Incredibox/节奏盒子 - 是一款互动音乐创作手游。它操作简单，玩家拖动代表节奏、旋律等的图标到卡通角色上，就能即时生成音乐，还能解锁动画奖励。解锁完整版。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
