@@ -4811,6 +4811,14 @@
               "description": "剧多多(1.0.0)全网影视软件、去广告",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763116327457_2lvhacvn5",
+              "title": "闪映剧场",
+              "href": " https://pan.quark.cn/s/c599fb19ffc4",
+              "description": "全网影视软件、解锁去广告、去公告 - 安卓追剧",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
