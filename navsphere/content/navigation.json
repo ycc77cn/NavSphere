@@ -7117,6 +7117,14 @@
               "description": "本书主要面向CTF Pwn初学者，专注于Linux二进制安全。全书包含12章，从二进制底层讲起，结合源码详细分析了常见二进制安全漏洞、缓解机制以及漏洞利用方法，并辅以分析工具和环境搭建的讲解\nCTF竞赛权威指南Pwn篇",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763177899255_kdtyl99kf",
+              "title": "CTF 竞赛入门指南(CTF All In One)",
+              "href": "https://pan.quark.cn/s/9304671ec6f9",
+              "description": "CTF 竞赛入门指南(CTF All In One)，PDF电子书，1839页,包含基CTF基础，学习方法，工具，专题，技巧，高级篇，解题，实战等多个方面。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
