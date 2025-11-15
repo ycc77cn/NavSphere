@@ -1824,6 +1824,14 @@
               "description": "基于burpsuite的资产分析工具. Contribute to z2p/sweetPotato development by creating an account on GitHub.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763176317586_vle0uskly",
+              "title": "OssScan",
+              "href": "https://github.com/hookdd/OssScan",
+              "description": "burp插件,Oss漏洞被动扫描. # Oss-Scan Oss-Scan为burp插件，所有扫描基于未授权扫描\n",
+              "icon": "/assets/favicon_1763176257255.png",
+              "enabled": true
             }
           ]
         },
