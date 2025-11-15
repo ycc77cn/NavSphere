@@ -7109,6 +7109,14 @@
               "description": "黑客社会工程学攻防演练-全本书籍。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763177678464_to693kf2j",
+              "title": "CTF竞赛权威指南（Pwn篇）",
+              "href": "https://pan.quark.cn/s/445c8be4562e",
+              "description": "本书主要面向CTF Pwn初学者，专注于Linux二进制安全。全书包含12章，从二进制底层讲起，结合源码详细分析了常见二进制安全漏洞、缓解机制以及漏洞利用方法，并辅以分析工具和环境搭建的讲解\nCTF竞赛权威指南Pwn篇",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
