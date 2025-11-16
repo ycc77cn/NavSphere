@@ -392,6 +392,14 @@
               "description": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。 - kelvinBen/AppInfoScanner",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763301023106_73xpm36a3",
+              "title": "atlas",
+              "href": "https://github.com/karam-ajaj/atlas",
+              "description": "Atlas 是一个由 Karam Ajaj 开源的 全景式网络基础设施发现、分析和可视化工具。 可以提供地图-提供链接-提供对应画面-总而言之非常牛逼",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
