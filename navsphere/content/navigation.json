@@ -4576,6 +4576,14 @@
               "description": "obs-studio全版本安装包，包含：Windows、Linux、Mac三系统版本，Mac版本还包含了：英特尔处理器版本和M系列处理器版本",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763433955382_0byoecxnd",
+              "title": "图吧工具箱",
+              "href": "https://pan.quark.cn/s/14cdcd1eff80",
+              "description": "图吧工具箱官方发布版本",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
