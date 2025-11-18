@@ -4568,6 +4568,14 @@
               "description": "一个高性能的网盘资源搜索API服务，支持TG搜索和自定义插件搜索。系统设计以性能和可扩展性为核心，支持并发搜索、结果智能排序和网盘类型分类。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763433721671_d6syy7ahy",
+              "title": "obs-全版本",
+              "href": "https://pan.quark.cn/s/07aa52ce99a8",
+              "description": "obs-studio全版本安装包，包含：Windows、Linux、Mac三系统版本，Mac版本还包含了：英特尔处理器版本和M系列处理器版本",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
