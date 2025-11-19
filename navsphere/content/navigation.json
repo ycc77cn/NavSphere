@@ -7173,6 +7173,14 @@
               "description": "京峰教育-包含了抖音配套资料-网络安全入门课程资料-kali渗透学习包，其中还包括了二进制安全、渗透测试、移动端安全、运维安全、包含了视频和文档资料。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763525018979_d38p0kyyj",
+              "title": "云安全必备资料",
+              "href": "https://pan.baidu.com/s/1K9GWaMC7vzbwEnHq5IQFwQ?pwd=4eva",
+              "description": "云安全、安全工程师、云原生架构师、DevOps 从业者等群体学习参考的资料",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
