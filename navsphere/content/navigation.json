@@ -7836,7 +7836,16 @@
           "icon": "Folder",
           "description": "传统吉他、电吉他...学习资源",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1763519462492",
+              "title": "电吉他入门到实战-视频教程",
+              "href": "https://pan.quark.cn/s/cec808e55ff5",
+              "description": "B站成田电吉他基础入门课，零基础到弹奏实战的系统教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
