@@ -5428,7 +5428,16 @@
       "icon": "Code",
       "description": "这里是电脑一类的学习啦~编程啦~渗透啦~P图啦~剪辑啦~都在这里~",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "site_1763525663342_h1lae76ma",
+          "title": "人工智能大模型教程",
+          "href": "https://pan.baidu.com/s/1aSyj7-U4S069C9aDY3EpmQ?pwd=4eva",
+          "description": "包括了学习人工只能大模型的相关论文、大模型人机对话、人工智能学习材料以及各种算法...",
+          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+          "enabled": true
+        }
+      ],
       "subCategories": [
         {
           "id": "b0a6cd8c-b7f2-4c9d-83e8-b0586123a165",
