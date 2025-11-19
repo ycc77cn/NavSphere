@@ -7279,6 +7279,14 @@
               "description": "学神教育课程-包含了msf（metasploit）制作隐藏后门、内网穿透、PHP开发和搭建、一句话木马、安装kali、信息收集、抓包等，核心为web端的渗透。web渗透",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763524142982_b3v6ed3pd",
+              "title": "52小冷论坛全部教程",
+              "href": "https://pan.baidu.com/s/1lXYuQnjiCWzuIUCqLr9vLQ?pwd=4eva",
+              "description": "52小冷论坛全部教程-主要是教你写外挂、分析外挂、内存地址这一类的教程。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
