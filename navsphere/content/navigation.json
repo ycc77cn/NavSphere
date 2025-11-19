@@ -7458,6 +7458,14 @@
               "description": "PTE教学、包含了PTE专用centos镜像、理论题、新版题、选择题、押题等......",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763532147943_8xrynnqbe",
+              "title": "鸟哥的linux私房菜",
+              "href": "https://pan.baidu.com/s/1mqarLvQ1M9o8DAzSuhJnNA?pwd=4eva",
+              "description": "鸟哥的Linux私房菜，很不错的Linux入门书籍。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
