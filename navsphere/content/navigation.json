@@ -7288,6 +7288,14 @@
               "description": "安卓逆向学习，包含了常见的加密算法、开发、框架、协议、结构反调试、Android NDK...学安卓逆向课程",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1763519934813",
+              "title": "猿人学爬虫逆向高阶课",
+              "href": "https://pan.quark.cn/s/5f4725efc62e",
+              "description": "猿人学爬虫逆向高阶课",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
