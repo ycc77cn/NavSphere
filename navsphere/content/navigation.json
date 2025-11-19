@@ -7290,6 +7290,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "f24126d9-0c7f-42c4-a3a5-c4ea2a4e189c",
+          "title": "自媒体&新闻",
+          "icon": "Folder",
+          "description": "自媒体和新闻的一些教学课程",
+          "enabled": true,
+          "items": []
         }
       ]
     },
