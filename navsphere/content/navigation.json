@@ -5436,6 +5436,14 @@
           "description": "包括了学习人工只能大模型的相关论文、大模型人机对话、人工智能学习材料以及各种算法...",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "site_1763532002849_4w78hzjth",
+          "title": "先知论坛社区文章",
+          "href": "https://pan.baidu.com/s/1ludjg-dDA5kT2pjOHZp8Hg?pwd=4eva",
+          "description": "先知论坛所有文章",
+          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+          "enabled": true
         }
       ],
       "subCategories": [
