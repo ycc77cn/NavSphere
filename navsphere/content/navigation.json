@@ -7352,6 +7352,14 @@
               "description": "猿人学爬虫逆向高阶课",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763525405168_ve9m8jlg8",
+              "title": "安卓逆向",
+              "href": "https://pan.baidu.com/s/1pqKTQCpIz0gI_7PpIMQPEw?pwd=4eva",
+              "description": "包含了：安卓逆向后而开、双开、汉化、基础修改、破解软件、安卓应用、去广告、校验签名、Hook密码基础、Frida一把嗦哈！",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
