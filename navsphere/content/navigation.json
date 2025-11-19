@@ -7821,6 +7821,15 @@
       "enabled": true,
       "items": [],
       "subCategories": []
+    },
+    {
+      "id": "1763519334506",
+      "title": "音乐&乐器学习",
+      "icon": "Folder",
+      "description": "像吉他啦，钢琴啦，笛子啦，萧啦...这些乐器，还有音频剪辑啦～....这些",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
