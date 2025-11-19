@@ -7434,6 +7434,14 @@
               "description": "包含:自动化、中间件、硬件、软件、虚拟网络、虚拟机、性能调试、系统机制、问题处理、数据库、命令行、命令应用、发行版、工具集、存储系统、常用服务、终端、shell、RHCA、RHCE...核心是centos系列的学习。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763526853751_0b898cnom",
+              "title": "pte资料",
+              "href": "https://pan.baidu.com/s/1n4aO5USY74A0AJrVnqvQpw?pwd=4eva",
+              "description": "PTE教学、包含了PTE专用centos镜像、理论题、新版题、选择题、押题等......",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
