@@ -7352,6 +7352,14 @@
               "description": "包含了CTF-HW学习、Web攻防、wifi密码破解、零基础渗透课程、网安面试题...",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763526344111_opjzklkd6",
+              "title": "网络安全基础课程",
+              "href": "https://pan.baidu.com/s/1hSgRn0nIJbJZfJhe-Aou0Q?pwd=4eva",
+              "description": "包含：Windows操作、Linux操作、网络基础、web架构、数据库、html、PHP、信息收集、sql注入、暴力破解、钓鱼、应急、WAF绕过、病毒查杀、代码审计、内网、跨域、穿透、安全卡开发，等，非常全面，适合从0开始的小白观看。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
