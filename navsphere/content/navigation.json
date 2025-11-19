@@ -7645,6 +7645,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "1926753e-ee32-41ea-9c62-48d9bc4d16f3",
+          "title": "塔罗牌",
+          "icon": "Folder",
+          "description": "对，塔罗牌的教学",
+          "enabled": true,
+          "items": []
         }
       ]
     },
