@@ -7814,15 +7814,6 @@
       ]
     },
     {
-      "id": "1762929239074",
-      "title": "评论一下",
-      "icon": "FolderKanban",
-      "description": "这是评论区，你可以选择在这里进行评论",
-      "enabled": true,
-      "items": [],
-      "subCategories": []
-    },
-    {
       "id": "1763519334506",
       "title": "音乐&乐器学习",
       "icon": "Folder",
@@ -7848,6 +7839,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1762929239074",
+      "title": "评论一下",
+      "icon": "FolderKanban",
+      "description": "这是评论区，你可以选择在这里进行评论",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
