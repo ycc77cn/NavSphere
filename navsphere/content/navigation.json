@@ -7238,6 +7238,14 @@
               "description": "这个属于算法一类的，类似与python算法，对python算法感兴趣的可以看一看。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763524739819_vroq8e465",
+              "title": "某牛的一部分课程",
+              "href": "https://pan.baidu.com/s/10FZS6BnzlJOyb6zPSpGqMQ?pwd=4eva",
+              "description": "安全牛这部分课程包含的有点多，apache flinek漏洞、安卓开发、ARP欺骗工具开发、安全测试实践、Burp插件开发，CTF AWD、CTF web篇、CTF攻防、golang开发安全工具、http协议、IOS内核泄漏、安卓挖洞、Android挖洞、病毒查杀和分析、企业安全、安全运营、代码审计、Js开发、java安全、Linux安全、Linux入门、Linux运维、OSWE备考、PHP审计、python开发、SqlMap实战、反序列化漏洞、web安全、web防火墙、waf、wifi安全、Windows逆向、抓包改包、取证基础、大户据安全、社会工程学、安全测试、AI安全、密码安全、流量操控、后门、内网安全、逆向工程、区块链安全、物理安全、移动安全、应急响应、邮件防火墙、云安全、自动化运维、免杀....",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
