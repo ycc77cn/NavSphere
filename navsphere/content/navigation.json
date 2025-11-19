@@ -7390,9 +7390,9 @@
         },
         {
           "id": "1e449b9b-2ff7-448f-8b44-16f2ddeb0794",
-          "title": "Linux 学习",
+          "title": "系统学习",
           "icon": "Folder",
-          "description": "想要学Linux,看这个分类就可以了",
+          "description": "包含了Windows\\Linux的学习教程,包含了Windows和Linux,未来也许会有Macos",
           "enabled": true,
           "items": []
         },
