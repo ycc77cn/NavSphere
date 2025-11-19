@@ -7165,6 +7165,14 @@
               "description": "CTF 竞赛入门指南(CTF All In One)，PDF电子书，1839页,包含基CTF基础，学习方法，工具，专题，技巧，高级篇，解题，实战等多个方面。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763523923253_8d8yh3uwq",
+              "title": "京峰教育",
+              "href": "https://pan.baidu.com/s/1Xk3gz2WeCGEZbPHp6_1QDA?pwd=4eva",
+              "description": "京峰教育-包含了抖音配套资料-网络安全入门课程资料-kali渗透学习包，其中还包括了二进制安全、渗透测试、移动端安全、运维安全、包含了视频和文档资料。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
