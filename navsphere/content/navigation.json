@@ -7263,6 +7263,14 @@
               "description": "安全牛这部分课程包含的有点多，apache flinek漏洞、安卓开发、ARP欺骗工具开发、安全测试实践、Burp插件开发，CTF AWD、CTF web篇、CTF攻防、golang开发安全工具、http协议、IOS内核泄漏、安卓挖洞、Android挖洞、病毒查杀和分析、企业安全、安全运营、代码审计、Js开发、java安全、Linux安全、Linux入门、Linux运维、OSWE备考、PHP审计、python开发、SqlMap实战、反序列化漏洞、web安全、web防火墙、waf、wifi安全、Windows逆向、抓包改包、取证基础、大户据安全、社会工程学、安全测试、AI安全、密码安全、流量操控、后门、内网安全、逆向工程、区块链安全、物理安全、移动安全、应急响应、邮件防火墙、云安全、自动化运维、免杀....",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763525779530_g0hp8wb7m",
+              "title": "网安学习资料",
+              "href": "https://pan.baidu.com/s/13eXx2QttxnaxF_YDMStBJQ?pwd=4eva",
+              "description": "包含：靶场、API安全、SQl注入、微信轰炸、绕WAF、文件上传...等一些基本的渗透教学,还有一些面试题,包含视频和文档",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
