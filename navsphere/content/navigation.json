@@ -7389,6 +7389,14 @@
           ]
         },
         {
+          "id": "1e449b9b-2ff7-448f-8b44-16f2ddeb0794",
+          "title": "Linux 学习",
+          "icon": "Folder",
+          "description": "想要学Linux,看这个分类就可以了",
+          "enabled": true,
+          "items": []
+        },
+        {
           "id": "f24126d9-0c7f-42c4-a3a5-c4ea2a4e189c",
           "title": "自媒体&新闻",
           "icon": "Folder",
@@ -7404,14 +7412,6 @@
               "enabled": true
             }
           ]
-        },
-        {
-          "id": "1e449b9b-2ff7-448f-8b44-16f2ddeb0794",
-          "title": "Linux 学习",
-          "icon": "Folder",
-          "description": "想要学Linux,看这个分类就可以了",
-          "enabled": true,
-          "items": []
         }
       ]
     },
