@@ -7829,7 +7829,16 @@
       "description": "像吉他啦，钢琴啦，笛子啦，萧啦...这些乐器，还有音频剪辑啦～....这些",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "34470e08-b742-4923-9ed8-2697f1bca0f2",
+          "title": "吉他学习资源",
+          "icon": "Folder",
+          "description": "传统吉他、电吉他...学习资源",
+          "enabled": true,
+          "items": []
+        }
+      ]
     }
   ]
 }
