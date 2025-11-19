@@ -7311,6 +7311,14 @@
               "description": "带你从0基础开始学习SRC挖洞的课程。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763525277583_9eybne4gn",
+              "title": "长亭培训",
+              "href": "https://pan.baidu.com/s/1hFVSmwDDkhScShdAUxdpHw?pwd=4eva",
+              "description": "包含了攻击和防御，包括Linux基础、加固、路由、应急、序列化、企业安全、协议、和各种漏洞，同时也包括的php代码审计+护网+python",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
