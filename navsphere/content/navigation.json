@@ -7343,6 +7343,14 @@
               "description": "Golang棋牌后端开发实战",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763633203668_ojvh8eoqt",
+              "title": "Golang+Gin框架入门",
+              "href": "https://pan.quark.cn/s/a6b608b775e3",
+              "description": "Gin教程，GoLang+Gin框架入门到实战，从0到1的实战教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
