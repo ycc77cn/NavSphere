@@ -7319,6 +7319,14 @@
               "description": "慕课网-基于Golang协程实现流量统计系统",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763633032413_if42cjhpy",
+              "title": "Golang从入门到进阶",
+              "href": "https://pan.quark.cn/s/b3de51c2d8c0",
+              "description": "零基础Go语言教程｜千锋Golang从入门到进阶（项目实战+面试题库）",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
