@@ -7335,6 +7335,14 @@
               "description": "B站课程-高性能golang课程合集，让你的go语言，比别人更快，更猛，更强大，性能更高",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763633147068_d3rgejnk1",
+              "title": "Golang后端开发实战",
+              "href": "https://pan.quark.cn/s/544c8082c712",
+              "description": "Golang棋牌后端开发实战",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
