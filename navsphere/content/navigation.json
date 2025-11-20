@@ -8138,7 +8138,16 @@
       "description": "这里有小学到大学的学业资料，学生可以常来看看",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "0226ad5a-876c-4d5a-8749-9c0206d1f31f",
+          "title": "专升本",
+          "icon": "Folder",
+          "description": "专科升本科的资料",
+          "enabled": true,
+          "items": []
+        }
+      ]
     },
     {
       "id": "1762929239074",
