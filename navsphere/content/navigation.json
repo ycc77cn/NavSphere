@@ -5957,6 +5957,14 @@
               "description": "python从入门到精通-全套书籍-适合不喜欢看视频的小友。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763632928812_mzj8tijbp",
+              "title": "Go-分布式爬虫实战（完结）",
+              "href": "https://pan.quark.cn/s/4b911238afcd",
+              "description": "极客时间-郑建勋-Go进阶 · 分布式爬虫实战（完结）Golang爬虫，分布式爬虫。",
+              "icon": "",
+              "enabled": true
             }
           ]
         },
