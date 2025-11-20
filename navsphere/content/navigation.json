@@ -7327,6 +7327,14 @@
               "description": "零基础Go语言教程｜千锋Golang从入门到进阶（项目实战+面试题库）",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763633107475_srz051x5b",
+              "title": "高性能Golang课程",
+              "href": "https://pan.quark.cn/s/8daf636d8645",
+              "description": "B站课程-高性能golang课程合集，让你的go语言，比别人更快，更猛，更强大，性能更高",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
