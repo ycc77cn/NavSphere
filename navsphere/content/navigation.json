@@ -5965,6 +5965,14 @@
               "description": "极客时间-郑建勋-Go进阶 · 分布式爬虫实战（完结）Golang爬虫，分布式爬虫。",
               "icon": "",
               "enabled": true
+            },
+            {
+              "id": "site_1763635339806_say4510fp",
+              "title": "深度学习革命-书籍",
+              "href": "https://pan.quark.cn/s/b24e9d3f9f94",
+              "description": "<深度学习革命>AI技术发展全历史、神经网络+计算机视觉、从算法到应用",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
