@@ -7383,6 +7383,14 @@
               "description": "算法工程师必备课程-高度深度学习",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763635454307_dngtbgyop",
+              "title": "Ai算法工程师教程",
+              "href": "https://pan.quark.cn/s/12188de52636",
+              "description": "深度学习必修课-AI算法工程师必看课程-来源于B站",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
