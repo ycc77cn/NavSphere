@@ -8153,6 +8153,14 @@
               "description": "包含全国成人高考、高升本、专生本和自考资料的小合集。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1763636169738",
+              "title": "专升本资料合集",
+              "href": "https://pan.quark.cn/s/29d88a3c3f7d",
+              "description": "24年专升本资料合计-包含了福建、广东、贵州、湖南、河南、吉林、宁夏、四川、山东、陕西、天津、等多个地方专升本的资料合集",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
