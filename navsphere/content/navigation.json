@@ -8132,19 +8132,19 @@
       ]
     },
     {
-      "id": "1762929239074",
-      "title": "评论一下",
-      "icon": "FolderKanban",
-      "description": "这是评论区，你可以选择在这里进行评论",
+      "id": "1763636064121",
+      "title": "学业资料",
+      "icon": "Folder",
+      "description": "这里有小学到大学的学业资料，学生可以常来看看",
       "enabled": true,
       "items": [],
       "subCategories": []
     },
     {
-      "id": "1763636064121",
-      "title": "学业资料",
-      "icon": "Folder",
-      "description": "这里有小学到大学的学业资料，学生可以常来看看",
+      "id": "1762929239074",
+      "title": "评论一下",
+      "icon": "FolderKanban",
+      "description": "这是评论区，你可以选择在这里进行评论",
       "enabled": true,
       "items": [],
       "subCategories": []
