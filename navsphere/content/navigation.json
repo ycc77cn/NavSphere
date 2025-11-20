@@ -8139,6 +8139,15 @@
       "enabled": true,
       "items": [],
       "subCategories": []
+    },
+    {
+      "id": "1763636064121",
+      "title": "学业资料",
+      "icon": "Folder",
+      "description": "这里有小学到大学的学业资料，学生可以常来看看",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
