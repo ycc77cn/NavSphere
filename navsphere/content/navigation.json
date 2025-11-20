@@ -7311,6 +7311,14 @@
               "description": "滴水中级课件-包含：APC机制、保护模式、进程、线程、句柄表、内存管理、驱动开发、软件调试、系统调用、事件等待、消息机制、异常等。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763632977448_erfdmg5az",
+              "title": "基于Golang协程实现流量统计系统",
+              "href": "https://pan.quark.cn/s/7186d6fa3ac6",
+              "description": "慕课网-基于Golang协程实现流量统计系统",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
