@@ -7367,6 +7367,14 @@
               "description": "C++零基础学编程之C++入门课程，这个分类只是让你可以学会C++，并且大概率和学校讲的C++版本一致，可以让你非常愉快的应付大学考试，或者毕业设计",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763635234482_1i9tz8ako",
+              "title": "高级深度学习",
+              "href": "https://pan.quark.cn/s/f299c3d30e59",
+              "description": "算法工程师必备课程-高度深度学习",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
