@@ -7351,6 +7351,14 @@
               "description": "Gin教程，GoLang+Gin框架入门到实战，从0到1的实战教程",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1763634949516_dklyqaevn",
+              "title": "C++全系列",
+              "href": "https://pan.quark.cn/s/f11d5805ae3f",
+              "description": "C++全系列八部曲，手把手进阶C++，从基础到大神的必看课程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
