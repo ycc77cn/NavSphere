@@ -1969,6 +1969,14 @@
               "description": "Parsing 是一个 Chrome 插件，用于解析当前页面的 JavaScript 代码，并提供多维度的 AI 分析功能，以及信息收集。 - w-sega/Parsing",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764125795309_o9l2v565w",
+              "title": "Finger24",
+              "href": "https://github.com/24-2021/Finger24",
+              "description": "基于已收集指纹库进行识别网站指纹的浏览器插件. 轻量级浏览器插件,支持谷歌\\火狐\\夸克\\egde浏览器.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
