@@ -2007,6 +2007,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "f3da297b-c68c-4e7a-8ff4-2ec8b5efd67e",
+          "title": "其他插件",
+          "icon": "Folder",
+          "description": "IDE插件\\IDEA插件或者一些其他软件的插件.",
+          "enabled": true,
+          "items": []
         }
       ]
     },
