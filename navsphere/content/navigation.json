@@ -4610,6 +4610,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "493732a8-e9db-4f34-bfe8-0d92bfa027b2",
+          "title": "取证工具",
+          "icon": "Folder",
+          "description": "这里是一些开源或者未开源的电子取证工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
