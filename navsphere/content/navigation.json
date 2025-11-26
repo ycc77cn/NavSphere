@@ -2054,6 +2054,14 @@
               "description": "IDEA代码审计辅助插件（深信服深蓝实验室天威战队强力驱动）.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764125272858_b337ei4ma",
+              "title": "GzWebsocket",
+              "href": "https://github.com/xsshim/GzWebsocket",
+              "description": "哥斯拉webshell管理工具的插件，用于连接websocket型webshell. 和原有管理对比有以下优势:隐蔽性高 - 可以绕过传统检测 - 拥有一定的免杀能力.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         }
