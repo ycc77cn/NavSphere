@@ -2014,7 +2014,16 @@
           "icon": "Folder",
           "description": "IDE插件\\IDEA插件或者一些其他软件的插件.",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "site_1764124273552_qxn2oii3i",
+              "title": "inspector: ",
+              "href": "https://github.com/KimJun1010/inspector",
+              "description": "IDEA代码审计辅助插件（深信服深蓝实验室天威战队强力驱动）.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
