@@ -2425,6 +2425,14 @@
               "description": "B站UP主自制的魔性战斗射击类同人游戏 - 玩家将从凡人身份起步，通过拾取“麒麟火”等枪械武器，在僵尸村等广阔地图中“物理驱魔”...",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764126252236_5zvwiugky",
+              "title": "Microverse",
+              "href": "https://github.com/KsanaDock/Microverse",
+              "description": "AI小镇项目 - 开源项目 - 一个上帝类的沙盒游戏,其中角色拥有独立的思维和记忆,可以自主进行交涉\\互动\\完成任务,并持续发展出复杂的社会关系.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
