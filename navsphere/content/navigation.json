@@ -1030,6 +1030,14 @@
               "description": "OSS存储桶的漏洞扫描工具，目前支持阿里云、腾讯云、华为云、aws.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764128689562_nckenuj3z",
+              "title": "Hyacinth",
+              "href": "https://github.com/pureqh/Hyacinth",
+              "description": "一款java漏洞集合工具. 包含多种漏洞,包括但不限于:struts2\\fastjson\\weblogic\\shiro\\log4j\\jboss\\SpringCloud...",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
