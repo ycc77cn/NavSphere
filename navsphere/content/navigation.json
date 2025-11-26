@@ -1661,6 +1661,14 @@
               "description": "可以帮你渗透的本地AI工具 - 仅支持Windows - 未开源",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764125040596_m8kr81fwa",
+              "title": "deep-eye",
+              "href": "https://github.com/zakirkun/deep-eye",
+              "description": "这是一款Ai帮你扫描漏洞的工具,已经接入了常见AI模型.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
