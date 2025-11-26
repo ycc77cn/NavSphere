@@ -1014,6 +1014,14 @@
               "description": "原工具地址：https://github.com/yecp181/Frchannel\n\n在原工具基础上增加了多种内存马类型，优化了gui\n\n内存马支持类型:\n\nGodzilla(哥斯拉)\nBehinder(冰蝎)\nAntSword(蚁剑)\nNeoreGeorg\nSuo5\n支持HsqlDeserialize、jackson、hibernate、cb反序列化链来进行利用",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764124446427_zau6zz48k",
+              "title": "ActiveMQ",
+              "href": "https://github.com/wangpia0pia0/ActiveMQ-Vulnerability-Tool",
+              "description": "CVE-2023-46604 ActiveMQ漏洞检测工具 - 单指定漏洞扫描工具.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
