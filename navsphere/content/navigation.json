@@ -4681,6 +4681,14 @@
               "description": "Stido One6的注册机，或者说是激活机，安装包从官网下即可。txt中有英文版使用说明。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764126011551_b194lh5gg",
+              "title": "skyvern",
+              "href": "https://github.com/Skyvern-AI/skyvern",
+              "description": "开源的自动化浏览器,可以介入AI,让AI帮你处理浏览器中的这些事情.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
