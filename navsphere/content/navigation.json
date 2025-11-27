@@ -400,6 +400,14 @@
               "description": "Atlas 是一个由 Karam Ajaj 开源的 全景式网络基础设施发现、分析和可视化工具。 可以提供地图-提供链接-提供对应画面-总而言之非常牛逼",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764236186621_dntv9m9tv",
+              "title": "theHarvester",
+              "href": "https://github.com/laramies/theHarvester",
+              "description": "theHarvester是一款开源的网络情报收集工具。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
