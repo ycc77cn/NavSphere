@@ -7399,6 +7399,14 @@
               "description": "网友提供的网络安全培训ppt.员工版,普通员工版",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764378202828_1r2pfyqin",
+              "title": "rust开发黑客工具",
+              "href": "https://pan.quark.cn/s/bacd597126f9",
+              "description": "使用rust开发武器教程,俗话说的黑客工具,也就是rust开发黑客工具教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
