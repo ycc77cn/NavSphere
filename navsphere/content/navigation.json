@@ -7407,6 +7407,14 @@
               "description": "使用rust开发武器教程,俗话说的黑客工具,也就是rust开发黑客工具教程",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764378278444_qrojhyx1t",
+              "title": "API安全",
+              "href": "https://pan.quark.cn/s/385c128022c9",
+              "description": "API安全,一个以实际案例告诉你API安全如何检测\\如何检查\\如何使用的文章",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
