@@ -7415,6 +7415,14 @@
               "description": "API安全,一个以实际案例告诉你API安全如何检测\\如何检查\\如何使用的文章",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764378454569_ponbdxyjt",
+              "title": "注入天书",
+              "href": "https://pan.quark.cn/s/37129a5c62a0",
+              "description": "一个教会你sqlmap注入的书籍-sqlmap注入教程和说明-其实也就是用sqlmap带你打入各种靶场",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
