@@ -4747,6 +4747,14 @@
           "description": "这里是一些开源或者未开源的电子取证工具",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "b3aa58c8-0c7e-455d-9fa0-79c2e37094b7",
+          "title": "AI工具",
+          "icon": "Folder",
+          "description": "这里是电脑部署的AI工具",
+          "enabled": true,
+          "items": []
         }
       ]
     },
