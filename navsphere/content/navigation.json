@@ -2093,6 +2093,14 @@
               "description": "哥斯拉 Websocket型 webshell",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1764647108193_wia0a2lsj",
+              "title": "应用加壳器",
+              "href": "https://pan.quark.cn/s/ad880a1521a7",
+              "description": "这个软件可以对你的软件进行加壳进行免杀,目前可免大多数杀软.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
