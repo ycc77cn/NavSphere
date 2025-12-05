@@ -70,6 +70,14 @@
           "description": "一个非常有趣的答案之书。",
           "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
           "enabled": true
+        },
+        {
+          "id": "1764901211412",
+          "title": "QQ交流群2",
+          "href": "https://qm.qq.com/q/qmt94gXDPy",
+          "description": "QQ交流群2群,一群满了",
+          "icon": "/assets/favicon_1764901219060.png",
+          "enabled": true
         }
       ],
       "subCategories": []
