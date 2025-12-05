@@ -1649,7 +1649,7 @@
               "id": "1764908855413",
               "title": "CVE-2025-55182_yaml_POC",
               "href": "https://pan.quark.cn/s/9fe32bcec2bc",
-              "description": "CVE-2025-55182_nulei工具的yaml格式POC,点击即可下载",
+              "description": "CVE-2025-55182_nuclei工具的yaml格式POC,点击即可下载",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
