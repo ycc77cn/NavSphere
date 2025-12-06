@@ -4707,14 +4707,6 @@
               "enabled": true
             },
             {
-              "id": "1_2_15",
-              "title": "AI视频生成工具啦～",
-              "href": "https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "1_2_16",
               "title": "WhisperLiveKit_本地实施语音转换文字_不依赖网络_无延迟_支持多人说话-需要NVIDIA显卡",
               "href": "https://github.com/QuentinFuxa/WhisperLiveKit",
