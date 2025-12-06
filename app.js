@@ -48,6 +48,96 @@
     };
   }
 
+  // 复制功能
+  function copyToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    } else {
+      // 降级方案
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-999999px";
+      textArea.style.top = "-999999px";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      return new Promise((resolve, reject) => {
+        document.execCommand('copy') ? resolve() : reject();
+        textArea.remove();
+      });
+    }
+  }
+
+  // 显示复制成功提示
+  function showCopyToast() {
+    // 移除现有的提示
+    const existingToast = document.querySelector('.copy-toast');
+    if (existingToast) {
+      existingToast.remove();
+    }
+
+    const toast = document.createElement('div');
+    toast.className = 'copy-toast';
+    toast.textContent = '复制成功！';
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+      toast.remove();
+    }, 2000);
+  }
+
+  // 创建复制按钮
+  function createCopyButton(item, catTitle, subTitle = null) {
+    const btn = document.createElement('button');
+    btn.className = 'copy-btn';
+    btn.type = 'button';
+    btn.title = '复制工具信息';
+    btn.innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+    `;
+
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation(); // 阻止卡片点击事件
+      e.preventDefault();
+      
+      // 构建复制文本：一级分类 - 二级分类 - 工具名称 - 链接 - 工具介绍
+      const parts = [catTitle];
+      if (subTitle) parts.push(subTitle);
+      parts.push(item.title, item.href, item.description);
+      const copyText = parts.join(' - ');
+      
+      try {
+        await copyToClipboard(copyText);
+        btn.classList.add('copied');
+        btn.innerHTML = `
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        `;
+        showCopyToast();
+        
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.innerHTML = `
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          `;
+        }, 2000);
+      } catch (err) {
+        console.error('复制失败:', err);
+        // 可以在这里添加错误提示
+      }
+    });
+
+    return btn;
+  }
+
   // DOM 引用
   const headerEl = document.querySelector('.site-header');
   const categoryBar = document.getElementById("categoryBar");
@@ -178,6 +268,18 @@
   function renderItemsGrid(items, container, ctx) {
     const grid = document.createElement('div');
     grid.className = 'items-grid';
+    
+    // 获取一级分类标题
+    const cat = navData.find(c => String(c.id) === ctx.catId);
+    const catTitle = cat ? (cat.title || '未命名分类') : '未命名分类';
+    
+    // 获取二级分类标题
+    let subTitle = null;
+    if (ctx.subId && cat && cat.subCategories) {
+      const sub = cat.subCategories.find(s => String(s.id) === ctx.subId);
+      subTitle = sub ? (sub.title || '未命名子类') : null;
+    }
+    
     items.forEach((raw, idx) => {
       const item = normalizeItem(raw);
       if (!item.enabled) return;
@@ -230,12 +332,17 @@
 
       card.appendChild(head);
       card.appendChild(desc);
-      // 让整张卡片可点击
+      
+      // 添加复制按钮，传递分类信息
+      const copyBtn = createCopyButton(item, catTitle, subTitle);
+      card.appendChild(copyBtn);
+      
+      // 让整张卡片可点击（除了复制按钮）
       card.tabIndex = 0;
       card.setAttribute('role','link');
       card.setAttribute('aria-label', titleText);
       const openLink = (ev) => {
-        if (ev && ev.target && ev.target.closest && ev.target.closest('a,button,input,textarea,select,label')) return;
+        if (ev && ev.target && ev.target.closest && ev.target.closest('button,input,textarea,select,label')) return;
         const url = link && link.href ? link.href : (item.href || '#');
         if (!url || url === '#') return;
         window.open(url, '_blank', 'noopener,noreferrer');

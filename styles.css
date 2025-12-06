@@ -23,6 +23,12 @@
   --glow-color: rgba(99, 102, 241, 0.15);
   --glow-width: 1px;
   
+  /* 复制按钮样式 */
+  --copy-btn-bg: rgba(99, 102, 241, 0.1);
+  --copy-btn-hover: rgba(99, 102, 241, 0.2);
+  --copy-btn-color: #6366f1;
+  --copy-btn-success: #10b981;
+  
   /* 间距系统 */
   --space-xs: 8px;
   --space-s: 12px;
@@ -569,6 +575,75 @@ body {
 
 /* 让卡片滚动时预留固定头部空间，避免被二级分类遮挡 */
 .card { scroll-margin-top: var(--sticky-offset); }
+
+/* 复制按钮样式 */
+.copy-btn {
+  position: absolute;
+  bottom: var(--space-m);
+  right: var(--space-m);
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  background: var(--copy-btn-bg);
+  color: var(--copy-btn-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.copy-btn:hover {
+  background: var(--copy-btn-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+.copy-btn.copied {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--copy-btn-success);
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.copy-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* 复制成功提示 */
+.copy-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(16, 185, 129, 0.9);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  z-index: 10000;
+  animation: slideUp 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
 
 /* 页脚 */
 .site-footer { padding: var(--space-m); text-align: center; color: var(--muted); border-top: 1px solid var(--border); background: var(--glass); backdrop-filter: blur(var(--blur)); }
