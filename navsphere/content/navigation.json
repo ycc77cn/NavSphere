@@ -7455,6 +7455,14 @@
               "description": "里面包含了多种比赛\\和报告,例如大模型安全漏洞报告\\第二届全国网络安全职业技能大赛\\电子取证分析\\....等,可能会持续更新",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1764988490161",
+              "title": "OSCP-2024",
+              "href": "https://pan.quark.cn/s/430d730aafe3",
+              "description": "这是某个大佬完整版的OSCP,里面包括了学习渗透的顺序\\怎么学习渗透...包括但不限于:信息收集\\密码攻击\\提权\\隧道\\AD横向\\漏扫...等",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
