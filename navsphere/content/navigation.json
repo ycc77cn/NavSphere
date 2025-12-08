@@ -2261,6 +2261,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "9d77ef1b-fc82-4a8f-83cc-45cd2e62519a",
+          "title": "取证技术文章",
+          "icon": "Folder",
+          "description": "这里是与电子取证有着重大关联的文章",
+          "enabled": true,
+          "items": []
         }
       ]
     },
