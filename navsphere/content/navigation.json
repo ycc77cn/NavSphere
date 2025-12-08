@@ -1733,6 +1733,14 @@
               "description": "这是一款Ai帮你扫描漏洞的工具,已经接入了常见AI模型.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1765161085127_hacqvvr4w",
+              "title": "AuxTools: 图形化渗透测试辅助工具",
+              "href": "https://github.com/doimet/AuxTools",
+              "description": "图形化渗透测试辅助工具. 支持多种工具,功能非常强大,支持但不限于:加解密-手机号查询-编码-ip解析...更多功能请点击此链接访问官网查看",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
