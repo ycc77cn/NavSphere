@@ -2185,6 +2185,14 @@
               "description": "CVE-2025-55182-详情和POC-杨CC_网址:Ycc77.com",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765158871097",
+              "title": "无痕注入技术原理分析 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/12/01/42-%E6%97%A0%E7%97%95%E6%B3%A8%E5%85%A5-%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%BB%BB%E4%BD%95%E8%BF%9B%E7%A8%8B%E5%8F%A5%E6%9F%84%E7%9A%84%E6%B3%A8%E5%85%A5%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/",
+              "description": "破碎注入-无痕注入-不使用任何进程句柄的注入技术原理分析-杨CC_网址:Ycc77.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
