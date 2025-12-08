@@ -2165,9 +2165,9 @@
       "subCategories": [
         {
           "id": "0ccfccab-376f-41da-9962-97597ccb453d",
-          "title": "渗透技术文章",
+          "title": "黑客技术文章",
           "icon": "Folder",
-          "description": "这里是专门用于渗透的技术文章,可能会包括免杀\\shell\\编写攻击软件等...",
+          "description": "这里是专门用于黑客的技术文章,可能会包括免杀\\shell\\编写攻击软件\\反检测等...",
           "enabled": true,
           "items": [
             {
