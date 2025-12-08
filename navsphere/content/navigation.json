@@ -9167,6 +9167,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1765158710979",
+      "title": "技术文章",
+      "icon": "FolderKanban",
+      "description": "这里可能有着不同的编程\\渗透\\免杀\\poc等多种技术文章",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
