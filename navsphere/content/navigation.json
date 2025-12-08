@@ -2244,6 +2244,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "ddc3b03e-eb17-461b-a399-7a453be92a11",
+          "title": "部署有关文章",
+          "icon": "Folder",
+          "description": "各种环境部署\\docker部署\\源码部署等...",
+          "enabled": true,
+          "items": []
         }
       ]
     },
