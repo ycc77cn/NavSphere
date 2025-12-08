@@ -424,6 +424,14 @@
               "description": "TL-Rustscan是由天禄实验室开发的一款基于 Rust 编写的高性能、高并发端口扫描命令行工具。专为攻防演练、资产摸排和渗透测试设计，旨在提供快速、稳定且易于集成的端口探测能力。 - tianlusec/TL-Rustscan",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1765161636490_qjtul2ra3",
+              "title": "SpiderFoot",
+              "href": "https://github.com/smicallef/spiderfoot",
+              "description": "功能说明:多模块数据收集\\自动化任务\\开放式情报支持\\Web漏洞扫描\\数据可视化\\Proxy支持\\API支持\\插件系统",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
