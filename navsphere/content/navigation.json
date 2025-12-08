@@ -2355,6 +2355,14 @@
               "description": "IDA_PRO_9.2_破解版",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765160195545",
+              "title": "docker全系统安装教程 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/09/02/12-%E5%85%A8%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85docker/",
+              "description": "Windows_Linux_Macos下安装docker的教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
