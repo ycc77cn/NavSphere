@@ -2363,6 +2363,14 @@
               "description": "Windows_Linux_Macos下安装docker的教程",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765160233175",
+              "title": "本地部署酒馆AI | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/24/7-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E6%97%A0%E9%99%90%E5%88%B6AI/",
+              "description": "本地部署AI,无限制,酒馆AI.tg上面的无限制AI,本地部署无限制AI(SillyTavern)-可黄(本地部署酒馆)_Windows教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
