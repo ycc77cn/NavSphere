@@ -2388,6 +2388,14 @@
               "description": "如何破解本地navicat链接的数据库密码-杨CC_网址:Ycc77.com",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765160311026",
+              "title": "使用GhostWolf-提取内存中的部分数据 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/08/23/5-GhostWolf_%E5%86%85%E5%AD%98%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E5%B7%A5%E5%85%B7/",
+              "description": "浏览器 Cookie 提取\n支持 Chrome、Edge、Firefox 最新版本\n支持隐私模式下的 Cookie 提取\n直接从内存中读取数据，无需文件系统访问\n浏览器密码提取\n支持 Edge最新版本账户密码获取\nToDesk 信息提取\n支持读取 ToDesk 账户密码\n支持获取设备列表\n支持读取已保存的远程连接密码",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
