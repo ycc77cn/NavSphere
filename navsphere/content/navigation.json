@@ -2331,6 +2331,14 @@
               "description": "Windows-Linux-amc全系统安装vmware虚拟机",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765160038805",
+              "title": "Linux部署无缝运行Windows工具的软件 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/09/11/18-/",
+              "description": "WinBoa - Winboat-可以让Linux无缝运行Windows工具的软件",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
