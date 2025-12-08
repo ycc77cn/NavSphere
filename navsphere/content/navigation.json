@@ -2249,6 +2249,14 @@
               "description": "20W+的Nuclei-POC",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765159936029",
+              "title": "hw常见的POC合集-包含部分exp | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/09/13/20-150poc/",
+              "description": "150个常见厂商的POC合集和部分厂商exp",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
