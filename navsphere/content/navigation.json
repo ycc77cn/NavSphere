@@ -2257,6 +2257,14 @@
               "description": "150个常见厂商的POC合集和部分厂商exp",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765159973992",
+              "title": "免费网站统计工具-包教程 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/09/12/19-ustat-%E4%B8%80%E4%B8%AA%E5%85%8D%E8%B4%B9-%E5%A5%BD%E7%94%A8-%E4%B8%93%E4%B8%9A-%E4%B8%8D%E7%94%A8%E5%AE%9E%E5%90%8D%E7%9A%84%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E5%B7%A5%E5%85%B7/",
+              "description": "Ustat-一个免费-好用-专业-不用实名的网站统计工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
