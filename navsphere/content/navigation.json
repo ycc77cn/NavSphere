@@ -1345,6 +1345,14 @@
               "description": " ",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "site_1765161251875_afqhy33ii",
+              "title": "hetty",
+              "href": "https://github.com/dstotijn/hetty",
+              "description": "这是一个想代替burp的开源工具",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
