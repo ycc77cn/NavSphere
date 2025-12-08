@@ -2162,7 +2162,16 @@
       "description": "这里可能有着不同的编程\\渗透\\免杀\\poc等多种技术文章",
       "enabled": true,
       "items": [],
-      "subCategories": []
+      "subCategories": [
+        {
+          "id": "0ccfccab-376f-41da-9962-97597ccb453d",
+          "title": "渗透技术文章",
+          "icon": "Folder",
+          "description": "这里是专门用于渗透的技术文章,可能会包括免杀\\shell\\编写攻击软件等...",
+          "enabled": true,
+          "items": []
+        }
+      ]
     },
     {
       "id": "1761122624332",
