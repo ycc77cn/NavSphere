@@ -2218,7 +2218,16 @@
           "icon": "Folder",
           "description": "这里是一些与AI有关的技术文章",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1765158978822",
+              "title": "AI生图焚决 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/11/25/41-AIfenjue/",
+              "description": "AI焚决，这里收集了各大AI的焚决。-杨CC_网址:Ycc77.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
