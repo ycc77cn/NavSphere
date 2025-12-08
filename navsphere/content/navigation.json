@@ -2241,6 +2241,14 @@
               "description": "waware绕过虚拟机检测,主流绕过虚拟机检测方式.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765159883577",
+              "title": "2025年20W+的Nuclei-POC介绍 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/09/13/21-20W+%E7%9A%84Nuclei-POC/",
+              "description": "20W+的Nuclei-POC",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
