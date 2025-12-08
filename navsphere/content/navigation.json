@@ -2211,6 +2211,14 @@
           "description": "不同编程语言的技术文章",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "2fbf26b3-b70e-4ea1-a058-9a86145aa1c4",
+          "title": "AI技术文章",
+          "icon": "Folder",
+          "description": "这里是一些与AI有关的技术文章",
+          "enabled": true,
+          "items": []
         }
       ]
     },
