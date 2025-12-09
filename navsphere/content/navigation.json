@@ -3048,7 +3048,7 @@
     },
     {
       "id": "1761124393656",
-      "title": "电脑工具",
+      "title": "电脑资源",
       "icon": "Laptop",
       "description": "也许有一些黑科技呢~",
       "enabled": true,
@@ -5192,7 +5192,7 @@
     },
     {
       "id": "1761128842838",
-      "title": "手机工具",
+      "title": "手机资源",
       "icon": "Book",
       "description": "可以?看电视?追据?看动漫?也许可以数据恢复?",
       "enabled": true,
