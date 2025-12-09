@@ -432,6 +432,14 @@
               "description": "功能说明:多模块数据收集\\自动化任务\\开放式情报支持\\Web漏洞扫描\\数据可视化\\Proxy支持\\API支持\\插件系统",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765271553075",
+              "title": "trufflehog",
+              "href": "https://github.com/trufflesecurity/trufflehog",
+              "description": "trufflehog 一个查找泄漏凭证的工具-支持:Git、Jira、Slack、Confluence、Microsoft Teams、Sharepoint...（以及更多平台）",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
