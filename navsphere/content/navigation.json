@@ -9455,7 +9455,32 @@
           "icon": "Folder",
           "description": "为了'不会说话'或者不懂怎么说话的人准备的,当然这里说的不是哑巴",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "hDkpoeMdeKoDOUSxoEzy2GySxE5G3YKg",
+              "title": "说话逻辑学课程，结构化表达与思维清晰的沟通训练",
+              "href": "https://pan.quark.cn/s/45ae546214ca",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "3u9ZA5uwt4G6HEmeYsxqMWQo6FVdbxCQ",
+              "title": "老白的故事课，剧作理论与实战应用全解析",
+              "href": "https://pan.quark.cn/s/cd367de96e19",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "HKyGXT2m4172FUrHE8ftBh8tMMg8xH2i",
+              "title": "暴走漫画讲故事超能力训练营，从段子到爆款的内容创作实战",
+              "href": "https://pan.quark.cn/s/88721ce7d0aa",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         },
         {
           "id": "5c5b921f-de03-4ff6-bd82-8a6d7f4cfe1f",
