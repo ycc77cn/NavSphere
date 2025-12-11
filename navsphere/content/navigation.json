@@ -9205,6 +9205,14 @@
           "description": "为了'不会说话'或者不懂怎么说话的人准备的,当然这里说的不是哑巴",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "5c5b921f-de03-4ff6-bd82-8a6d7f4cfe1f",
+          "title": "绘画学习",
+          "icon": "Folder",
+          "description": "对的,让你学习画画的课程,例如:画漫画?",
+          "enabled": true,
+          "items": []
         }
       ]
     }
