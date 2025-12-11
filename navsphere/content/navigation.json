@@ -9190,6 +9190,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "8a2eaf78-7d7f-4037-98a5-ebcaa893ea5a",
+          "title": "自我提升",
+          "icon": "Folder",
+          "description": "强化自身能力",
+          "enabled": true,
+          "items": []
         }
       ]
     }
