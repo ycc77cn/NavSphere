@@ -9213,6 +9213,14 @@
           "description": "对的,让你学习画画的课程,例如:画漫画?",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "9cf973e8-6534-444e-b609-394e2c471ee8",
+          "title": "乐器学习",
+          "icon": "Folder",
+          "description": "乐器学习放在了这个位置了哦~",
+          "enabled": true,
+          "items": []
         }
       ]
     }
