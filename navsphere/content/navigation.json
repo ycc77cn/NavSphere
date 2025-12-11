@@ -9189,6 +9189,14 @@
           "description": "各个大佬讲解的名著",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "ca1b7bfa-8e46-4f46-a933-6c07488a7365",
+          "title": "人生智慧",
+          "icon": "Folder",
+          "description": "让你了解社会\\了解人生\\了解自己",
+          "enabled": true,
+          "items": []
         }
       ]
     }
