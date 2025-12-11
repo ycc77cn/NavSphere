@@ -9181,6 +9181,14 @@
           "description": "强化自身能力",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "49ce7b9e-eaae-4dfa-9587-d79178b4cf6f",
+          "title": "名著讲解",
+          "icon": "Folder",
+          "description": "各个大佬讲解的名著",
+          "enabled": true,
+          "items": []
         }
       ]
     }
