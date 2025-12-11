@@ -8191,6 +8191,14 @@
               "description": "OSCP-2024-记录一下OSCP学习的过程- 这是一个在线版本,无需下载.",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765452630752",
+              "title": "汽车安全&渗透测试",
+              "href": "https://pan.quark.cn/s/709239144817",
+              "description": "汽车安全与渗透测试书籍,里面包括了汽车安全的大部分书籍,可以让你直接入门.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
