@@ -9504,7 +9504,16 @@
           "icon": "Folder",
           "description": "乐器学习放在了这个位置了哦~",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "site_1765451563578_71pkhx1tz",
+              "title": "钢琴基础入门课",
+              "href": "https://pan.quark.cn/s/9ad3e308736a",
+              "description": "V叔钢琴基础入门课，零基础到流畅弹奏的系统教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
