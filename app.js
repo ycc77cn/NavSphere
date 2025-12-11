@@ -87,6 +87,63 @@
     }, 2000);
   }
 
+  // 显示分类/子类简介提示
+  function showCategoryTooltip(element, title, description) {
+    // 移除现有的提示
+    const existingTooltip = document.querySelector('.category-tooltip');
+    if (existingTooltip) {
+      existingTooltip.remove();
+    }
+
+    const tooltip = document.createElement('div');
+    tooltip.className = 'category-tooltip';
+    
+    // 构建提示内容
+    const titleEl = document.createElement('div');
+    titleEl.className = 'tooltip-title';
+    titleEl.textContent = title;
+    
+    const descEl = document.createElement('div');
+    descEl.className = 'tooltip-description';
+    descEl.textContent = description || '暂无简介';
+    
+    tooltip.appendChild(titleEl);
+    if (description && description.trim()) {
+      tooltip.appendChild(descEl);
+    }
+    
+    document.body.appendChild(tooltip);
+
+    // 计算位置
+    const rect = element.getBoundingClientRect();
+    const margin = 8;
+    const maxWidth = Math.min(400, window.innerWidth - margin * 2);
+    tooltip.style.maxWidth = maxWidth + 'px';
+    tooltip.style.visibility = 'hidden';
+
+    // 初步放置在元素下方
+    let top = rect.bottom + margin;
+    let left = Math.max(margin, Math.min(rect.left, window.innerWidth - margin - maxWidth));
+
+    // 显示以测量实际尺寸
+    tooltip.style.visibility = 'visible';
+    const tooltipRect = tooltip.getBoundingClientRect();
+
+    // 如果下方放不下，改放到上方
+    if (top + tooltipRect.height + margin > window.innerHeight) {
+      top = Math.max(margin, rect.top - margin - tooltipRect.height);
+    }
+    // 如果右侧溢出，左移
+    if (left + tooltipRect.width + margin > window.innerWidth) {
+      left = Math.max(margin, window.innerWidth - margin - tooltipRect.width);
+    }
+
+    tooltip.style.top = top + 'px';
+    tooltip.style.left = left + 'px';
+
+    return tooltip;
+  }
+
   // 创建复制按钮
   function createCopyButton(item, catTitle, subTitle = null) {
     const btn = document.createElement('button');
@@ -202,6 +259,30 @@
         scrollToId(targetId);
         highlightSection(targetId);
       });
+
+      // 添加悬停显示简介功能
+      let hoverTimer = null;
+      let tooltipEl = null;
+      
+      btn.addEventListener('mouseenter', () => {
+        hoverTimer = setTimeout(() => {
+          if (isString(cat.description) && cat.description.trim()) {
+            tooltipEl = showCategoryTooltip(btn, cat.title, cat.description);
+          }
+        }, 300);
+      });
+      
+      btn.addEventListener('mouseleave', () => {
+        if (hoverTimer) {
+          clearTimeout(hoverTimer);
+          hoverTimer = null;
+        }
+        if (tooltipEl) {
+          tooltipEl.remove();
+          tooltipEl = null;
+        }
+      });
+      
       categoryBar.appendChild(btn);
     });
 
@@ -233,6 +314,30 @@
         scrollToId(targetId);
         highlightSection(targetId);
       });
+
+      // 添加悬停显示简介功能
+      let hoverTimer = null;
+      let tooltipEl = null;
+      
+      btn.addEventListener('mouseenter', () => {
+        hoverTimer = setTimeout(() => {
+          if (isString(sub.description) && sub.description.trim()) {
+            tooltipEl = showCategoryTooltip(btn, sub.title, sub.description);
+          }
+        }, 300);
+      });
+      
+      btn.addEventListener('mouseleave', () => {
+        if (hoverTimer) {
+          clearTimeout(hoverTimer);
+          hoverTimer = null;
+        }
+        if (tooltipEl) {
+          tooltipEl.remove();
+          tooltipEl = null;
+        }
+      });
+      
       subcategoryPanel.appendChild(btn);
     });
     computeStickyOffsets();
@@ -364,29 +469,49 @@
     content.innerHTML = '';
 
     navData.forEach(cat => {
+      // 创建一级分类容器（最外层）
       const catSec = document.createElement('section');
       catSec.className = 'section category-section';
       const catId = `cat-${cat.id}`;
       catSec.id = catId;
-      catSec.appendChild(makeSectionTitle('h2', isString(cat.title) ? cat.title : '分类', isString(cat.description) ? cat.description : ''));
+      
+      // 创建一级分类标题（与容器一体化）
+      const catTitle = makeSectionTitle('h2', isString(cat.title) ? cat.title : '分类', isString(cat.description) ? cat.description : '');
+      catSec.appendChild(catTitle);
+      
+      // 创建内容区域容器
+      const catContent = document.createElement('div');
+      catContent.className = 'category-content';
 
       const subs = isArray(cat.subCategories) ? cat.subCategories : [];
       if (subs.length) {
+        // 创建二级分类组容器
+        const subsContainer = document.createElement('div');
+        subsContainer.className = 'subcategories-container';
+        
         subs.forEach(sub => {
           const subSec = document.createElement('section');
           subSec.className = 'section subcategory-section';
           const subId = `sub-${sub.id}`;
           subSec.id = subId;
-          subSec.appendChild(makeSectionTitle('h3', isString(sub.title) ? sub.title : '子类', isString(sub.description) ? sub.description : ''));
+          
+          // 创建二级分类标题
+          const subTitle = makeSectionTitle('h3', isString(sub.title) ? sub.title : '子类', isString(sub.description) ? sub.description : '');
+          subSec.appendChild(subTitle);
+          
           const items = isArray(sub.items) ? sub.items : [];
           renderItemsGrid(items, subSec, { catId: String(cat.id), subId: String(sub.id) });
-          catSec.appendChild(subSec);
+          subsContainer.appendChild(subSec);
         });
+        
+        catContent.appendChild(subsContainer);
       } else {
+        // 直接在一级分类下的工具内容（无二级分类时）
         const items = isArray(cat.items) ? cat.items : [];
-        renderItemsGrid(items, catSec, { catId: String(cat.id) });
+        renderItemsGrid(items, catContent, { catId: String(cat.id) });
       }
 
+      catSec.appendChild(catContent);
       content.appendChild(catSec);
     });
   }
