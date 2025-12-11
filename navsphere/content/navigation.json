@@ -8411,14 +8411,6 @@
               "enabled": true
             },
             {
-              "id": "Mt8d5xJOtn0CmdCBzletRVSGWktHmO6Q",
-              "title": "【滴水】网络逆向破解 基础+中级+就业班合集（完结）",
-              "href": "https://pan.quark.cn/s/dddef05dfdb5",
-              "description": "",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "site_1761897313308_ux7qxhrx4",
               "title": "渗透测试特训班第10期",
               "href": "https://pan.quark.cn/s/bce528f5f137",
@@ -8515,6 +8507,14 @@
           "description": "学习逆向的不二选择",
           "enabled": true,
           "items": [
+            {
+              "id": "Mt8d5xJOtn0CmdCBzletRVSGWktHmO6Q",
+              "title": "【滴水】网络逆向破解 基础+中级+就业班合集（完结）",
+              "href": "https://pan.quark.cn/s/dddef05dfdb5",
+              "description": "",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
             {
               "id": "site_1762738816170_p7nw2v8fn",
               "title": "Android逆向课程",
