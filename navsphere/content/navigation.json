@@ -9197,6 +9197,14 @@
           "description": "让你了解社会\\了解人生\\了解自己",
           "enabled": true,
           "items": []
+        },
+        {
+          "id": "962141c3-2420-4f10-9d38-b21129f25924",
+          "title": "口才进阶",
+          "icon": "Folder",
+          "description": "为了'不会说话'或者不懂怎么说话的人准备的,当然这里说的不是哑巴",
+          "enabled": true,
+          "items": []
         }
       ]
     }
