@@ -2337,6 +2337,14 @@
               "description": "解读一下React2shell-scanner工具中的恶意代码(解读一下CVE-2025-55182 漏洞扫描器中的恶意代码.).-杨CC_网址:Ycc77.com",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1765775101398",
+              "title": "一句话木马的免杀方式 | 杨CC 技术录",
+              "href": "https://ycc77.com/2025/12/15/48-webshell-ms/",
+              "description": "关于一句话木马的各种免杀方式-包含jsp-python-php-asp等.从浅到深，最后对战一下WAF或者EDR-杨CC_网址:Ycc77.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
