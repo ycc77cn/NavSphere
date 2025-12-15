@@ -2464,6 +2464,14 @@
           ]
         },
         {
+          "id": "fa6c7328-2ac0-4db7-9b6d-bf604f9aab69",
+          "title": "出具简化报告",
+          "icon": "Folder",
+          "description": "这里编写了多种报告-例如反编译、渗透。。等",
+          "enabled": true,
+          "items": []
+        },
+        {
           "id": "39dd1e80-4314-4cf6-8900-804d95ff559d",
           "title": "让你赚钱文章",
           "icon": "Folder",
@@ -2479,14 +2487,6 @@
               "enabled": true
             }
           ]
-        },
-        {
-          "id": "fa6c7328-2ac0-4db7-9b6d-bf604f9aab69",
-          "title": "出具简化报告",
-          "icon": "Folder",
-          "description": "这里编写了多种报告-例如反编译、渗透。。等",
-          "enabled": true,
-          "items": []
         }
       ]
     },
