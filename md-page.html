@@ -608,6 +608,11 @@
             <label for="file-select">选择文章：</label>
             <select id="file-select" class="file-select">
                 <option value="">-- 请选择文章 --</option>
+                <!-- 这里可以添加静态的md文件列表 -->
+                <option value="1-xianyu_bushu.md">闲鱼自动发货部署</option>
+                <option value="2-Multiple.md">渗透工具-Multiple</option>
+                <option value="3-中文测试.md">3-中文测试</option>
+                <!-- 根据实际情况添加更多md文件 -->
             </select>
             <button id="go-btn" class="go-btn">跳转</button>
         </div>
@@ -799,8 +804,22 @@
         
         // 加载指定的 Markdown 文件
         function loadMarkdownFile(filePath) {
-            // 如果文件路径没有 docs/ 前缀，自动添加
-            let fullPath = filePath.startsWith('docs/') ? filePath : `docs/${filePath}`;
+            // 处理文件路径，确保正确
+            let fullPath;
+            if (filePath.startsWith('http')) {
+                // 已经是完整的URL
+                fullPath = filePath;
+            } else if (filePath.startsWith('/')) {
+                // 根路径
+                fullPath = filePath;
+            } else if (filePath.startsWith('docs/')) {
+                // 已经包含docs/前缀
+                fullPath = `/${filePath}`;
+            } else {
+                // 需要添加docs/前缀
+                fullPath = `/docs/${filePath}`;
+            }
+            
             // 编码URL，确保中文文件名能正确处理
             fullPath = encodeURI(fullPath);
             
@@ -819,59 +838,9 @@
                     preview.innerHTML = `
                         <div style="text-align: center; padding: 50px; color: #e74c3c;">
                             <h2 style="font-size: 2rem; margin-bottom: 20px;">文章加载失败</h2>
-                            <p style="color: #666;">请联系疯狂的杨CC</p>
+                            <p style="color: #666;">请检查文件路径是否正确：${fullPath}</p>
                         </div>
                     `;
-                });
-        }
-        
-        // 获取docs目录下的所有md文件
-        function loadMdFiles() {
-            const fileSelect = document.getElementById('file-select');
-            
-            // 这里需要根据实际情况获取docs目录下的md文件
-            // 由于是前端环境，无法直接读取服务器目录
-            // 这里使用fetch来获取目录列表，需要服务器支持
-            fetch('docs/')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.text();
-                })
-                .then(html => {
-                    // 从HTML响应中解析出md文件列表
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(html, 'text/html');
-                    const links = doc.querySelectorAll('a[href$=".md"]');
-                    
-                    // 清空选择框
-                    fileSelect.innerHTML = '<option value="">-- 请选择文章 --</option>';
-                    
-                    // 添加md文件到选择框
-                    links.forEach(link => {
-                        let fileName = link.getAttribute('href');
-                        // 解码URL，确保中文文件名正确显示
-                        fileName = decodeURIComponent(fileName);
-                        // 移除docs/前缀
-                        fileName = fileName.replace('docs/', '');
-                        const option = document.createElement('option');
-                        option.value = fileName;
-                        option.textContent = fileName.replace('.md', '');
-                        fileSelect.appendChild(option);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error loading MD files:', error);
-                    // 如果无法获取目录列表，可以使用默认的文件列表
-                    // 这里可以根据实际情况修改
-                    const defaultFiles = ['getting-started.md', 'example.md', 'tutorial.md'];
-                    defaultFiles.forEach(fileName => {
-                        const option = document.createElement('option');
-                        option.value = fileName;
-                        option.textContent = fileName.replace('.md', '');
-                        fileSelect.appendChild(option);
-                    });
                 });
         }
         
@@ -879,9 +848,6 @@
         function setupFileSelector() {
             const fileSelect = document.getElementById('file-select');
             const goBtn = document.getElementById('go-btn');
-            
-            // 加载md文件列表
-            loadMdFiles();
             
             // 跳转按钮点击事件
             goBtn.addEventListener('click', () => {
@@ -952,8 +918,14 @@
                     fileSelect.value = fileName;
                 }, 100);
             } else {
-                // 没有指定文件，显示页面错误
-                showPageError();
+                // 没有指定文件，显示默认的md文件
+                // 可以根据实际情况修改默认文件
+                loadMarkdownFile('3-中文测试.md');
+                // 自动选中对应的文件
+                setTimeout(() => {
+                    const fileSelect = document.getElementById('file-select');
+                    fileSelect.value = '3-中文测试.md';
+                }, 100);
             }
         });
     </script>
