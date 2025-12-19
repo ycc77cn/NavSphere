@@ -608,11 +608,11 @@
             <label for="file-select">选择文章：</label>
             <select id="file-select" class="file-select">
                 <option value="">-- 请选择文章 --</option>
-                <!-- 这里可以添加静态的md文件列表 -->
-                <option value="1-xianyu_bushu.md">闲鱼自动发货部署</option>
-                <option value="2-Multiple.md">渗透工具-Multiple</option>
-                <option value="3-中文测试.md">3-中文测试</option>
-                <!-- 根据实际情况添加更多md文件 -->
+                <!-- docs目录下的所有md文件，共3个 -->
+                <option value="1-xianyu_bushu.md">1-闲鱼自动发货部署</option>
+                <option value="2-Multiple.md">2-渗透工具-Multiple</option>
+                <option value="3-默认文章.md">3-默认文章</option>
+                <!-- 文件列表自动生成于2025-12-19 -->
             </select>
             <button id="go-btn" class="go-btn">跳转</button>
         </div>
@@ -920,11 +920,11 @@
             } else {
                 // 没有指定文件，显示默认的md文件
                 // 可以根据实际情况修改默认文件
-                loadMarkdownFile('3-中文测试.md');
+                loadMarkdownFile('3-默认文章.md');
                 // 自动选中对应的文件
                 setTimeout(() => {
                     const fileSelect = document.getElementById('file-select');
-                    fileSelect.value = '3-中文测试.md';
+                    fileSelect.value = '3-默认文章.md';
                 }, 100);
             }
         });
