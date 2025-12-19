@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨CC资源站-文章页</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script async src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
+    <meta name="keywords" content="技术文章,资源分享,渗透工具,游戏资源,教程资源,网络安全,免杀工具,杨CC,技术资源,软件下载,学习资料,杨CC资源站,渗透工具免费下载,黑客工具,黑客网站,黑客教学,黑客技术分享,渗透工具分享,黑客工具推荐网站,疯狂的杨CC,软件下载,渗透资源,黑客资源,游戏资源,游戏下载,手机实用工具下载,手机工具,手机软件,手机游戏,手机软件下载,手机游戏下载,手机软件推荐,手机游戏推荐,手机软件下载站,手机游戏下载站,手机软件大全,手机游戏大全,手机软件推荐大全,手机游戏推荐大全,手机软件下载大全,好玩的电脑游戏,单机游戏,破解教程,破解软件,破解游戏,破解软件下载,破解游戏下载,破解软件大全,破解游戏大全,破解软件推荐,破解游戏推荐,破解软件下载站,破解游戏下载站,破解软件大全下载,破解游戏大全下载,破解软件推荐下载,破解游戏推荐下载,破解软件下载站下载,破解游戏下载站下载,破解软件大全下载站,破解游戏大全下载站,破解软件推荐下载站,破解游戏推荐下载站,破解软件大全推荐,破解游戏大全推荐,破解软件推荐大全,破解游戏推荐大全,破解软件下载大全,破解游戏下载大全,破解软件大全推荐下载,破解软件推荐大全下载站,破解游戏推荐大全下载站,破解软件下载大全下载站,破解游戏下载大全下载站,破解软,破解软件大全推荐下载,破解游戏大全推荐下载,破解软件推荐大全推荐,黑客工具,黑客网站,黑客教学,黑客技术分享,渗透工具分享,黑客工具推荐网站,疯狂的杨CC,软件下载,渗透资源,黑客资源,游戏资源,游戏下载,手机实用工具下载,手机工具,手机软件,手机游戏,手机软件下载,手机游戏下载,手机软件推荐,手机游戏推荐,手机软件下载站,手机游戏下载站,手机软件大全,手机游戏大全,手机软件推荐大全,手机游戏推荐大全,手机软件下载大全,好玩的电脑游戏,单机游戏,破解教程,破解软件,破解游戏,破解软件下载,破解游戏下载,破解软件大全,破解游戏大全,破解软件推荐,破解游戏推荐,破解软件下载站,破解游戏下载站,破解软件大全下载,破解游戏大全下载,破解软件推荐下载,破解游戏推荐下载,破解软件下载站下载,破解游戏下载站下载,破解软件大全下载站,破解游戏大全下载站,破解软件推荐下载站,破解游戏推荐下载站,破解软件大全推荐,破解游戏大全推荐,破解软件推荐大全,破解游戏推荐大全,破解软件下载大全,破解游戏下载大全,破解软件大全推荐下载,破解软件推荐大全下载站,破解游戏推荐大全,杨CC,疯狂的杨CC">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        .controls {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .controls label {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        
+        select, button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        select:hover {
+            border-color: #3498db;
+        }
+        
+        .preview {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            min-height: 600px;
+        }
+        
+        /* Markdown 样式 */
+        .preview h1 {
+            font-size: 2rem;
+            margin: 1rem 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+            text-align: left;
+        }
+        
+        .preview h2 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        
+        .preview h3 {
+            font-size: 1.25rem;
+            margin: 0.75rem 0;
+        }
+        
+        .preview h4 {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+        
+        .preview p {
+            margin: 0.75rem 0;
+        }
+        
+        .preview a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .preview a:hover {
+            text-decoration: underline;
+        }
+        
+        .preview strong {
+            font-weight: bold;
+        }
+        
+        .preview em {
+            font-style: italic;
+        }
+        
+        .preview ul, .preview ol {
+            margin: 0.75rem 0;
+            padding-left: 2rem;
+        }
+        
+        .preview li {
+            margin: 0.25rem 0;
+        }
+        
+        .preview code {
+            background-color: #f8f8f8;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .preview pre {
+            background-color: #f8f8f8;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin: 0.75rem 0;
+        }
+        
+        .preview pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        
+        .preview blockquote {
+            border-left: 4px solid #ddd;
+            margin: 0.75rem 0;
+            padding: 0.5rem 1rem;
+            color: #666;
+        }
+        
+        .preview hr {
+            border: 0;
+            height: 1px;
+            background-color: #eee;
+            margin: 1.5rem 0;
+        }
+        
+        .preview img {
+            max-width: 100%;
+            height: auto;
+            margin: 0.75rem 0;
+        }
+        
+        .preview table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0.75rem 0;
+        }
+        
+        .preview th, .preview td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        
+        .preview th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        
+        .preview tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .preview input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>杨CC资源站-文章页面</h1>
+        </header>
+        
+        <div class="preview" id="preview"></div>
+    </div>
+    
+    <script>
+        // 获取 DOM 元素
+        const preview = document.getElementById('preview');
+        
+        // 初始化 marked 配置
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            headerIds: true,
+            mangle: false
+        });
+        
+        // 解析 URL 查询参数
+        function getQueryParams() {
+            const params = {};
+            const queryString = window.location.search.substring(1);
+            const pairs = queryString.split('&');
+            pairs.forEach(pair => {
+                const [key, value] = pair.split('=');
+                params[decodeURIComponent(key)] = decodeURIComponent(value || '');
+            });
+            return params;
+        }
+        
+        // 渲染 Markdown
+        function renderMarkdown(text) {
+            const html = marked.parse(text);
+            preview.innerHTML = html;
+        }
+        
+        // 显示页面错误
+        function showPageError() {
+            preview.innerHTML = `
+                <div style="text-align: center; padding: 50px; color: #e74c3c;">
+                    <h2 style="font-size: 2rem; margin-bottom: 20px;">页面错误</h2>
+                    <p style="font-size: 1.2rem;">请在URL中指定要加载的文章，例如：</p>
+                    <code style="display: inline-block; padding: 10px; background-color: #f8f8f8; border-radius: 4px; margin: 10px 0; font-size: 1rem;">
+                        https://ycc77.cn/?file=getting-started.md
+                    </code>
+
+                </div>
+            `;
+        }
+        
+        // 加载指定的 Markdown 文件
+        function loadMarkdownFile(filePath) {
+            // 如果文件路径没有 docs/ 前缀，自动添加
+            const fullPath = filePath.startsWith('docs/') ? filePath : `docs/${filePath}`;
+            
+            fetch(fullPath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    renderMarkdown(text);
+                })
+                .catch(error => {
+                    console.error('Error loading Markdown file:', error);
+                    preview.innerHTML = `
+                        <div style="text-align: center; padding: 50px; color: #e74c3c;">
+                            <h2 style="font-size: 2rem; margin-bottom: 20px;">加载失败</h2>
+                            <p style="font-size: 1.2rem;">无法加载文件 "${fullPath}"</p>
+                            <p style="color: #666;">请检查文件名是否正确，支持的文件：</p>
+                            <ul style="list-style: none; padding: 0; color: #666;">
+                                <li>getting-started.md</li>
+                                <li>api-reference.md</li>
+                            </ul>
+                        </div>
+                    `;
+                });
+        }
+        
+        // 初始化
+        window.addEventListener('DOMContentLoaded', () => {
+            const params = getQueryParams();
+            if (params.file) {
+                // URL中指定了文件，加载该文件
+                loadMarkdownFile(params.file);
+            } else {
+                // 没有指定文件，显示页面错误
+                showPageError();
+            }
+        });
+    </script>
+</body>
+</html>
