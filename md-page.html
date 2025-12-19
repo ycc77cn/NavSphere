@@ -805,24 +805,21 @@
         // 加载指定的 Markdown 文件
         function loadMarkdownFile(filePath) {
             // 处理文件路径，确保正确
-            let fullPath;
+            // 确保filePath不包含任何路径前缀
+            const cleanFilePath = filePath.replace(/^.*\//, '');
             
-            // GitHub Pages配置1：根目录是仓库根目录，md文件在docs目录下
-            const pathOption1 = `/docs/${filePath}`;
-            // GitHub Pages配置2：根目录是docs目录，md文件在根目录下
-            const pathOption2 = `/${filePath}`;
+            // 尝试两种可能的GitHub Pages配置
+            // 配置1：仓库根目录作为网站根目录，md文件在docs目录下
+            const pathOption1 = `/docs/${cleanFilePath}`;
+            // 配置2：docs目录作为网站根目录，md文件在根目录下
+            const pathOption2 = `/${cleanFilePath}`;
             
             // 首先尝试配置1
-            fullPath = pathOption1;
-            
-            // 编码URL，确保中文文件名能正确处理
-            fullPath = encodeURI(fullPath);
-            
-            fetch(fullPath)
+            fetch(encodeURI(pathOption1))
                 .then(response => {
                     if (!response.ok) {
                         // 配置1失败，尝试配置2
-                        return fetch(pathOption2);
+                        return fetch(encodeURI(pathOption2));
                     }
                     return response;
                 })
