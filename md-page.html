@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>杨CC技术录-文章页</title>
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png" type="image/x-icon">
+    <title>杨CC资源站-文章页</title>
     <link rel="stylesheet" href="./styles.css" />
     <script async src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
     <meta name="keywords" content="技术文章,资源分享,渗透工具,游戏资源,教程资源,网络安全,免杀工具,杨CC,技术资源,软件下载,学习资料,杨CC资源站,渗透工具免费下载,黑客工具,黑客网站,黑客教学,黑客技术分享,渗透工具分享,黑客工具推荐网站,疯狂的杨CC,软件下载,渗透资源,黑客资源,游戏资源,游戏下载,手机实用工具下载,手机工具,手机软件,手机游戏,手机软件下载,手机游戏下载,手机软件推荐,手机游戏推荐,手机软件下载站,手机游戏下载站,手机软件大全,手机游戏大全,手机软件推荐大全,手机游戏推荐大全,手机软件下载大全,好玩的电脑游戏,单机游戏,破解教程,破解软件,破解游戏,破解软件下载,破解游戏下载,破解软件大全,破解游戏大全,破解软件推荐,破解游戏推荐,破解软件下载站,破解游戏下载站,破解软件大全下载,破解游戏大全下载,破解软件推荐下载,破解游戏推荐下载,破解软件下载站下载,破解游戏下载站下载,破解软件大全下载站,破解游戏大全下载站,破解软件推荐下载站,破解游戏推荐下载站,破解软件大全推荐,破解游戏大全推荐,破解软件推荐大全,破解游戏推荐大全,破解软件下载大全,破解游戏下载大全,破解软件大全推荐下载,破解软件推荐大全下载站,破解游戏推荐大全下载站,破解软件下载大全下载站,破解游戏下载大全下载站,破解软,破解软件大全推荐下载,破解游戏大全推荐下载,破解软件推荐大全推荐,黑客工具,黑客网站,黑客教学,黑客技术分享,渗透工具分享,黑客工具推荐网站,疯狂的杨CC,软件下载,渗透资源,黑客资源,游戏资源,游戏下载,手机实用工具下载,手机工具,手机软件,手机游戏,手机软件下载,手机游戏下载,手机软件推荐,手机游戏推荐,手机软件下载站,手机游戏下载站,手机软件大全,手机游戏大全,手机软件推荐大全,手机游戏推荐大全,手机软件下载大全,好玩的电脑游戏,单机游戏,破解教程,破解软件,破解游戏,破解软件下载,破解游戏下载,破解软件大全,破解游戏大全,破解软件推荐,破解游戏推荐,破解软件下载站,破解游戏下载站,破解软件大全下载,破解游戏大全下载,破解软件推荐下载,破解游戏推荐下载,破解软件下载站下载,破解游戏下载站下载,破解软件大全下载站,破解游戏大全下载站,破解软件推荐下载站,破解游戏推荐下载站,破解软件大全推荐,破解游戏大全推荐,破解软件推荐大全,破解游戏推荐大全,破解软件下载大全,破解游戏下载大全,破解软件大全推荐下载,破解软件推荐大全下载站,破解游戏推荐大全,杨CC,疯狂的杨CC">
@@ -600,16 +600,24 @@
 <body>
     <div class="container">
         <header>
-            <h1 id="page-title">杨CC技术录-文章页</h1>
+            <h1 id="page-title">杨CC资源站-文章页面</h1>
             <p id="page-description" class="page-description"></p>
         </header>
+        
+        <div class="controls">
+            <label for="file-select">选择文章：</label>
+            <select id="file-select" class="file-select">
+                <option value="">-- 请选择文章 --</option>
+            </select>
+            <button id="go-btn" class="go-btn">跳转</button>
+        </div>
         
         <div class="main-content">
             <div class="preview" id="preview"></div>
             
             <aside class="sidebar">
                 <div class="toc-container">
-                    <h3>文章目录（不可点击）</h3>
+                    <h3>文章目录</h3>
                     <nav id="toc" class="toc"></nav>
                 </div>
             </aside>
@@ -779,20 +787,22 @@
             preview.innerHTML = `
                 <div style="text-align: center; padding: 50px; color: #e74c3c;">
                     <h2 style="font-size: 2rem; margin-bottom: 20px;">页面错误</h2>
-                    <p style="font-size: 1.2rem;">此页面禁止单独访问</p>
-
+                    <p style="font-size: 1.2rem;">请在上方选择你想看的文章或者回到<a href = "/"首页>首页</a></p>
+                    <!-- <p style="font-size: 1.2rem;">或者回到首页选择</p>1212 -->
+                    <code style="display: inline-block; padding: 10px; background-color: #f8f8f8; border-radius: 4px; margin: 10px 0; font-size: 1rem;">
+                        https://ycc77.cn/?file=getting-started.md
+                    </code>
 
                 </div>
             `;
-                    //             <code style="display: inline-block; padding: 10px; background-color: #f8f8f8; border-radius: 4px; margin: 10px 0; font-size: 1rem;">
-                    //     https://ycc77.cn/?file=getting-started.md
-                    // </code>
         }
         
         // 加载指定的 Markdown 文件
         function loadMarkdownFile(filePath) {
             // 如果文件路径没有 docs/ 前缀，自动添加
-            const fullPath = filePath.startsWith('docs/') ? filePath : `docs/${filePath}`;
+            let fullPath = filePath.startsWith('docs/') ? filePath : `docs/${filePath}`;
+            // 编码URL，确保中文文件名能正确处理
+            fullPath = encodeURI(fullPath);
             
             fetch(fullPath)
                 .then(response => {
@@ -813,6 +823,81 @@
                         </div>
                     `;
                 });
+        }
+        
+        // 获取docs目录下的所有md文件
+        function loadMdFiles() {
+            const fileSelect = document.getElementById('file-select');
+            
+            // 这里需要根据实际情况获取docs目录下的md文件
+            // 由于是前端环境，无法直接读取服务器目录
+            // 这里使用fetch来获取目录列表，需要服务器支持
+            fetch('docs/')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(html => {
+                    // 从HTML响应中解析出md文件列表
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(html, 'text/html');
+                    const links = doc.querySelectorAll('a[href$=".md"]');
+                    
+                    // 清空选择框
+                    fileSelect.innerHTML = '<option value="">-- 请选择文章 --</option>';
+                    
+                    // 添加md文件到选择框
+                    links.forEach(link => {
+                        let fileName = link.getAttribute('href');
+                        // 解码URL，确保中文文件名正确显示
+                        fileName = decodeURIComponent(fileName);
+                        // 移除docs/前缀
+                        fileName = fileName.replace('docs/', '');
+                        const option = document.createElement('option');
+                        option.value = fileName;
+                        option.textContent = fileName.replace('.md', '');
+                        fileSelect.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading MD files:', error);
+                    // 如果无法获取目录列表，可以使用默认的文件列表
+                    // 这里可以根据实际情况修改
+                    const defaultFiles = ['getting-started.md', 'example.md', 'tutorial.md'];
+                    defaultFiles.forEach(fileName => {
+                        const option = document.createElement('option');
+                        option.value = fileName;
+                        option.textContent = fileName.replace('.md', '');
+                        fileSelect.appendChild(option);
+                    });
+                });
+        }
+        
+        // 设置文件选择和跳转功能
+        function setupFileSelector() {
+            const fileSelect = document.getElementById('file-select');
+            const goBtn = document.getElementById('go-btn');
+            
+            // 加载md文件列表
+            loadMdFiles();
+            
+            // 跳转按钮点击事件
+            goBtn.addEventListener('click', () => {
+                const selectedFile = fileSelect.value;
+                if (selectedFile) {
+                    window.location.href = `?file=${encodeURIComponent(selectedFile)}`;
+                }
+            });
+            
+            // 选择框change事件
+            fileSelect.addEventListener('change', () => {
+                const selectedFile = fileSelect.value;
+                if (selectedFile) {
+                    window.location.href = `?file=${encodeURIComponent(selectedFile)}`;
+                }
+            });
         }
         
         // 悬浮按钮功能
@@ -851,10 +936,21 @@
             // 设置悬浮按钮
             setupFloatingButtons();
             
+            // 设置文件选择器
+            setupFileSelector();
+            
             const params = getQueryParams();
             if (params.file) {
                 // URL中指定了文件，加载该文件
                 loadMarkdownFile(params.file);
+                
+                // 自动选中对应的文件
+                setTimeout(() => {
+                    const fileSelect = document.getElementById('file-select');
+                    // 确保选中的文件不包含docs/前缀
+                    const fileName = params.file.replace('docs/', '');
+                    fileSelect.value = fileName;
+                }, 100);
             } else {
                 // 没有指定文件，显示页面错误
                 showPageError();
