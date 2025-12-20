@@ -78,14 +78,6 @@
           "description": "这是我的QQ交流群",
           "icon": "/assets/favicon_1764901219060.png",
           "enabled": true
-        },
-        {
-          "id": "1765271718216",
-          "title": "更新日志",
-          "href": "https://ycc77.com/2099/12/03/web%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/",
-          "description": "杨CC技术录(ycc77.com)和杨CC资源站(ycc77.com)更新日志。",
-          "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-          "enabled": true
         }
       ],
       "subCategories": []
