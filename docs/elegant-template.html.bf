@@ -31,8 +31,6 @@
             --accent-light: #3b82f6;
             --border: #e2e8f0;
             --code-bg: #f8fafc;
-            --inline-code-bg: #f1f1f1; /* 新增：行内代码背景色 */
-            --inline-code-color: #dc2626; /* 新增：行内代码文字色 */
             --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
         :root.dark {
@@ -45,8 +43,6 @@
             --accent-light: #60a5fa;
             --border: #334155;
             --code-bg: #1e293b;
-            --inline-code-bg: #2d3748; /* 新增：行内代码背景色（暗黑模式） */
-            --inline-code-color: #f87171; /* 新增：行内代码文字色（暗黑模式） */
             --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
         }
 
@@ -112,7 +108,7 @@
             background: var(--border);
         }
 
-        /* 主体布局：目录在上层的双栏结构 */
+        /* 主体布局：大气的双栏结构 */
         .container {
             display: flex;
             max-width: 1400px;
@@ -120,7 +116,7 @@
             padding: 2rem 0;
         }
 
-        /* 侧边目录：放在最上层，增强视觉突出度 */
+        /* 侧边目录：悬浮+滚动高亮（炫酷核心） */
         .sidebar {
             width: 280px;
             padding: 1.5rem;
@@ -133,8 +129,6 @@
             height: calc(100vh - 8rem);
             overflow-y: auto;
             box-shadow: var(--shadow);
-            z-index: 50; /* 确保目录在内容之上 */
-            border: 1px solid var(--border); /* 增加边框增强视觉分离 */
         }
         .sidebar-title {
             font-size: 1.2rem;
@@ -142,7 +136,6 @@
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
             border-bottom: 1px solid var(--border);
-            color: var(--accent); /* 目录标题使用强调色 */
         }
         .toc {
             list-style: none;
@@ -157,18 +150,15 @@
             display: block;
             border-left: 2px solid transparent;
             padding-left: 0.5rem;
-            transition: all 0.2s ease; /* 平滑过渡效果 */
         }
         .toc a:hover {
             color: var(--accent);
             text-decoration: none;
-            transform: translateX(3px); /* 悬停时轻微右移 */
         }
         .toc a.active {
             color: var(--accent);
             border-left: 2px solid var(--accent);
             font-weight: 500;
-            background-color: rgba(59, 130, 246, 0.1); /* 活跃项背景色 */
         }
         /* 自定义滚动条：细节拉满 */
         .sidebar::-webkit-scrollbar {
@@ -195,17 +185,6 @@
             margin: 2rem 0 1.5rem;
             padding-bottom: 0.8rem;
             border-bottom: 2px solid var(--border);
-            color: var(--text-primary);
-            position: relative;
-        }
-        .markdown-body h1::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: -2px;
-            width: 60px;
-            height: 2px;
-            background-color: var(--accent);
         }
         .markdown-body h2 {
             font-size: 1.8rem;
@@ -213,13 +192,11 @@
             margin: 1.8rem 0 1.2rem;
             padding-bottom: 0.6rem;
             border-bottom: 1px solid var(--border);
-            color: var(--text-primary);
         }
         .markdown-body h3 {
             font-size: 1.4rem;
             font-weight: 600;
             margin: 1.5rem 0 1rem;
-            color: var(--text-primary);
         }
         .markdown-body p {
             margin: 1rem 0;
@@ -250,19 +227,10 @@
             margin: 1.5rem 0 !important;
             box-shadow: var(--shadow);
             overflow-x: auto;
-            border: 1px solid var(--border); /* 增加边框 */
         }
         .markdown-body code {
             font-family: 'Consolas', 'Monaco', monospace;
             font-size: 0.95rem;
-        }
-        /* 行内代码样式：浅灰色背景和红色字体 */
-        .markdown-body code:not(pre code) {
-            background-color: var(--inline-code-bg) !important;
-            color: var(--inline-code-color) !important;
-            padding: 0.2em 0.4em;
-            border-radius: 4px;
-            margin: 0 0.2em;
         }
         /* 表格：优雅排版 */
         .markdown-body table {
@@ -272,7 +240,6 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: var(--shadow);
-            border: 1px solid var(--border);
         }
         .markdown-body th, .markdown-body td {
             padding: 1rem;
@@ -282,30 +249,6 @@
         .markdown-body th {
             background-color: var(--bg-secondary);
             font-weight: 600;
-        }
-        .markdown-body tr:last-child td {
-            border-bottom: none;
-        }
-        .markdown-body tr:hover td {
-            background-color: rgba(59, 130, 246, 0.05);
-        }
-
-        /* 列表样式美化 */
-        .markdown-body ul, .markdown-body ol {
-            margin: 1rem 0 1rem 1.5rem;
-            padding-left: 1rem;
-        }
-        .markdown-body li {
-            margin: 0.5rem 0;
-        }
-
-        /* 引用样式美化 */
-        .markdown-body blockquote {
-            border-left: 4px solid var(--accent);
-            padding: 0.5rem 1rem;
-            margin: 1.5rem 0;
-            background-color: rgba(59, 130, 246, 0.05);
-            border-radius: 0 4px 4px 0;
         }
 
         /* 页脚：简洁收尾 */
@@ -329,7 +272,6 @@
                 margin: 0 0 1.5rem 0;
                 height: auto;
                 max-height: 300px;
-                order: -1; /* 确保移动端目录在内容上方 */
             }
             .content {
                 padding: 0;
@@ -350,22 +292,22 @@
             scroll-behavior: smooth;
         }
         /* 侧边目录样式补充（确保目录可见） */
-        .toc {
-            list-style: none;
-            padding-left: 0 !important; /* 移除默认缩进 */
-        }
-        .toc ul {
-            list-style: none;
-            padding-left: 1rem !important; /* 子目录缩进 */
-            margin: 0.5rem 0 !important;
-        }
-        .toc li {
-            margin: 0.5rem 0 !important;
-        }
-        .toc a {
-            color: var(--text-secondary) !important; /* 强制显示文字颜色 */
-            display: block !important;
-        }
+.toc {
+  list-style: none;
+  padding-left: 0 !important; /* 移除默认缩进 */
+}
+.toc ul {
+  list-style: none;
+  padding-left: 1rem !important; /* 子目录缩进 */
+  margin: 0.5rem 0 !important;
+}
+.toc li {
+  margin: 0.5rem 0 !important;
+}
+.toc a {
+  color: var(--text-secondary) !important; /* 强制显示文字颜色 */
+  display: block !important;
+}
     </style>
 </head>
 <body>
@@ -381,7 +323,7 @@
 
     <!-- 主体内容 -->
     <div class="container">
-        <!-- 侧边目录（放在最上层） -->
+        <!-- 侧边目录 -->
         <aside class="sidebar">
             <div class="sidebar-title">目录</div>
             <nav class="toc">
