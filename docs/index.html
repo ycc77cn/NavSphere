@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png" type="image/x-icon">
+    <title>文档索引</title>
+    <!-- 引入 Inter 字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 代码高亮（保持和模板一致） -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script async="" src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
+    <style>
+        /* 全局变量：和模板保持一致 */
+        :root.light {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-sidebar: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --accent: #2563eb;
+            --accent-light: #3b82f6;
+            --border: #e2e8f0;
+            --code-bg: #f8fafc;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        :root.dark {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-sidebar: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --accent-light: #60a5fa;
+            --border: #334155;
+            --code-bg: #1e293b;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 全局重置 & 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+        body {
+            font-family: 'Inter', '思源黑体', 'Microsoft YaHei', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: var(--accent-light);
+            text-decoration: underline;
+        }
+
+        /* 导航栏：和模板一致 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow);
+        }
+        .navbar-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .mode-toggle {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.5rem 1rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .mode-toggle:hover {
+            background: var(--border);
+        }
+
+        /* 主体容器：优雅居中 */
+        .container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        /* 文档列表样式：适配多级目录，简洁炫酷 */
+        .doc-list {
+            list-style: none;
+            margin-top: 2rem;
+            display: grid;
+            gap: 1rem;
+        }
+        .doc-item {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .doc-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 12px -1px rgba(0, 0, 0, 0.15);
+        }
+        .doc-path {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.3rem;
+        }
+        .doc-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .doc-meta {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 0.3rem;
+        }
+
+        /* 页脚：和模板一致 */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 900px) {
+            .navbar {
+                padding: 1rem;
+            }
+            .container {
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            .doc-item {
+                padding: 1rem;
+            }
+            .doc-path {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* 平滑滚动 */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-title">文档索引</div>
+        <button class="mode-toggle" id="modeToggle">
+            <span id="modeIcon">🌞</span>
+            <span id="modeText">切换暗黑模式</span>
+        </button>
+    </nav>
+
+    <!-- 主体内容 -->
+    <div class="container">
+        <h1>文档列表</h1>
+        <p style="color: var(--text-secondary); margin-top: 0.5rem;">共 1 个文档，生成时间：2025-12-20 17:25:01</p>
+        
+        <ul class="doc-list">
+            
+            <li class="doc-item">
+                <div class="doc-path">路径：html/小程序系列</div>
+                <div class="doc-name"><a href="html/小程序系列/微信小游戏去广告教程.html">微信小游戏去广告教程</a></div>
+                <div class="doc-meta">生成时间：2025-12-20 17:25:01</div>
+            </li>
+            
+        </ul>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>文档索引页 · 生成时间：2025-12-20 17:25:01 · 杨CC技术录：https://ycc77.cn</p>
+    </footer>
+
+    <script>
+        // 暗黑/亮色模式切换（和模板一致）
+        const html = document.documentElement;
+        const modeToggle = document.getElementById('modeToggle');
+        const modeIcon = document.getElementById('modeIcon');
+        const modeText = document.getElementById('modeText');
+
+        const savedMode = localStorage.getItem('colorMode');
+        if (savedMode === 'dark') {
+            html.classList.remove('light');
+            html.classList.add('dark');
+            modeIcon.textContent = '🌙';
+            modeText.textContent = '切换亮色模式';
+        }
+
+        modeToggle.addEventListener('click', () => {
+            if (html.classList.contains('light')) {
+                html.classList.remove('light');
+                html.classList.add('dark');
+                localStorage.setItem('colorMode', 'dark');
+                modeIcon.textContent = '🌙';
+                modeText.textContent = '切换亮色模式';
+            } else {
+                html.classList.add('light');
+                html.classList.remove('dark');
+                localStorage.setItem('colorMode', 'light');
+                modeIcon.textContent = '🌞';
+                modeText.textContent = '切换亮色模式';
+            }
+        });
+    </script>
+</body>
+</html>
