@@ -2503,7 +2503,16 @@
           "icon": "Folder",
           "description": "各种日常的问题、不涉及到技术方面的文章，这里都会有",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1766222923388",
+              "title": "小游戏去广告教程 | 杨CC资源站",
+              "href": "https://ycc77.cn/docs/html/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%B3%BB%E5%88%97/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%8E%BB%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B.html",
+              "description": "小程序去广告、小游戏去广告、全小程序或者游戏去广告教程，此教程不会封号，是官方出品。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
