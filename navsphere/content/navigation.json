@@ -5202,6 +5202,14 @@
               "description": "一款来自Ashampoo旗下Photo Recovery 3的升级款照片恢复软件，可从硬盘、U 盘、智能手机或存储卡等任何驱动器中恢复已删除或损坏的图片或图像文件。（自行免费激活）",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1766236025564",
+              "title": "Flow-Launche",
+              "href": "https://github.com/Flow-Launcher/Flow.Launcher",
+              "description": "Windows下的全能助手,开源又免费,属于开源版本的utools.",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
