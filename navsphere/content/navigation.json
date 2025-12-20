@@ -2205,9 +2205,9 @@
     },
     {
       "id": "1765158710979",
-      "title": "技术文章",
+      "title": "杨CC技术录",
       "icon": "FolderKanban",
-      "description": "这里可能有着不同的编程\\渗透\\免杀\\poc等多种技术文章",
+      "description": "由于原本数据丢失，故将此处设为‘杨CC技术录’，原网站，则不再进行更新。这里可能有着不同的编程\\渗透\\免杀\\poc等多种文章，",
       "enabled": true,
       "items": [],
       "subCategories": [
