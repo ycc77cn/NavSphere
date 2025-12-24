@@ -5037,22 +5037,6 @@
               "enabled": true
             },
             {
-              "id": "1_2_10",
-              "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
-              "href": "https://pan.quark.cn/s/11576e846110",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
-              "id": "1_2_11",
-              "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
-              "href": "https://pan.quark.cn/s/7baac696d871",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "1_2_12",
               "title": "navicat Premium,16.3. 破解版+补丁包",
               "href": "https://pan.quark.cn/s/3371163a2f42",
@@ -5269,7 +5253,24 @@
           "icon": "Folder",
           "description": "MAC、Windows、Linux的各种虚拟机",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1_2_10",
+              "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
+              "href": "https://pan.quark.cn/s/11576e846110",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_11",
+              "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
+              "href": "https://pan.quark.cn/s/7baac696d871",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
