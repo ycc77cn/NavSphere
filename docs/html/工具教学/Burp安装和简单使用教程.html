@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png" type="image/x-icon">
-    <title>微信小游戏去广告教程</title>
+    <title>Burp安装和简单使用教程</title>
     <script async="" src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
     <!-- 引入字体：Inter（现代无衬线字体，优雅大气） -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -371,7 +371,7 @@
 <body>
     <!-- 顶部导航栏 -->
     <nav class="navbar">
-        <div class="navbar-title">微信小游戏去广告教程</div>
+        <div class="navbar-title">Burp安装和简单使用教程</div>
 
         <button class="mode-toggle" id="modeToggle">
             <span id="modeIcon">🌞</span>
@@ -388,20 +388,23 @@
                 <ul>
                 <li><a href="#杨cc有话说"
                 id="toc-杨cc有话说">杨CC有话说</a></li>
-                <li><a href="#原理" id="toc-原理">原理</a></li>
-                <li><a href="#工具准备"
-                id="toc-工具准备">工具准备</a></li>
-                <li><a href="#开始去广告"
-                id="toc-开始去广告">开始去广告</a>
+                <li><a href="#下载安装包"
+                id="toc-下载安装包">下载安装包。</a></li>
+                <li><a href="#解压" id="toc-解压">解压</a></li>
+                <li><a href="#安装环境必须不然会报错"
+                id="toc-安装环境必须不然会报错">安装环境(必须,不然会报错)</a></li>
+                <li><a href="#安装" id="toc-安装">安装</a></li>
+                <li><a href="#汉化" id="toc-汉化">汉化</a></li>
+                <li><a href="#创建桌面快捷方式"
+                id="toc-创建桌面快捷方式">创建桌面快捷方式.</a></li>
+                <li><a href="#burp-基础使用教学"
+                id="toc-burp-基础使用教学">Burp 基础使用教学</a>
                 <ul>
-                <li><a href="#自动点击器配置"
-                id="toc-自动点击器配置">自动点击器配置</a></li>
-                <li><a href="#开始运行"
-                id="toc-开始运行">开始运行</a></li>
-                <li><a href="#运行时长说明"
-                id="toc-运行时长说明">运行时长说明</a></li>
-                <li><a href="#看广告领取点收益"
-                id="toc-看广告领取点收益">看广告领取点收益</a></li>
+                <li><a href="#抓包" id="toc-抓包">抓包</a></li>
+                <li><a href="#查看历史经过的包"
+                id="toc-查看历史经过的包">查看历史经过的包.</a></li>
+                <li><a href="#重放器-常用"
+                id="toc-重放器-常用">重放器-常用</a></li>
                 </ul></li>
                 <li><a href="#结束语" id="toc-结束语">结束语</a></li>
                 </ul>
@@ -412,190 +415,164 @@
         <main class="content markdown-body">
             <h1 id="杨cc有话说">杨CC有话说</h1>
             <blockquote>
-            <p>最近有人一直在问up主，如何去小程序或者小游戏广告？</p>
-            <p>那么今天，教程来了！</p>
-            <p>注意:
-            <code>使用此方法会导致所有的小程序或者小游戏失去广告,请谨慎操作.</code></p>
+            <p>Burp破解版安装和简单使用教程，本教程用于Windows。MAC、Linux请自行查找对应教程。</p>
+            <p>如果需要深入使用,请等待<code>杨CC</code>更新~</p>
             </blockquote>
-            <h1 id="原理">原理</h1>
+            <h1 id="下载安装包">下载安装包。</h1>
             <ul>
-            <li><p>当我们想要知道如何去广告之前</p></li>
-            <li><p>我们需要优先明白去广告的原理</p></li>
-            <li><p>小程序中有一个东西，叫做<code>权重</code></p></li>
-            <li><p>权重这种东西是系统自动判断的</p></li>
-            <li><p>那么我们的核心原理就是去<code>权重</code></p></li>
-            <li><p>我们的<code>权重</code>越低看广告概率越低</p></li>
-            <li><p>我们的<code>权重</code>越高看广告概率越高</p></li>
-            <li><p>权重低，有好处但同样也有坏处</p></li>
-            <li><ul>
-            <li>好处就是不需要再看广告了</li>
-            <li>坏处则是无法通过广告赚钱</li>
-            </ul></li>
-            <li><p>权重高，同样如此，与上方相反</p></li>
-            <li><p>也就是说，权重高，看广告钱多</p></li>
-            <li><p>同时玩小游戏的时候广告会巨多</p></li>
-            <li><p><code>我们今天来讲解的就是降低权重</code></p></li>
-            <li><p>大概需要3天时间。</p></li>
+            <li>打开<a href="https://ycc77.cn">ycc资源站</a></li>
+            <li>右上角搜索框，搜索：Burp Suite-25.9破解版</li>
+            <li>如图：</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5568c3594c4bdf9d1fd0.png" /></li>
+            <li>随后下载对应的apk，如果是Windows，则下载Windows，如果是mac，就下载mac版本。</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b55a2b65a54c49ff513e9.png" /></li>
+            <li><code>我们这里以Windows为例</code></li>
             </ul>
-            <h1 id="工具准备">工具准备</h1>
+            <h1 id="解压">解压</h1>
             <ul>
-            <li>安卓手机一部</li>
-            <li>实名认证微信一个</li>
-            <li>连点器一个</li>
-            <li>三天时间，共计约72小时</li>
+            <li>我们打开文件下载位置以后，</li>
+            <li>点击：查看 -》 勾选上显示扩展名 ，如下图：</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b562cc3594c4bdf9d261d.png" /></li>
+            <li>随后我们会看到：下载的文件是下面的名称：</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5660c3594c4bdf9d27ba.png" /></li>
+            <li>右键 》 重命名 》删除<code>.apk</code></li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b568bc3594c4bdf9d2909.png" /></li>
+            <li>然后解压到一个自己喜欢的地方即可。</li>
+            <li>解压后如图：</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b56e6b65a54c49ff51b7a.png" /></li>
+            <li><code>到此,解压完成</code></li>
             </ul>
-            <h1 id="开始去广告">开始去广告</h1>
+            <h1
+            id="安装环境必须不然会报错">安装环境(必须,不然会报错)</h1>
             <ul>
-            <li>如果需要查看去广告效果,请在B站搜索:疯狂的杨CC,，寻找对应的视频进行观看。</li>
-            <li>首先，来到<a
-            href="https://ycc77.cn">ycc资源站</a>，在搜索框搜索：AG全自动点击器,或者使用其他的连点器,都可以.个人使用的是<code>AG自动点击器</code></li>
+            <li>打开java jdk 21 目录.</li>
+            <li>双击打开里面唯一的一个exe文件.</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/694658c629a616e52860d2c2.png" /></li>
-            <li><code>下载完成以后，进行安装，如果无法安装，请断网安装</code></li>
-            <li>下载完之后图标如下:</li>
+            src="https://pic1.imgdb.cn/item/694b57a3c3594c4bdf9d2f75.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946594929a616e52860d65a.png" /></li>
-            <li>安装完成之后，备用。</li>
-            <li>随后，我们打开微信，点击右上角加号，选择：发起群聊</li>
+            src="https://pic1.imgdb.cn/item/694b57c4c3594c4bdf9d3016.png" /></li>
+            <li><code>注意,目录的话,可以改,可以不改,如果你是小白,则不要更改.</code></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/69465a3129a616e52860dd34.png" /></li>
-            <li>随后，选择：<code>面对面建群</code></li>
+            src="https://pic1.imgdb.cn/item/694b57eac3594c4bdf9d30d5.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/69465a6e29a616e52860df18.png" /></li>
-            <li>随后,随机输入一些数字,例如:9789</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465aa029a616e52860e0e7.png" /></li>
-            <li>随后,点击进入该群.</li>
-            <li>然后,我们返回微信主界面,长按刚才的群聊,进行置顶.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465b1229a616e52860e515.png" /></li>
-            <li>这里完成之后,我们复制下面的链接,到刚才群聊中.</li>
+            src="https://pic1.imgdb.cn/item/694b57fac3594c4bdf9d311f.png" /></li>
+            <li><code>打开终端(cmd\powershell都可以)</code></li>
             </ul>
-            <pre class="http"><code>https://game.weixin.qq.com/cgi-bin/comm/openlink?auth_appid=wx62d9035fd4fd2059&amp;url=https%3A%2F%2Fgame.weixin.qq.com%2Fcgi-bin%2Fminigame%2Fstatic%2Fcps-transfer%2Findex.html%3Ft%3DAARwtQwFAAABAAAAAAAanLvnYQ1Yno3GRAryaBAAAADA8RG5WEKQmoqKviNESI_twenRucoTz3gGbYiVhUwnJwY5iaxLVLv_CmOwAXFNoIcsYlhcgg31FaG0t9g%26wechat_pkgid%3Dminigame__cps_transfer_index</code></pre>
+            <pre class="shell"><code># 输入
+java --version
+
+# 输出如下,则为正确
+java 21.0.2 2024-01-16 LTS
+Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+</code></pre>
             <ul>
+            <li>如图</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/69465ba929a616e52860ea8c.png" /></li>
-            <li>然后,我们返回到手机主界面,打开连点器.打开后如图:</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465be529a616e52860ec88.png" /></li>
-            <li>随后,我们连点器需要什么权限,我们给他对应的权限即可,</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465c0f29a616e52860ee64.png" /></li>
-            <li>点击确定.返回到连点器主界面.</li>
-            <li>然后,点击开始</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465c8a29a616e52860f284.png" /></li>
-            <li>选择录制模式</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465cb929a616e52860f445.png" /></li>
-            <li>再点击开始.,就会在屏幕最左侧出现下图:</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465d0d29a616e52860f8c4.png" /></li>
-            <li>然后,我们返回到刚才创建的微信群聊中.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465d3129a616e52860f9c8.png" /></li>
-            <li>然后点击刚才发出去的链接.</li>
-            <li>然后等待加载完成</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465d5c29a616e52860fb97.png" /></li>
-            <li>加载完成后,我们跟着教程走,到第三关或者第二关,没有教程以后,我们点击录制按钮,如下图.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465da429a616e52860fe23.png" /></li>
-            <li>然后,请看完 自动点击器配置.</li>
+            src="https://pic1.imgdb.cn/item/694b5863c3594c4bdf9d32cd.png" /></li>
+            <li>到这里,环境安装成功</li>
             </ul>
-            <h2 id="自动点击器配置">自动点击器配置</h2>
+            <h1 id="安装">安装</h1>
             <ul>
-            <li>点击录制按钮后,点击图片中这个位置.</li>
+            <li>找到解压目录,地址栏输入:cmd然后回车.</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/69465e8e29a616e5286105bc.png" /></li>
-            <li>然后,会出现广告,我们等待广告播放完成后,<code>再等待35-40秒左右</code>,也就是广告播放完之后,再等个3-5秒</li>
-            <li>点击关闭按钮.</li>
+            src="https://pic1.imgdb.cn/item/694b5922c3594c4bdf9d37b4.png" /></li>
+            <li>然后会出现下图:</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/69465ecb29a616e528610773.png" /></li>
-            <li>点击关闭后,等待1-3秒左右,再点击下图位置.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465f3b29a616e528610a7f.png" /></li>
-            <li>点击之后,再等待35-40秒左右,也就是广告播放完成后的3-5秒.</li>
-            <li><code>注意:如果是15秒\7秒的广告,就需要等待35秒-40秒左右.不要7秒之后,直接点关闭.</code></li>
-            <li>35-40秒之后,点击右上角的关闭</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/69465fdc29a616e528610ee0.png" /></li>
-            <li>等待回到游戏界面后,2-3秒之后,点击左上角的暂停.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/6946601829a616e528611090.png" /></li>
-            <li>当出现下图界面后,等待2-3秒,再点击重新开始.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/6946604529a616e5286111d5.png" /></li>
-            <li>然后点击,左侧的暂停.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/6946606b29a616e5286112d5.png" /></li>
-            <li>随后,会让你进行保存,命名的话,随你自己即可,又会恢复到下图的模样.</li>
-            <li><img
-            src="https://pic1.imgdb.cn/item/6946608629a616e52861139e.png" /></li>
+            src="https://pic1.imgdb.cn/item/694b5943c3594c4bdf9d38bb.png" /></li>
+            <li>可能略有偏差,不过没关系,按照下面步骤一点一点来即可.</li>
             </ul>
-            <h2 id="开始运行">开始运行</h2>
+            <pre class="shell"><code>java --version # 检查java环境 如果没有输出,或者报错,请回到上方安装环境的步骤.
+java -jar BurpSuiteLoader1.jar # 运行破解器
+# 运行破解器后,会出现下图</code></pre>
+            <p><img
+            src="https://pic1.imgdb.cn/item/694b5a01c3594c4bdf9d3b70.png" /></p>
             <ul>
-            <li>返回到连点击的主界面,点击配置</li>
+            <li>点击 <code>run</code></li>
+            <li>会出现一个新的界面.具体操作看下图</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946612129a616e5286117e8.png" /></li>
-            <li>点击配置以后,找到自己刚才录制的脚本,点击右侧的三角.</li>
+            src="https://pic1.imgdb.cn/item/694b5a68c3594c4bdf9d3bd1.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946614829a616e5286118f3.png" /></li>
-            <li>随后,会出现下图界面.</li>
+            src="https://pic1.imgdb.cn/item/694b5a8ac3594c4bdf9d3c00.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946616329a616e5286119af.png" /></li>
-            <li>然后我们返回刚才的小游戏.再点击设置.</li>
+            src="https://pic1.imgdb.cn/item/694b5ac0c3594c4bdf9d3dac.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946619029a616e528611afb.png" /></li>
-            <li>选择,无限次运行,直至按下停止按钮.</li>
+            src="https://pic1.imgdb.cn/item/694b5ae7c3594c4bdf9d3faa.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/694661c529a616e528611ced.png" /></li>
-            <li>再点击保存.</li>
-            <li>点击保存后,效果图如下:</li>
+            src="https://pic1.imgdb.cn/item/694b5af9c3594c4bdf9d40a5.png" /></li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946620929a616e528611f05.png" /></li>
-            <li>点击左侧的开始,就可以开始自动运行了.</li>
+            src="https://pic1.imgdb.cn/item/694b5b03c3594c4bdf9d411d.png" /></li>
+            <li>再然后,就激活成功,进来了.</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/6946622729a616e528611fd8.png" /></li>
+            src="https://pic1.imgdb.cn/item/694b5b13c3594c4bdf9d4184.png" /></li>
             </ul>
-            <h2 id="运行时长说明">运行时长说明</h2>
+            <h1 id="汉化">汉化</h1>
             <ul>
-            <li><p><code>注意</code>:观看广告时间,可能会随着权重不同,而有不同的时间.24小时为一个周期</p></li>
-            <li><p><code>注意</code>:
-            当没有广告后,一定不要点击分享!!!!!!!!!,不然会回升权重..</p></li>
-            <li><p>第一天(0-24小时内):</p>
-            <ul>
-            <li><code>第一次</code>,一般运行6-8个小时之后,会提示没有广告.可以在等待1-2个小时后,再进行观看广告.</li>
-            <li><code>第二次</code>,大概会在持续观看1-2个小时后,提示没有广告,然后再等待1-2个小时.如果运气比较好的话,可能会在3-4个小时后,才会有广告,需要自己测试.</li>
-            <li><code>第三次</code>,一般情况下,只能看30分钟左右的广告,随后正常情况下,今天几乎就不会再有广告了.</li>
-            <li><code>第四次</code>,极少数情况下,会需要看第四次,一般第四次都很短,30-1个小时左右.</li>
-            <li><code>更多的次数</code>,这种情况下几乎不会有,除非你看一半,你不看了,退出了,就可能会产生更多的次数,时长也不同</li>
-            </ul></li>
-            <li><p>第二天(24-48小时)):</p>
-            <ul>
-            <li><code>第一次</code>,可能会在4个小时左右,如果自身权重比较低,可能就是2个小时左右.不排除有更低的.随后可能会有4-6个小时的真空期,会提示没有广告可以看.</li>
-            <li><code>第二次</code>,大概会在1-2个小时左右的广告,随后又会进入无广告模式,大约在4-8个小时为无广告模式,甚至会更久,或者更早.</li>
-            <li><code>第三次</code>,可能只会让你观看10-20个广告左右,随后12小时内,几乎都不会再有广告了.但是需要注意,权重不同,时长可能会变长,或者变短.</li>
-            <li><code>第四次</code>,一般不会出现,如果出现了,只能说明两个原因,一个是自身权重太重,要么就是中间看一半,没看了,如果第二天看一半不看了,权重会回升.</li>
-            </ul></li>
-            <li><p>第三天(48-72小时):</p>
-            <ul>
-            <li><code>第一次</code>,需要先去看运行点击器,让他自动看广告,一般都是几十分钟.</li>
-            <li><code>第二次</code>,然后,你需要更换链接,继续看一个新小游戏广告,中间不需要有间隔.(如果你想在去广告的过程中赚点广告钱,那么请移动到本文的"看广告赚点收益",在文章末),如果不需要,可以自己寻找一个小游戏,重新设置点击器,运行.</li>
-            <li><code>第三次</code>,当你第二次提示无广告后,那么就需要时不时去运行一下看广告的脚本,直到一整天都提示:无广告观看,请分享.</li>
-            </ul></li>
-            <li><p>到此其实就已经没有广告了,如果有的话,应该也是很少了,每天看慢,第四天就遇不到了,<code>如果你的权重特别重,则会可能会在3-5天内,才能完成无广告.</code></p></li>
-            </ul>
-            <h2 id="看广告领取点收益">看广告领取点收益</h2>
-            <ul>
-            <li>使用扫描下面的码</li>
-            <li><img src="https://ycc77.cn/tuiguang.jpg" /></li>
-            <li>然后按照提示进行注册,</li>
-            <li>注册完成后,点击游戏,就会出现下图:</li>
+            <li>先关闭打开的所有的终端以及软件.</li>
+            <li>回到解压的目录中.</li>
+            <li>找到:<code>BurpSuiteLoader.vbs</code></li>
+            <li>然后双击运行.就会出现软件界面</li>
             <li><img
-            src="https://pic1.imgdb.cn/item/694668c429a616e5286141f5.png" /></li>
-            <li>然后可以自行选择一个广告较多的,进行观看即可.看广告收益,则可以在最上方看到.</li>
-            <li>小程序中也有很多操作教程,可以看一看.</li>
+            src="https://pic1.imgdb.cn/item/694b5b8cc3594c4bdf9d41e7.png" /></li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5b9cc3594c4bdf9d4208.png" /></li>
+            <li>启动Burp</li>
+            <li>就进入了咱们的软件了.</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5bbbc3594c4bdf9d4234.png" /></li>
+            </ul>
+            <h1 id="创建桌面快捷方式">创建桌面快捷方式.</h1>
+            <ul>
+            <li><p>再次回到解压的目录.</p></li>
+            <li><p>找到:<code>创建桌面快捷方式.bat</code></p></li>
+            <li><p>双击运行,即可</p></li>
+            <li><p><img
+            src="https://pic1.imgdb.cn/item/694b5bf7c3594c4bdf9d42df.png" /></p></li>
+            <li><p>随后,你就可以正常的从桌面启动Burp,愉快的渗透了.</p></li>
+            </ul>
+            <h1 id="burp-基础使用教学">Burp 基础使用教学</h1>
+            <ul>
+            <li>进入软件后,是这样的一个界面.</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5c68c3594c4bdf9d49be.png" /></li>
+            </ul>
+            <h2 id="抓包">抓包</h2>
+            <ul>
+            <li>界面中的代理,算是burp的基础玩法了,如图</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5ce5c3594c4bdf9d4dfc.png" /></li>
+            <li>打开内置浏览器</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5d04c3594c4bdf9d4ef5.png" /></li>
+            <li>开启抓包</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5d26c3594c4bdf9d500d.png" /></li>
+            <li>访问百度,尝试抓包</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5d4fc3594c4bdf9d5164.png" /></li>
+            <li>成功抓包.</li>
+            </ul>
+            <h2 id="查看历史经过的包">查看历史经过的包.</h2>
+            <ul>
+            <li>代理 -&gt; HTTP历史记录</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5d83c3594c4bdf9d5333.png" /></li>
+            <li>可以看到以往抓的包.</li>
+            </ul>
+            <h2 id="重放器-常用">重放器-常用</h2>
+            <ul>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5dc8b65a54c49ff560ab.png" /></li>
+            <li>进入重放器查看具体数据</li>
+            <li><img
+            src="https://pic1.imgdb.cn/item/694b5df1b65a54c49ff56122.png" /></li>
+            <li>随后即可调整参数,重新发送对应包</li>
             </ul>
             <h1 id="结束语">结束语</h1>
             <ul>
