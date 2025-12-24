@@ -2333,6 +2333,14 @@
           ]
         },
         {
+          "id": "ea822a1a-68f4-4396-8d01-0a5034c8e38b",
+          "title": "工具教程文章",
+          "icon": "Folder",
+          "description": "例如Burp、dirmap等，各种渗透的工具点击教学文章。",
+          "enabled": true,
+          "items": []
+        },
+        {
           "id": "2fbf26b3-b70e-4ea1-a058-9a86145aa1c4",
           "title": "AI技术文章",
           "icon": "Folder",
@@ -2497,14 +2505,6 @@
               "enabled": true
             }
           ]
-        },
-        {
-          "id": "ea822a1a-68f4-4396-8d01-0a5034c8e38b",
-          "title": "工具教程文章",
-          "icon": "Folder",
-          "description": "例如Burp、dirmap等，各种渗透的工具点击教学文章。",
-          "enabled": true,
-          "items": []
         }
       ]
     },
