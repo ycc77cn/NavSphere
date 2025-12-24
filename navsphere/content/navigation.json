@@ -5262,6 +5262,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "eea00eab-a363-4648-b30d-64982adee835",
+          "title": "虚拟机",
+          "icon": "Folder",
+          "description": "MAC、Windows、Linux的各种虚拟机",
+          "enabled": true,
+          "items": []
         }
       ]
     },
