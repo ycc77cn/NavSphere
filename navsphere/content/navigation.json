@@ -5278,7 +5278,16 @@
           "icon": "Folder",
           "description": "压缩包密码破解工具、例如：zip、7z、rar等压缩包密码破解",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1766724782889",
+              "title": "ARCHPR-Windows版本",
+              "href": "https://pan.quark.cn/s/e9614254b789",
+              "description": "一个Windows下的密码破解工具-支持Zip-RAR-ACE-ARJ文件，破解方式支持：暴力破解、掩码破解、字典破解、明文破解、WinZip恢复、密钥多种方式，并且支持范围、长度、字典、明文、自动保存、选项、自动降低优先级等多种设置。",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
