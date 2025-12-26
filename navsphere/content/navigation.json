@@ -5271,6 +5271,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "e6efa569-1fd3-42ff-996d-9ed999b216c6",
+          "title": "压缩包破解工具",
+          "icon": "Folder",
+          "description": "压缩包密码破解工具、例如：zip、7z、rar等压缩包密码破解",
+          "enabled": true,
+          "items": []
         }
       ]
     },
