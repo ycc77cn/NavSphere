@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="" class="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png" type="image/x-icon">
+    <title>xianyu-auto-reply 代码审计报告验证</title>
+    <script async="" src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
+    <!-- 引入字体：Inter（现代无衬线字体，优雅大气） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 代码高亮：Prism.js（比默认高亮更炫酷，支持更多主题） -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+    <script async="" src="https://01987425-44bc-77e0-a189-165a6b6e93b4.spst2.com/ustat.js"></script>
+    <style>
+        /* 全局变量：亮色/暗黑模式统一管理 */
+        :root.light {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-sidebar: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --accent: #2563eb;
+            --accent-light: #3b82f6;
+            --border: #e2e8f0;
+            --code-bg: #f8fafc;
+            --inline-code-bg: #f1f1f1; /* 新增：行内代码背景色 */
+            --inline-code-color: #dc2626; /* 新增：行内代码文字色 */
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        :root.dark {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-sidebar: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --accent-light: #60a5fa;
+            --border: #334155;
+            --code-bg: #1e293b;
+            --inline-code-bg: #2d3748; /* 新增：行内代码背景色（暗黑模式） */
+            --inline-code-color: #f87171; /* 新增：行内代码文字色（暗黑模式） */
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 全局重置 & 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+        body {
+            font-family: 'Inter', '思源黑体', 'Microsoft YaHei', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: var(--accent-light);
+            text-decoration: underline;
+        }
+
+        /* 顶部导航栏：简洁大气 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow);
+        }
+        .navbar-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent; /* 渐变文字：炫酷但不浮夸 */
+        }
+        .mode-toggle {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.5rem 1rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .mode-toggle:hover {
+            background: var(--border);
+        }
+
+        /* 主体布局：目录在上层的双栏结构 */
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        /* 侧边目录：放在最上层，增强视觉突出度 */
+        .sidebar {
+            width: 280px;
+            padding: 1.5rem;
+            background-color: var(--bg-sidebar);
+            border-radius: 12px;
+            margin: 0 2rem;
+            position: sticky;
+            top: 4rem;
+            align-self: flex-start;
+            height: calc(100vh - 8rem);
+            overflow-y: auto;
+            box-shadow: var(--shadow);
+            z-index: 50; /* 确保目录在内容之上 */
+            border: 1px solid var(--border); /* 增加边框增强视觉分离 */
+        }
+        .sidebar-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--accent); /* 目录标题使用强调色 */
+        }
+        .toc {
+            list-style: none;
+        }
+        .toc li {
+            margin: 0.8rem 0;
+        }
+        .toc a {
+            color: var(--text-secondary);
+            font-weight: 400;
+            padding: 0.3rem 0;
+            display: block;
+            border-left: 2px solid transparent;
+            padding-left: 0.5rem;
+            transition: all 0.2s ease; /* 平滑过渡效果 */
+        }
+        .toc a:hover {
+            color: var(--accent);
+            text-decoration: none;
+            transform: translateX(3px); /* 悬停时轻微右移 */
+        }
+        .toc a.active {
+            color: var(--accent);
+            border-left: 2px solid var(--accent);
+            font-weight: 500;
+            background-color: rgba(59, 130, 246, 0.1); /* 活跃项背景色 */
+        }
+        /* 自定义滚动条：细节拉满 */
+        .sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: var(--text-secondary);
+            border-radius: 3px;
+        }
+
+        /* 主内容区：优雅排版 */
+        .content {
+            flex: 1;
+            padding: 0 2rem 2rem;
+            max-width: 800px;
+        }
+        .markdown-body {
+            font-size: 1.05rem;
+        }
+        /* 标题样式：层级分明+精致下划线 */
+        .markdown-body h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 2rem 0 1.5rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid var(--border);
+            color: var(--text-primary);
+            position: relative;
+        }
+        .markdown-body h1::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 60px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        .markdown-body h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 1.8rem 0 1.2rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+        .markdown-body h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 1.5rem 0 1rem;
+            color: var(--text-primary);
+        }
+        .markdown-body p {
+            margin: 1rem 0;
+            color: var(--text-primary);
+        }
+        .markdown-body img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin: 1.5rem 0;
+            object-fit: cover;
+            /* 图片加载动画：炫酷小细节 */
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeIn 0.5s ease forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* 代码块：炫酷高亮+圆角 */
+        .markdown-body pre {
+            background-color: var(--code-bg) !important;
+            border-radius: 8px;
+            padding: 1.2rem !important;
+            margin: 1.5rem 0 !important;
+            box-shadow: var(--shadow);
+            overflow-x: auto;
+            border: 1px solid var(--border); /* 增加边框 */
+        }
+        .markdown-body code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.95rem;
+        }
+        /* 行内代码样式：浅灰色背景和红色字体 */
+        .markdown-body code:not(pre code) {
+            background-color: var(--inline-code-bg) !important;
+            color: var(--inline-code-color) !important;
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            margin: 0 0.2em;
+        }
+        /* 表格：优雅排版 */
+        .markdown-body table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .markdown-body th, .markdown-body td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .markdown-body th {
+            background-color: var(--bg-secondary);
+            font-weight: 600;
+        }
+        .markdown-body tr:last-child td {
+            border-bottom: none;
+        }
+        .markdown-body tr:hover td {
+            background-color: rgba(59, 130, 246, 0.05);
+        }
+
+        /* 列表样式美化 */
+        .markdown-body ul, .markdown-body ol {
+            margin: 1rem 0 1rem 1.5rem;
+            padding-left: 1rem;
+        }
+        .markdown-body li {
+            margin: 0.5rem 0;
+        }
+
+        /* 引用样式美化 */
+        .markdown-body blockquote {
+            border-left: 4px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.5rem 0;
+            background-color: rgba(59, 130, 246, 0.05);
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* 页脚：简洁收尾 */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* 响应式适配：移动端优雅折叠 */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            .sidebar {
+                width: 100%;
+                margin: 0 0 1.5rem 0;
+                height: auto;
+                max-height: 300px;
+                order: -1; /* 确保移动端目录在内容上方 */
+            }
+            .content {
+                padding: 0;
+            }
+            .navbar {
+                padding: 1rem;
+            }
+            .markdown-body h1 {
+                font-size: 1.8rem;
+            }
+            .markdown-body h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* 平滑滚动：全局丝滑体验 */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* 侧边目录样式补充（确保目录可见） */
+        .toc {
+            list-style: none;
+            padding-left: 0 !important; /* 移除默认缩进 */
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 1rem !important; /* 子目录缩进 */
+            margin: 0.5rem 0 !important;
+        }
+        .toc li {
+            margin: 0.5rem 0 !important;
+        }
+        .toc a {
+            color: var(--text-secondary) !important; /* 强制显示文字颜色 */
+            display: block !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-title">xianyu-auto-reply
+代码审计报告验证</div>
+
+        <button class="mode-toggle" id="modeToggle">
+            <span id="modeIcon">🌞</span>
+            <span id="modeText">切换暗黑模式</span>
+        </button>
+    </nav>
+
+    <!-- 主体内容 -->
+    <div class="container">
+        <!-- 侧边目录（放在最上层） -->
+        <aside class="sidebar">
+            <div class="sidebar-title">目录</div>
+            <nav class="toc">
+                <ul>
+                <li><a href="#xianyu-auto-reply-代码审计报告验证"
+                id="toc-xianyu-auto-reply-代码审计报告验证">xianyu-auto-reply
+                代码审计报告验证</a>
+                <ul>
+                <li><a href="#原始信息"
+                id="toc-原始信息">原始信息</a></li>
+                </ul></li>
+                <li></li>
+                <li><a href="#摘要"
+                id="toc-摘要"><strong>摘要</strong></a></li>
+                <li><a href="#验证"
+                id="toc-验证"><strong>验证</strong></a>
+                <ul>
+                <li><a href="#21-审计时间验证"
+                id="toc-21-审计时间验证">2.1 审计时间验证</a></li>
+                <li><a href="#22-测试后门密钥"
+                id="toc-22-测试后门密钥">2.2 测试后门密钥</a></li>
+                <li><a href="#23-qq信息内容泄露"
+                id="toc-23-qq信息内容泄露">2.3 QQ信息内容泄露</a></li>
+                <li><a href="#24-邮箱和验证码外泄"
+                id="toc-24-邮箱和验证码外泄">2.4
+                邮箱和验证码外泄</a></li>
+                <li><a href="#25-用户统计上报"
+                id="toc-25-用户统计上报">2.5 用户统计上报</a></li>
+                <li><a href="#26-版本检查" id="toc-26-版本检查">2.6
+                版本检查</a></li>
+                <li><a href="#-1" id="toc--1"></a></li>
+                <li><a href="#27-数据库下载接口"
+                id="toc-27-数据库下载接口">2.7 数据库下载接口</a>
+                <ul>
+                <li><a href="#-2" id="toc--2"></a></li>
+                <li><a href="#-3" id="toc--3"></a></li>
+                <li><a href="#-4" id="toc--4"></a></li>
+                <li><a href="#-5" id="toc--5"></a></li>
+                <li><a href="#免责声明"
+                id="toc-免责声明">免责声明</a></li>
+                </ul></li>
+                </ul></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- 核心内容区 -->
+        <main class="content markdown-body">
+            <h1
+            id="xianyu-auto-reply-代码审计报告验证">xianyu-auto-reply
+            代码审计报告验证</h1>
+            <p>V1.0</p>
+            <p>2025年12月24日</p>
+            <h2 id="原始信息">原始信息</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>项目</th>
+            <th>内容</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>名称</td>
+            <td>xianyu-auto-reply-security-report.md</td>
+            </tr>
+            <tr>
+            <td>下载地址</td>
+            <td>开发者提供，如图：<img src="./images/media/image1.png" style="width:4.61458in;height:1.85417in" /></td>
+            </tr>
+            <tr>
+            <td>sha256</td>
+            <td>b96439fbc9ebdd4374c9188869cf3ff3e0cc08fe85d60454f4becc8b02eadee1</td>
+            </tr>
+            <tr>
+            <td>其他名称</td>
+            <td>xianyu-auto-reply 安全漏洞披露报告</td>
+            </tr>
+            <tr>
+            <td>备注</td>
+            <td>此报告仅用于验证’xianyu-auto-reply
+            安全漏洞披露报告’中的内容</td>
+            </tr>
+            </tbody>
+            </table>
+            <h1></h1>
+            <h1 id="摘要"><strong>摘要</strong></h1>
+            <p>**原文摘要：**本报告披露了 `xianyu-auto-reply`
+            项目中发现的多个严重安全漏洞和后门设计。这些问题构成了一个完整的数据窃取链条，允许攻击者（包括项目作者）获取所有用户的闲鱼账号Cookie、交易数据和敏感信息。</p>
+            <p>本文摘要：<strong>此报告仅用于验证其‘xianyu-auto-reply
+            安全漏洞披露报告’中的关键数据。</strong></p>
+            <h1 id="验证"><strong>验证</strong></h1>
+            <h2 id="21-审计时间验证">2.1 审计时间验证</h2>
+            <figure>
+            <img src="./images/media/image2.png" style="width:5.99236in;height:3.05972in" />
+            <figcaption><p>图 1</p></figcaption>
+            </figure>
+
+            <blockquote>
+            <p>图中我们可以看到，审计日期为：2024年12月19日。</p>
+            <p>本人使用GitHub
+            API，查询仓库创建时间，发现时间对不上，如下图2：</p>
+            </blockquote>
+            <figure>
+            <img src="./images/media/image3.png" style="width:6.025in;height:3.39375in" />
+            <figcaption><p>图 2</p></figcaption>
+            </figure>
+
+            <p>用法为：</p>
+            <p><span class="mark">curl <a
+            href="https://api.github.com/repos/zhinianboke/xianyu-auto-reply">https://api.github.com/repos/zhinianboke/xianyu-auto-reply</a></span></p>
+            <p>我们可以发现，创建时间为：2025年07月24日。</p>
+            <p>与仓库创建时间不符。</p>
+            <h2 id="22-测试后门密钥">2.2 测试后门密钥</h2>
+            <p><strong>源（图3）：</strong></p>
+            <figure>
+            <img src="./images/media/image4.png" style="width:5.99236in;height:3.17569in" />
+            <figcaption><p>图 3</p></figcaption>
+            </figure>
+
+            <p>而源代码中的写法如下：</p>
+            <p>if cleaned_api_key == "zhinina_test_key":</p>
+            <p>logger.info("使用测试秘钥，直接返回成功")</p>
+            <p>return SendMessageResponse(</p>
+            <p>success=True,</p>
+            <p>message="接口验证成功"</p>
+            <p>)</p>
+            <p>我们通过源代码可以发现,这段代码出现于:reply_server.py文件中的send_messages_api路由中.</p>
+            <p>而它所说的密钥则是存在两个,分别为:</p>
+            <p>qq_secret_key =
+            db_manager.get_system_setting('qq_reply_secret_key')</p>
+            <p>和:</p>
+            <p>API_SECRET_KEY = "xianyu_api_secret_2024"</p>
+            <p>上方密钥为从数据库中获取密钥。</p>
+            <p>而下方密钥为:备用密钥。</p>
+            <p>并且经过代码与注释的审计，发现此密钥仅为QQ回复信息的密钥。</p>
+            <p>如图4：<img src="./images/media/image5.png" style="width:5.99931in;height:4.79375in" /></p>
+            <p>图 4</p>
+            <p>并不存在‘报告’中所说的‘风险’。</p>
+            <h2 id="23-qq信息内容泄露">2.3 QQ信息内容泄露</h2>
+            <p>源（图5）：</p>
+            <figure>
+            <img src="./images/media/image6.png" style="width:5.99861in;height:7.52083in" />
+            <figcaption><p>图 5</p></figcaption>
+            </figure>
+
+            <p>此处提出，Cookie
+            ID、买家姓名和ID、商品ID、会话ID、完整聊天内容等均被泄露。</p>
+            <p>具体代码为：</p>
+            <p># 3476-3535行</p>
+            <p>notification_msg = f"🚨 接收消息通知\n\n" \</p>
+            <p>f"账号: {self.cookie_id}\n" \</p>
+            <p>f"买家: {send_user_name} (ID: {send_user_id})\n" \</p>
+            <p>f"商品ID: {item_id or '未知'}\n" \</p>
+            <p>f"聊天ID: {chat_id or '未知'}\n" \</p>
+            <p>f"消息内容: {send_message}\n" \</p>
+            <p>f"时间: {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n"</p>
+            <p># 发送通知到各个渠道</p>
+            <p>for i, notification in enumerate(notifications, 1):</p>
+            <p>logger.info(f"📱 处理第 {i} 个通知渠道:
+            {notification.get('channel_name', 'Unknown')}")</p>
+            <p>if not notification.get('enabled', True):</p>
+            <p>logger.warning(f"📱 通知渠道
+            {notification.get('channel_name')} 已禁用，跳过")</p>
+            <p>continue</p>
+            <p>channel_type = notification.get('channel_type')</p>
+            <p>channel_config = notification.get('channel_config')</p>
+            <p>logger.info(f"📱 渠道类型: {channel_type}, 配置:
+            {channel_config}")</p>
+            <p>try:</p>
+            <p># 解析配置数据</p>
+            <p>config_data =
+            self._parse_notification_config(channel_config)</p>
+            <p>logger.info(f"📱 解析后的配置数据: {config_data}")</p>
+            <p>match channel_type:</p>
+            <p>case 'ding_talk' | 'dingtalk':</p>
+            <p>logger.info(f"📱 开始发送钉钉通知...")</p>
+            <p>await self._send_dingtalk_notification(config_data,
+            notification_msg)</p>
+            <p>case 'feishu' | 'lark':</p>
+            <p>logger.info(f"📱 开始发送飞书通知...")</p>
+            <p>await self._send_feishu_notification(config_data,
+            notification_msg)</p>
+            <p>case 'bark':</p>
+            <p>logger.info(f"📱 开始发送Bark通知...")</p>
+            <p>await self._send_bark_notification(config_data,
+            notification_msg)</p>
+            <p>case 'email':</p>
+            <p>logger.info(f"📱 开始发送邮件通知...")</p>
+            <p>await self._send_email_notification(config_data,
+            notification_msg)</p>
+            <p>case 'webhook':</p>
+            <p>logger.info(f"📱 开始发送Webhook通知...")</p>
+            <p>await self._send_webhook_notification(config_data,
+            notification_msg)</p>
+            <p>case 'wechat':</p>
+            <p>logger.info(f"📱 开始发送微信通知...")</p>
+            <p>await self._send_wechat_notification(config_data,
+            notification_msg)</p>
+            <p>case 'telegram':</p>
+            <p>logger.info(f"📱 开始发送Telegram通知...")</p>
+            <p>await self._send_telegram_notification(config_data,
+            notification_msg)</p>
+            <p>case _:</p>
+            <p>logger.warning(f"📱 不支持的通知渠道类型:
+            {channel_type}")</p>
+            <p>except Exception as notify_error:</p>
+            <p>logger.error(f"📱 发送通知失败
+            ({notification.get('channel_name', 'Unknown')}):
+            {self._safe_str(notify_error)}")</p>
+            <p>import traceback</p>
+            <p>logger.error(f"📱 详细错误信息:
+            {traceback.format_exc()}")</p>
+            <p>except Exception as e:</p>
+            <p>logger.error(f"📱 处理消息通知失败:
+            {self._safe_str(e)}")</p>
+            <p>import traceback</p>
+            <p>logger.error(f"📱 详细错误信息:
+            {traceback.format_exc()}")</p>
+            <p>通过此处代码可以得知，确实会收集部分信息，进行通知用户。</p>
+            <p>而代码中并未存在上传至某服务器或存储的操作。</p>
+            <p>在最原始的github文件上，找到了类似于‘报告’所说的代码，具体代码如下：</p>
+            <p>if not qq_number:</p>
+            <p>logger.warning("QQ通知配置为空")</p>
+            <p>return</p>
+            <p># 构建请求URL</p>
+            <p>api_url = "<a
+            href="http://notice.zhinianblog.cn/sendPrivateMsg">http://notice.zhinianblog.cn/sendPrivateMsg</a>"</p>
+            <p>params = {</p>
+            <p>'qq': qq_number,</p>
+            <p>'msg': message</p>
+            <p>}</p>
+            <p># 发送GET请求</p>
+            <p>async with aiohttp.ClientSession() as session:</p>
+            <p>async with session.get(api_url, params=params,
+            timeout=10) as response:</p>
+            <p>if response.status == 200:</p>
+            <p>logger.info(f"QQ通知发送成功: {qq_number}")</p>
+            <p>else:</p>
+            <p>logger.warning(f"QQ通知发送失败: {response.status}")</p>
+            <p>except Exception as e:</p>
+            <p>logger.error(f"发送QQ通知异常: {self._safe_str(e)}")</p>
+            <p>async def send_delivery_failure_notification(self,
+            send_user_name: str, send_user_id: str, item_id: str,
+            error_message: str):</p>
+            <p>"""发送自动发货失败通知"""</p>
+            <p>try:</p>
+            <p>from db_manager import db_manager</p>
+            <p># 获取当前账号的通知配置</p>
+            <p>notifications =
+            db_manager.get_account_notifications(self.cookie_id)</p>
+            <p>当中存在：服务器为：<a
+            href="http://notice.zhinianblog.cn/sendPrivateMsg">http://notice.zhinianblog.cn/sendPrivateMsg</a></p>
+            <p>在源代码中，并未找到POST以及其他上传协议。</p>
+            <p>但由于当前网址权限受限，无法验证。</p>
+            <h2 id="24-邮箱和验证码外泄">2.4 邮箱和验证码外泄</h2>
+            <p>源（图6）：</p>
+            <figure>
+            <img src="./images/media/image7.png" style="width:5.99861in;height:4.93611in" />
+            <figcaption><p>图 6</p></figcaption>
+            </figure>
+
+            <p>确实存在网址： <span class="mark">api_url = "<a
+            href="https://dy.zhinianboke.com/api/emailSend&quot;&lt;/span&gt;">https://dy.zhinianboke.com/api/emailSend"&lt;/span&gt;</a></p>
+            <p>源代码为：</p>
+            <p>async def _send_email_via_api(self, email: str, subject:
+            str, text_content: str) -&gt; bool:</p>
+            <p>"""使用API方式发送邮件"""</p>
+            <p>try:</p>
+            <p>import aiohttp</p>
+            <p># 使用GET请求发送邮件</p>
+            <p>api_url = "<a
+            href="https://dy.zhinianboke.com/api/emailSend">https://dy.zhinianboke.com/api/emailSend</a>"</p>
+            <p>params = {</p>
+            <p>'subject': subject,</p>
+            <p>'receiveUser': email,</p>
+            <p>'sendHtml': text_content</p>
+            <p>}</p>
+            <p>async with aiohttp.ClientSession() as session:</p>
+            <p>try:</p>
+            <p>logger.info(f"使用API发送验证码邮件: {email}")</p>
+            <p>async with session.get(api_url, params=params,
+            timeout=15) as response:</p>
+            <p>response_text = await response.text()</p>
+            <p>logger.info(f"邮件API响应: {response.status}")</p>
+            <p>if response.status == 200:</p>
+            <p>logger.info(f"验证码邮件发送成功(API): {email}")</p>
+            <p>return True</p>
+            <p>else:</p>
+            <p>logger.error(f"API发送验证码邮件失败: {email}, 状态码:
+            {response.status}, 响应: {response_text[:200]}")</p>
+            <p>return False</p>
+            <p>except Exception as e:</p>
+            <p>logger.error(f"API邮件发送异常: {email}, 错误: {e}")</p>
+            <p>return False</p>
+            <p>except Exception as e:</p>
+            <p>logger.error(f"API邮件发送方法异常: {e}")</p>
+            <p>return False</p>
+            <p>此处的请求方式为：GET请求。</p>
+            <p>async with session.get(api_url, params=params,
+            timeout=15) as response:</p>
+            <p>并且参数全部由url字符传递。</p>
+            <p>params = {</p>
+            <p>'subject': subject,</p>
+            <p>'receiveUser': email,</p>
+            <p>'sendHtml': text_content</p>
+            <p>}</p>
+            <p>这里为参数内容，仅传递：subject = 邮件主题，receiveUser =
+            收件人，sendHtml = 邮件内容。</p>
+            <p>并没有上传数据的操作。</p>
+            <h2 id="25-用户统计上报">2.5 用户统计上报</h2>
+            <figure>
+            <img src="./images/media/image8.png" style="width:5.99236in;height:5.01736in" />
+            <figcaption><p>原（图7）：</p></figcaption>
+            </figure>
+
+            <p>图 7</p>
+            <p>而我并未找到对应代码</p>
+            <p>通过解析，内容大概如下：</p>
+            <p>machine_info =
+            f"{platform.machine()}-{platform.processor()}-{platform.system()}"</p>
+            <p>unique_str =
+            f"{machine_info}-{platform.python_version()}"</p>
+            <p>此处代码为：生成机器码标识。</p>
+            <p>- platform.machine() ：硬件架构（如x86_64）</p>
+            <p>- platform.processor() ：处理器信息</p>
+            <p>- platform.system() ：操作系统（如Windows、Linux）</p>
+            <p>- platform.python_version() ：Python版本</p>
+            <p>此处的机器码，主要为生成匿名账户id，统计不同机器的使用情况，主要用于统计在线人数。</p>
+            <p>data = {</p>
+            <p>"anonymous_id": self.anonymous_id,</p>
+            <p>"os": platform.system(),</p>
+            <p>"version": self.version</p>
+            <p>}</p>
+            <p>此处则是以：</p>
+            <p>Anonymous_id = 匿名id，也就是上方生成的匿名id</p>
+            <p>os =
+            操作系统（如：ubuntu、Windows10、macos这一类信息）</p>
+            <p>Version = 项目版本，如：1.0.1，1.0.2，1.0.3以此类推。</p>
+            <p>api_url = "<a
+            href="http://xianyu.zhinianblog.cn/?action=statistics">http://xianyu.zhinianblog.cn/?action=statistics</a>"</p>
+            <p>此处的代码为作者用于统计在线人数的服务器。上传信息则是：匿名id+操作系统信息+版本号。三种信息。</p>
+            <p>并没有泄露敏感信息或、上传个人信息。</p>
+            <h2 id="26-版本检查">2.6 版本检查</h2>
+            <p>这种没有营养，且没有任何意义的东西，拿出来做什么？你家版本更新不用联网是吗？代码自己在本地繁殖？自己在本地更细你自己？你家代码怎么这么高级？？？？？？？？嗯？？？说话！</p>
+            <h2 id="-1"></h2>
+            <h2 id="27-数据库下载接口">2.7 数据库下载接口</h2>
+            <figure>
+            <img src="./images/media/image9.png" style="width:5.99306in;height:6.85694in" />
+            <figcaption><p>源（图8）：</p></figcaption>
+            </figure>
+
+            <p>图 8</p>
+            <p>源代码如下：</p>
+            <p># ------------------------- 数据库备份和恢复接口
+            -------------------------</p>
+            <p>@app.get('/admin/backup/download')</p>
+            <p>def download_database_backup(admin_user: Dict[str, Any] =
+            Depends(require_admin)):</p>
+            <p>"""下载数据库备份文件（管理员专用）"""</p>
+            <p>import os</p>
+            <p>from fastapi.responses import FileResponse</p>
+            <p>from datetime import datetime</p>
+            <p>try:</p>
+            <p>log_with_user('info', "请求下载数据库备份",
+            admin_user)</p>
+            <p># 使用db_manager的实际数据库路径</p>
+            <p>from db_manager import db_manager</p>
+            <p>db_file_path = db_manager.db_path</p>
+            <p># 检查数据库文件是否存在</p>
+            <p>if not os.path.exists(db_file_path):</p>
+            <p>log_with_user('error', f"数据库文件不存在:
+            {db_file_path}", admin_user)</p>
+            <p>raise HTTPException(status_code=404,
+            detail="数据库文件不存在")</p>
+            <p># 生成带时间戳的文件名</p>
+            <p>timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")</p>
+            <p>download_filename = f"xianyu_backup_{timestamp}.db"</p>
+            <p>log_with_user('info', f"开始下载数据库备份:
+            {download_filename}", admin_user)</p>
+            <p>return FileResponse(</p>
+            <p>path=db_file_path,</p>
+            <p>filename=download_filename,</p>
+            <p>media_type='application/octet-stream'</p>
+            <p>)</p>
+            <p>except HTTPException:</p>
+            <p>raise</p>
+            <p>except Exception as e:</p>
+            <p>log_with_user('error', f"下载数据库备份失败: {str(e)}",
+            admin_user)</p>
+            <p>raise HTTPException(status_code=500, detail=str(e))</p>
+            <p>。。。</p>
+            <p>哪个傻逼写的这傻逼报告‘<strong>xianyu-auto-reply
+            安全漏洞披露报告</strong>’？？？？自己调用自己的API还他妈写上去？？？？？还结合默认密码？这傻逼知道公网内网吗？越验证越尼玛觉得傻逼。管理员不能下载数据备份吗？？？扯什么蛋呢！写这玩意的人真他妈傻逼。</p>
+            <h3 id="-2"></h3>
+            <h3 id="-3"></h3>
+            <h3 id="-4"></h3>
+            <h3 id="-5"></h3>
+            <h3 id="免责声明">免责声明</h3>
+            <p>本报告基于静态分析结果生成，仅反映检测时的安全状况。动态运行时行为可能存在差异，建议结合动态分析进行综合评估。检测方不对使用本报告产生的任何后果承担责任。</p>
+            <hr />
+        </main>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>生成时间：2025-12-24 20:57:26 · 由 Pandoc + 优雅模板构建</p>
+    </footer>
+
+    <script>
+        // 1. 暗黑/亮色模式切换（记忆用户选择）
+        const html = document.documentElement;
+        const modeToggle = document.getElementById('modeToggle');
+        const modeIcon = document.getElementById('modeIcon');
+        const modeText = document.getElementById('modeText');
+
+        // 从本地存储读取模式
+        const savedMode = localStorage.getItem('colorMode');
+        if (savedMode === 'dark') {
+            html.classList.remove('light');
+            html.classList.add('dark');
+            modeIcon.textContent = '🌙';
+            modeText.textContent = '切换亮色模式';
+        }
+
+        // 切换逻辑
+        modeToggle.addEventListener('click', () => {
+            if (html.classList.contains('light')) {
+                html.classList.remove('light');
+                html.classList.add('dark');
+                localStorage.setItem('colorMode', 'dark');
+                modeIcon.textContent = '🌙';
+                modeText.textContent = '切换亮色模式';
+            } else {
+                html.classList.add('light');
+                html.classList.remove('dark');
+                localStorage.setItem('colorMode', 'light');
+                modeIcon.textContent = '🌞';
+                modeText.textContent = '切换暗黑模式';
+            }
+        });
+
+        // 2. 目录滚动高亮（炫酷交互核心）
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                const link = document.querySelector(`.toc a[href="#"]`);
+                if (link) {
+                    if (entry.isIntersecting) {
+                        // 移除所有active
+                        document.querySelectorAll('.toc a.active').forEach(el => {
+                            el.classList.remove('active');
+                        });
+                        link.classList.add('active');
+                    }
+                }
+            });
+        }, { rootMargin: '-100px 0px -80% 0px' });
+
+        // 监听所有标题
+        document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(heading => {
+            observer.observe(heading);
+        });
+
+        // 3. 代码高亮初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            Prism.highlightAll();
+        });
+    </script>
+</body>
+</html>
