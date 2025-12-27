@@ -6417,6 +6417,14 @@
               "enabled": true
             }
           ]
+        },
+        {
+          "id": "56328506-8ebb-471c-a460-6733e997f304",
+          "title": "梯子工具",
+          "icon": "Folder",
+          "description": "这里是安卓手机的一些梯子工具，例如clash、vray2...",
+          "enabled": true,
+          "items": []
         }
       ]
     },
