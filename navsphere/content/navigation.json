@@ -6424,7 +6424,16 @@
           "icon": "Folder",
           "description": "这里是安卓手机的一些梯子工具，例如clash、vray2...",
           "enabled": true,
-          "items": []
+          "items": [
+            {
+              "id": "1766802902274",
+              "title": "clash for",
+              "href": "https://pan.quark.cn/s/a887be10f1bc",
+              "description": "访问 pan.quark.cn",
+              "icon": "/assets/favicon_1766802902516.png",
+              "enabled": true
+            }
+          ]
         }
       ]
     },
