@@ -1361,6 +1361,14 @@
               "description": "这是一个想代替burp的开源工具",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
+            },
+            {
+              "id": "1766550015499",
+              "title": "Burp Suite-2025.12破解版",
+              "href": "https://pan.quark.cn/s/2ffea44f1d05",
+              "description": "Burp Suite-2025.12版本破解版，激活教程可以在：杨CC技术录 - 工具教程文章  中找到，或者你也可以直接在搜索框中搜索：Burp安装和简单使用教程",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
             }
           ]
         },
@@ -2327,6 +2335,23 @@
               "title": "一句话木马的免杀方式 | 杨CC 技术录",
               "href": "https://ycc77.com/2025/12/15/48-webshell-ms/",
               "description": "关于一句话木马的各种免杀方式-包含jsp-python-php-asp等.从浅到深，最后对战一下WAF或者EDR-杨CC_网址:Ycc77.com",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "ea822a1a-68f4-4396-8d01-0a5034c8e38b",
+          "title": "工具教程文章",
+          "icon": "Folder",
+          "description": "例如Burp、dirmap等，各种渗透的工具点击教学文章。",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1766547487633",
+              "title": "Burp安装和简单使用教程",
+              "href": "https://ycc77.cn/docs/html/%E5%B7%A5%E5%85%B7%E6%95%99%E5%AD%A6/Burp%E5%AE%89%E8%A3%85%E5%92%8C%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.html",
+              "description": "Burp破解版安装教程和简单使用教程。_杨CC技术录_疯狂的杨CC_https://ycc77.cn",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
@@ -5012,22 +5037,6 @@
               "enabled": true
             },
             {
-              "id": "1_2_10",
-              "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
-              "href": "https://pan.quark.cn/s/11576e846110",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
-              "id": "1_2_11",
-              "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
-              "href": "https://pan.quark.cn/s/7baac696d871",
-              "description": " ",
-              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
-              "enabled": true
-            },
-            {
               "id": "1_2_12",
               "title": "navicat Premium,16.3. 破解版+补丁包",
               "href": "https://pan.quark.cn/s/3371163a2f42",
@@ -5233,6 +5242,48 @@
               "title": "AI视频生成工具啦～",
               "href": "https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file",
               "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "eea00eab-a363-4648-b30d-64982adee835",
+          "title": "虚拟机",
+          "icon": "Folder",
+          "description": "MAC、Windows、Linux的各种虚拟机",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1_2_10",
+              "title": "VirtualBox 7.1.12 虚拟机 全版本下载（包含Windows\\Mac）",
+              "href": "https://pan.quark.cn/s/11576e846110",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            },
+            {
+              "id": "1_2_11",
+              "title": "VMware Workstation Pro17.6.4 (最新版) 虚拟机（Windows）",
+              "href": "https://pan.quark.cn/s/7baac696d871",
+              "description": " ",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "e6efa569-1fd3-42ff-996d-9ed999b216c6",
+          "title": "压缩包破解工具",
+          "icon": "Folder",
+          "description": "压缩包密码破解工具、例如：zip、7z、rar等压缩包密码破解",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1766724782889",
+              "title": "ARCHPR-Windows版本",
+              "href": "https://pan.quark.cn/s/e9614254b789",
+              "description": "一个Windows下的密码破解工具-支持Zip-RAR-ACE-ARJ文件，破解方式支持：暴力破解、掩码破解、字典破解、明文破解、WinZip恢复、密钥多种方式，并且支持范围、长度、字典、明文、自动保存、选项、自动降低优先级等多种设置。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
@@ -6362,6 +6413,23 @@
               "title": "米禾阅读",
               "href": "https://pan.quark.cn/s/569acf63ca81",
               "description": "全网小说软件、去广告",
+              "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "id": "56328506-8ebb-471c-a460-6733e997f304",
+          "title": "梯子工具",
+          "icon": "Folder",
+          "description": "这里是安卓手机的一些梯子工具，例如clash、vray2...",
+          "enabled": true,
+          "items": [
+            {
+              "id": "1766802902274",
+              "title": "clash for android",
+              "href": "https://pan.quark.cn/s/200b107275af",
+              "description": "clash 安卓版，小黑猫，小猫安卓版本，支持部分的鸿蒙系统。",
               "icon": "https://pic1.imgdb.cn/item/68f1b8ccc5157e1a887a8c09.png",
               "enabled": true
             }
